@@ -1,7 +1,7 @@
 {
-  "harvested_at": "2026-06-04T13:52:03.857851+00:00",
-  "count": 57,
-  "source_note": "Curated filings tied to RI institutions/companies. PPUBS live harvest deferred due to HTTP 429.",
+  "harvested_at": "2026-06-04T17:38:33+00:00",
+  "count": 105,
+  "source_note": "RI life-science corpus June 2026: 19 ip + 14 gaps; URI PHLIP; RIH hospital pipeline; CytoVeris\u2192OncoLux linkage.",
   "errors": [
     "Run scripts/ri_patent_harvest.py after 1hr+ cooldown with --delay 15"
   ],
@@ -575,6 +575,653 @@
       "source_query": "curated",
       "theme": "neurotech",
       "source": "brown_neurotech_ip"
+    },
+    {
+      "patent_number": "US8361781B2",
+      "title": "Compositions and methods for self-assembly of microtissues (3D Petri dish)",
+      "publication_date": null,
+      "assignee": "Brown University",
+      "inventors": "Morgan; Tripathi",
+      "source_query": "Morgan Brown OTL",
+      "theme": "ecm_morsels",
+      "source": "brown_otl_amass_enrichment"
+    },
+    {
+      "patent_number": "US11286451B2",
+      "title": "Funnel-guided microtissue stacking and manipulation",
+      "publication_date": null,
+      "assignee": "Brown University",
+      "inventors": "Morgan; Manning; Ip",
+      "source_query": "Morgan Brown OTL",
+      "theme": "ecm_morsels",
+      "source": "brown_otl_amass_enrichment"
+    },
+    {
+      "patent_number": "US12435312B2",
+      "title": "Quantifying cell-derived changes in collagen synthesis, alignment, and mechanics",
+      "publication_date": null,
+      "assignee": "Brown University",
+      "inventors": "Morgan; Wilks",
+      "source_query": "Morgan Brown OTL",
+      "theme": "ecm_morsels",
+      "source": "brown_otl_amass_enrichment"
+    },
+    {
+      "patent_number": "US20230348859A1",
+      "title": "Decellularized mammalian extracellular matrix morsels",
+      "publication_date": null,
+      "assignee": "Brown University",
+      "inventors": "Morgan; Ip",
+      "source_query": "Morgan ECM morsels",
+      "theme": "ecm_morsels",
+      "source": "brown_otl_amass_enrichment"
+    },
+    {
+      "patent_number": "WO2022140530A1",
+      "title": "Decellularized ECM morsels for tissue regeneration (PCT)",
+      "publication_date": null,
+      "assignee": "Brown University",
+      "inventors": "Morgan; Ip",
+      "source_query": "PCT/US2021/064834",
+      "theme": "ecm_morsels",
+      "source": "brown_otl_amass_enrichment"
+    },
+    {
+      "patent_number": "US10993756B2",
+      "title": "Transversely displacing structures in the body (kyphoplasty cavity / Elevoss)",
+      "publication_date": "2021-05-04",
+      "assignee": "Lenoss Medical LLC",
+      "inventors": "Dom Messerli",
+      "source_query": "Lenoss Medical assignee",
+      "theme": "kyphoplasty_vcf",
+      "source": "google_patents_amass_enrichment"
+    },
+    {
+      "patent_number": "US10219851B1",
+      "title": "Transversely displacing structures in the body (kyphoplasty instrumentation)",
+      "publication_date": "2019-03-05",
+      "assignee": "Lenoss Medical LLC",
+      "inventors": "Dom Messerli",
+      "source_query": "Lenoss Medical assignee",
+      "theme": "kyphoplasty_vcf",
+      "source": "google_patents_amass_enrichment"
+    },
+    {
+      "patent_number": "US12029463B2",
+      "title": "Transversely displacing structures in the body (continuation)",
+      "publication_date": null,
+      "assignee": "Lenoss Medical Inc",
+      "inventors": "Dom Messerli",
+      "source_query": "Lenoss Medical assignee",
+      "theme": "kyphoplasty_vcf",
+      "source": "google_patents_amass_enrichment"
+    },
+    {
+      "patent_number": "US20250099150A1",
+      "title": "Transversely displacing structures in the body (pending)",
+      "publication_date": null,
+      "assignee": "Lenoss Medical Inc",
+      "inventors": "Dom Messerli",
+      "source_query": "Lenoss Medical assignee",
+      "theme": "kyphoplasty_vcf",
+      "source": "google_patents_amass_enrichment"
+    },
+    {
+      "patent_number": "USD1106456S1",
+      "title": "Flexible implant (OsteoPearl design)",
+      "publication_date": "2025-12-16",
+      "assignee": "Lenoss Medical LLC",
+      "inventors": "Dom Messerli",
+      "source_query": "Lenoss flexible implant",
+      "theme": "kyphoplasty_vcf",
+      "source": "google_patents_amass_enrichment"
+    },
+    {
+      "patent_number": "USD1106457S1",
+      "title": "Flexible implant (OsteoPearl design variant)",
+      "publication_date": "2025-12-16",
+      "assignee": "Lenoss Medical LLC",
+      "inventors": "Dom Messerli",
+      "source_query": "Lenoss flexible implant",
+      "theme": "kyphoplasty_vcf",
+      "source": "google_patents_amass_enrichment"
+    },
+    {
+      "patent_number": "US8673010B2",
+      "title": "Flexible chain implants and instrumentation (J&J origin; licensed to Lenoss)",
+      "publication_date": "2014-03-18",
+      "assignee": "DePuy Synthes Products Inc",
+      "inventors": "Dom Messerli; Curtis Compton; Dennis Chien",
+      "source_query": "Messerli flexible chain",
+      "theme": "kyphoplasty_vcf",
+      "source": "google_patents_amass_enrichment",
+      "note": "Exclusive worldwide license from J&J per Lenoss/Slater press; not Lenoss assignee"
+    },
+    {
+      "patent_number": "US20210181185A1",
+      "title": "Dendritic cell recruitment from blood to brain in neurodegenerative disease",
+      "publication_date": "2021-06-17",
+      "assignee": "MindImmune Therapeutics Inc",
+      "inventors": "Stevin H. Zorn; Robert B. Nelson; Frank S. Menniti; Brian M. Campbell",
+      "source_query": "MindImmune dendritic Alzheimer",
+      "theme": "neuroinflammation_ad",
+      "source": "google_patents_amass_enrichment",
+      "note": "USPTO status Abandoned (June 2026); priority prov. 62/583,959; diligence on continuations/CIP"
+    },
+    {
+      "patent_number": "US10124010B2",
+      "title": "Cyclic amines (small-molecule CNS portfolio)",
+      "publication_date": "2018-11-13",
+      "assignee": "MindImmune Therapeutics Inc",
+      "inventors": "MindImmune",
+      "source_query": "MindImmune assignee",
+      "theme": "neuroinflammation_ad",
+      "source": "google_patents_amass_enrichment",
+      "note": "Legacy small-molecule estate; lead program MITI-101 is mAb"
+    },
+    {
+      "patent_number": "US10238654B2",
+      "title": "Benzamides-containing compounds for epilepsy (co-assigned Lundbeck)",
+      "publication_date": null,
+      "assignee": "MindImmune Therapeutics Inc; H. Lundbeck A/S",
+      "inventors": "MindImmune; Lundbeck",
+      "source_query": "MindImmune benzamide",
+      "theme": "neuroinflammation_ad",
+      "source": "google_patents_amass_enrichment",
+      "note": "Pfizer/Lundbeck-era chemistry; not AD lead asset"
+    },
+    {
+      "patent_number": "US20220340972A1",
+      "title": "RNA sequencing to diagnose sepsis and other diseases and conditions",
+      "publication_date": "2022-10-27",
+      "assignee": "Rhode Island Hospital",
+      "inventors": "Sean F. Monaghan; Gerard J. Nau; Alger M. Fredericks",
+      "source_query": "IN/Monaghan RIH",
+      "theme": "deep_rna_transcriptomic_dx",
+      "source": "google_patents",
+      "note": "Pending application; priority 2021-04-19; unmapped pathogen RNA + host sepsis Dx"
+    },
+    {
+      "patent_number": "US20250034234A1",
+      "title": "Predicting COVID-19 antibodies and AMR bacteria with deep RNA sequencing",
+      "publication_date": "2025-01-30",
+      "assignee": "Rhode Island Hospital",
+      "inventors": "Sean F. Monaghan; Alger M. Fredericks; Gerard J. Nau",
+      "source_query": "IN/Monaghan RIH",
+      "theme": "deep_rna_transcriptomic_dx",
+      "source": "google_patents",
+      "note": "Continuation family; pathogen + antibody signatures from blood RNA-seq"
+    },
+    {
+      "patent_number": "EP4599084A1",
+      "title": "Using deep RNA sequencing data to identify antimicrobial-resistant bacteria",
+      "publication_date": "2025-08-13",
+      "assignee": "Rhode Island Hospital",
+      "inventors": "Sean F. Monaghan; Gerard J. Nau",
+      "source_query": "IN/Monaghan RIH",
+      "theme": "deep_rna_transcriptomic_dx",
+      "source": "google_patents",
+      "note": "European publication; AMR pathogen RNA from clinical blood"
+    },
+    {
+      "patent_number": "CN120344677A",
+      "title": "Deep RNA sequencing to identify antimicrobial-resistant bacteria (CN)",
+      "publication_date": "2025-07-18",
+      "assignee": "Rhode Island Hospital",
+      "inventors": "Sean F. Monaghan; Gerard J. Nau",
+      "source_query": "IN/Monaghan RIH",
+      "theme": "deep_rna_transcriptomic_dx",
+      "source": "google_patents",
+      "note": "International counterpart; verify CN legal status"
+    },
+    {
+      "patent_number": "EP4505463A1",
+      "title": "System and method for hierarchical tumor immune microenvironment epigenetic deconvolution (HiTIMED)",
+      "publication_date": "2025-02-12",
+      "assignee": "Dartmouth College",
+      "inventors": "Brock C. Christensen; Lucas A. Salas; Ze Zhang; Karl T. Kelsey; John K. Wiencke; Devin C. Koestler",
+      "source_query": "IN/Christensen HiTIMED",
+      "theme": "hitimed_tme_epigenetic_dx",
+      "source": "google_patents+uspto_odp_mcp",
+      "note": "Pending EP; priority 2022-04-06; gov rights R01CA216265, P20GM104416, W81XWH-20-1-0778; R pkg github.com/SalasLab/HiTIMED",
+      "asset_ids": [
+        "gap_christensen_epigenetics"
+      ],
+      "science_field": "Immuno-oncology diagnostics \u2014 TME epigenetic deconvolution (HiTIMED)",
+      "association": "primary"
+    },
+    {
+      "patent_number": "US12458657B2",
+      "title": "Neurogenesis via MuSK Ig3 exon-skipping antisense oligonucleotides",
+      "publication_date": "2024-11-05",
+      "assignee": "Brown University",
+      "inventors": "Justin R. Fallon; Ashley E. Webb; John Page",
+      "source_query": "Bolden Therapeutics / Fallon MuSK",
+      "theme": "musk_neurogenesis",
+      "source": "uspto_gazette",
+      "note": "Licensed to Bolden Therapeutics; OTL exclusive license per company PR"
+    },
+    {
+      "patent_number": "US20220193114A1",
+      "title": "Neurogenesis (MuSK ASO continuation)",
+      "publication_date": null,
+      "assignee": "Brown University",
+      "inventors": "Justin R. Fallon; Ashley E. Webb",
+      "source_query": "Bolden Therapeutics / Fallon MuSK",
+      "theme": "musk_neurogenesis",
+      "source": "google_patents"
+    },
+    {
+      "patent_number": "WO20200214987A1",
+      "title": "Neurogenesis PCT (MuSK pathway modulation)",
+      "publication_date": "2020-10-22",
+      "assignee": "Brown University",
+      "inventors": "Justin R. Fallon; Ashley E. Webb",
+      "source_query": "Bolden Therapeutics / Fallon MuSK",
+      "theme": "musk_neurogenesis",
+      "source": "google_patents",
+      "note": "PCT/US2020/028816; priority 62/835,945"
+    },
+    {
+      "patent_number": "WO2019146830A1",
+      "title": "VEGF gene therapy for tendon and ligament injuries",
+      "publication_date": "2019-08-01",
+      "assignee": "Rhode Island Hospital",
+      "inventors": "Paul Y. Liu; Xiao Wu",
+      "source_query": "Pax Therapeutics / Liu VEGF",
+      "theme": "pax_aav_tendon",
+      "source": "google_patents",
+      "note": "PCT/US18/27495; Pax Therapeutics PAX-001; verify US national phase 16/603,980"
+    },
+    {
+      "patent_number": "WO2024192252A1",
+      "title": "Use of small molecules to increase hypoxia inducible factor (HIF) activity",
+      "publication_date": "2024-09-12",
+      "assignee": "Brown University",
+      "inventors": "Wafik S. El-Deiry",
+      "source_query": "odp inventor El-Deiry query HIF",
+      "theme": "smurf2_oncology_hif",
+      "source": "uspto_odp_mcp",
+      "asset_ids": [
+        "gap_smurf2_oncology"
+      ],
+      "science_field": "Oncology \u2014 HIF-1\u03b1 pathway small molecules",
+      "association": "primary",
+      "application_number": "PCTUS2024019955",
+      "note": "SMURF-Tx science; assignee Brown (not SMURF-Therapeutics Inc in USPTO)"
+    },
+    {
+      "patent_number": "US20230183356A1",
+      "title": "HIF-1\u03b1 modulators and uses thereof",
+      "publication_date": "2023-06-15",
+      "assignee": "Brown University",
+      "inventors": "Wafik S. El-Deiry",
+      "source_query": "odp inventor El-Deiry",
+      "theme": "smurf2_oncology_hif",
+      "source": "uspto_odp_mcp",
+      "asset_ids": [
+        "gap_smurf2_oncology"
+      ],
+      "science_field": "Oncology \u2014 HIF-1\u03b1 pathway small molecules",
+      "association": "primary",
+      "application_number": "18080452"
+    },
+    {
+      "patent_number": "US20230219957A1",
+      "title": "Small molecule CB002-analogues restore the p53 pathway and target S-phase checkpoint",
+      "publication_date": "2023-07-13",
+      "assignee": "Brown University",
+      "inventors": "Wafik S. El-Deiry",
+      "source_query": "odp inventor El-Deiry",
+      "theme": "smurf2_oncology_hif",
+      "source": "uspto_odp_mcp",
+      "asset_ids": [
+        "gap_smurf2_oncology"
+      ],
+      "science_field": "Oncology \u2014 p53-pathway restoration (El-Deiry program)",
+      "association": "primary",
+      "application_number": "17996493"
+    },
+    {
+      "patent_number": "US20250372198A1",
+      "title": "System and method for hierarchical tumor immune microenvironment epigenetic deconvolution (HiTIMED)",
+      "publication_date": "2025-12-04",
+      "assignee": "Dartmouth College",
+      "inventors": "Brock C. Christensen; Lucas A. Salas; Ze Zhang; Karl T. Kelsey; John K. Wiencke; Devin C. Koestler",
+      "source_query": "odp Christensen Dartmouth HiTIMED",
+      "theme": "hitimed_tme_epigenetic_dx",
+      "source": "uspto_odp_mcp",
+      "asset_ids": [
+        "gap_christensen_epigenetics"
+      ],
+      "science_field": "Immuno-oncology diagnostics \u2014 TME epigenetic deconvolution",
+      "association": "primary",
+      "application_number": "18854472",
+      "note": "US national phase of PCTUS2023012438; pairs with EP4505463A1"
+    },
+    {
+      "patent_number": "WO2023196051A1",
+      "title": "System and method for hierarchical tumor immune microenvironment epigenetic deconvolution",
+      "publication_date": "2023-10-19",
+      "assignee": "Dartmouth College",
+      "inventors": "Brock C. Christensen; Lucas A. Salas; Ze Zhang",
+      "source_query": "odp Christensen Dartmouth",
+      "theme": "hitimed_tme_epigenetic_dx",
+      "source": "uspto_odp_mcp",
+      "asset_ids": [
+        "gap_christensen_epigenetics"
+      ],
+      "science_field": "Immuno-oncology diagnostics \u2014 TME epigenetic deconvolution",
+      "association": "primary",
+      "application_number": "PCTUS2023012438",
+      "note": "Intl. HiTIMED family; priority 2022-04-06"
+    },
+    {
+      "patent_number": "WO2024187092A1",
+      "title": "Hierarchical tumor AI classifier traces tissue of origin and tumor type using DNA methylation",
+      "publication_date": "2024-09-12",
+      "assignee": "Dartmouth College",
+      "inventors": "Brock C. Christensen; Lucas A. Salas; Ze Zhang",
+      "source_query": "odp Christensen Dartmouth",
+      "theme": "hitimed_tme_epigenetic_dx",
+      "source": "uspto_odp_mcp",
+      "asset_ids": [
+        "gap_christensen_epigenetics"
+      ],
+      "science_field": "Cancer diagnostics \u2014 DNA methylation deconvolution (platform-adjacent)",
+      "association": "adjacent",
+      "application_number": "PCTUS2024019077"
+    },
+    {
+      "patent_number": "WO2026096333A1",
+      "title": "Estimating cell-type proportions from DNA methylation microarray data to determine glioma immune microenvironment",
+      "publication_date": "2026-05-07",
+      "assignee": "Dartmouth College",
+      "inventors": "Lucas A. Salas; Brock C. Christensen; Ze Zhang",
+      "source_query": "odp Salas HiTIMED",
+      "theme": "hitimed_tme_epigenetic_dx",
+      "source": "uspto_odp_mcp",
+      "asset_ids": [
+        "gap_christensen_epigenetics"
+      ],
+      "science_field": "Neuro-oncology diagnostics \u2014 glioma immune methylation deconvolution",
+      "association": "adjacent",
+      "application_number": "PCTUS2025052585"
+    },
+    {
+      "patent_number": "US20260137929A1",
+      "title": "Kinetic intelligent wireless implant",
+      "publication_date": "2026-05-21",
+      "assignee": "Genesis Intelligence, LLC",
+      "inventors": "Newton Howard",
+      "source_query": "odp Howard KIWI",
+      "theme": "ni2o_kiwi_bci",
+      "source": "uspto_odp_mcp",
+      "asset_ids": [
+        "gap_ni2o_kiwi_bci"
+      ],
+      "science_field": "Neurotechnology \u2014 wireless micro-implant BCI (KIWI)",
+      "association": "primary",
+      "application_number": "19450252",
+      "note": "Howard/Genesis Intelligence estate; ni2o commercial path \u2014 not ni2o assignee in USPTO"
+    },
+    {
+      "patent_number": "US20210196980A1",
+      "title": "Kinetic intelligent wireless implant / neurons on augmented human",
+      "publication_date": "2021-07-01",
+      "assignee": "Genesis Intelligence, LLC",
+      "inventors": "Newton Howard",
+      "source_query": "odp Howard KIWI",
+      "theme": "ni2o_kiwi_bci",
+      "source": "uspto_odp_mcp",
+      "asset_ids": [
+        "gap_ni2o_kiwi_bci"
+      ],
+      "science_field": "Neurotechnology \u2014 wireless micro-implant BCI (KIWI)",
+      "association": "primary",
+      "application_number": "17198518"
+    },
+    {
+      "patent_number": "US20210263589A1",
+      "title": "Transcranial kinetic intelligent wireless implant",
+      "publication_date": "2021-08-26",
+      "assignee": "Genesis Intelligence, LLC",
+      "inventors": "Newton Howard",
+      "source_query": "odp Howard KIWI",
+      "theme": "ni2o_kiwi_bci",
+      "source": "uspto_odp_mcp",
+      "asset_ids": [
+        "gap_ni2o_kiwi_bci"
+      ],
+      "science_field": "Neurotechnology \u2014 cranial wireless BCI (KIWI variant)",
+      "association": "primary",
+      "application_number": "17175680"
+    },
+    {
+      "patent_number": "WO2025171027A1",
+      "title": "PHLIP-LNP for targeted intracellular delivery of nucleic acid therapeutics",
+      "publication_date": "2025-08-28",
+      "assignee": "University of Rhode Island",
+      "inventors": "Yana K. Reshetnyak; Oleg A. Andreev; Donald M. Engelman; Umberto Romeo; Eleonora Fratus; Mathieu Giraud",
+      "source_query": "odp URI PHLIP",
+      "theme": "uri_phlip_lnp",
+      "source": "uspto_odp_mcp",
+      "asset_ids": [
+        "gap_uri_phlip_lnp"
+      ],
+      "science_field": "Non-viral RNA / LNP delivery \u2014 pH-inserting peptide (PHLIP)",
+      "association": "primary",
+      "application_number": "PCTUS2025014619"
+    },
+    {
+      "patent_number": "WO2025081077A1",
+      "title": "Targeted intracellular delivery of dimeric MSA STING by two PHLIP peptides",
+      "publication_date": "2025-04-17",
+      "assignee": "University of Rhode Island",
+      "inventors": "Yana K. Reshetnyak; Oleg A. Andreev; Donald M. Engelman",
+      "source_query": "odp URI STING",
+      "theme": "uri_phlip_lnp",
+      "source": "uspto_odp_mcp",
+      "asset_ids": [
+        "gap_uri_phlip_lnp"
+      ],
+      "science_field": "Innate immuno-oncology \u2014 STING agonist delivery",
+      "association": "primary",
+      "application_number": "PCTUS2024051097"
+    },
+    {
+      "patent_number": "WO2024040027A1",
+      "title": "PHLIP-mediated delivery of STING agonists",
+      "publication_date": "2024-02-29",
+      "assignee": "University of Rhode Island",
+      "inventors": "Yana K. Reshetnyak; Oleg A. Andreev; Donald M. Engelman",
+      "source_query": "odp URI STING",
+      "theme": "uri_phlip_lnp",
+      "source": "uspto_odp_mcp",
+      "asset_ids": [
+        "gap_uri_phlip_lnp"
+      ],
+      "science_field": "Innate immuno-oncology \u2014 STING agonist delivery",
+      "association": "adjacent",
+      "application_number": "PCTUS2023072169"
+    },
+    {
+      "patent_number": "US20260103757A1",
+      "title": "Salivary extracellular vesicles as biomarkers for Alzheimer's disease",
+      "publication_date": "2026-04-02",
+      "assignee": "Rhode Island Hospital",
+      "inventors": "Jill Kreiling; Peter Quesenberry; Zhijin Wu",
+      "source_query": "odp RIH salivary Alzheimer",
+      "theme": "rih_salivary_ev_ad",
+      "source": "uspto_odp_mcp",
+      "asset_ids": [
+        "gap_rih_salivary_ev_ad"
+      ],
+      "science_field": "Neuro diagnostics \u2014 salivary liquid biopsy",
+      "association": "primary",
+      "application_number": "19359020"
+    },
+    {
+      "patent_number": "WO2026112526A1",
+      "title": "Use of BX-912 for treatment of pulmonary hypertension",
+      "publication_date": "2026-06-05",
+      "assignee": "Rhode Island Hospital",
+      "inventors": "Olin D. Liang; James R. Klinger; Christopher James Rhodes; Eleni Vasilaki; Rachel Walters; Lan Zhao; Martin R. Wilkins",
+      "source_query": "odp RIH BX-912",
+      "theme": "rih_bx912_pulmonary_htn",
+      "source": "uspto_odp_mcp",
+      "asset_ids": [
+        "gap_rih_bx912_pulmonary_htn"
+      ],
+      "science_field": "Cardiopulmonary therapeutics \u2014 PDE3/DAPK1 pathway (BX-912)",
+      "association": "primary",
+      "application_number": "PCTUS2025056723"
+    },
+    {
+      "patent_number": "US20180094317A1",
+      "title": "Diagnostics for pulmonary arterial hypertension and sudden cardiac death",
+      "publication_date": "2018-04-05",
+      "assignee": "Rhode Island Hospital",
+      "inventors": "Samuel C. Dudley Jr.; Corey E. Ventetuolo",
+      "source_query": "odp RIH PAH",
+      "theme": "rih_pahtn_dx",
+      "source": "uspto_odp_mcp",
+      "asset_ids": [
+        "gap_rih_pahtn_dx"
+      ],
+      "science_field": "Cardiopulmonary diagnostics \u2014 PAH risk stratification",
+      "association": "primary",
+      "application_number": "15443762"
+    },
+    {
+      "patent_number": "WO2025171161A1",
+      "title": "Nucleic acid delivery crossing the blood-brain barrier and other blood-tissue barriers",
+      "publication_date": "2025-08-28",
+      "assignee": "Rhode Island Hospital",
+      "inventors": "Qian Chen",
+      "source_query": "odp RIH BBB",
+      "theme": "rih_bbb_nucleic_delivery",
+      "source": "uspto_odp_mcp",
+      "asset_ids": [
+        "gap_rih_bbb_nucleic_delivery"
+      ],
+      "science_field": "CNS delivery \u2014 BBB-crossing nucleic acid platform",
+      "association": "primary",
+      "application_number": "PCTUS2025014835"
+    },
+    {
+      "patent_number": "WO2025155768A1",
+      "title": "Motile injectable cell accelerates musculoskeletal connective tissue repair",
+      "publication_date": "2025-07-31",
+      "assignee": "Rhode Island Hospital",
+      "inventors": "Chathuraka Teekshana Jayasuriya; Jay Trivedi",
+      "source_query": "odp RIH motile cell",
+      "theme": "rih_motile_cell_msk",
+      "source": "uspto_odp_mcp",
+      "asset_ids": [
+        "gap_rih_motile_cell_msk"
+      ],
+      "science_field": "Regenerative medicine \u2014 motile cell therapy for MSK",
+      "association": "primary",
+      "application_number": "PCTUS2025011942"
+    },
+    {
+      "patent_number": "US20240139376A1",
+      "title": "Reconstitution of extracellular matrices for musculoskeletal joint tissue repair",
+      "publication_date": "2024-05-02",
+      "assignee": "Rhode Island Hospital",
+      "inventors": "Chathuraka Teekshana Jayasuriya; Daniel S. Yang",
+      "source_query": "odp RIH ECM joint",
+      "theme": "rih_ecm_joint_repair",
+      "source": "uspto_odp_mcp",
+      "asset_ids": [
+        "gap_rih_ecm_joint_repair"
+      ],
+      "science_field": "MSK \u2014 biomimetic ECM for joint repair",
+      "association": "primary",
+      "application_number": "18276593"
+    },
+    {
+      "patent_number": "US20230323349A1",
+      "title": "Targeting enhancer RNAs for treatment of primary brain tumors",
+      "publication_date": "2023-10-12",
+      "assignee": "Rhode Island Hospital",
+      "inventors": "Nikolaos Tapinos; Blessing Akobundu",
+      "source_query": "odp RIH brain tumor",
+      "theme": "rih_enhancer_rna_glioma",
+      "source": "uspto_odp_mcp",
+      "asset_ids": [
+        "gap_rih_enhancer_rna_glioma"
+      ],
+      "science_field": "Neuro-oncology \u2014 eRNA-targeted therapeutics",
+      "association": "primary",
+      "application_number": "18043511"
+    },
+    {
+      "patent_number": "WO2025245119A1",
+      "title": "Therapeutic approach for treating elevated lipoprotein(a)",
+      "publication_date": "2025-11-27",
+      "assignee": "Rhode Island Hospital",
+      "inventors": "Wenliang Song; Siarhei Salamevich",
+      "source_query": "odp RIH Lp(a)",
+      "theme": "rih_lpa_therapeutic",
+      "source": "uspto_odp_mcp",
+      "asset_ids": [
+        "gap_rih_lpa_therapeutic"
+      ],
+      "science_field": "Cardiovascular therapeutics \u2014 Lp(a) lowering",
+      "association": "primary",
+      "application_number": "PCTUS2025030206"
+    },
+    {
+      "patent_number": "US20260083330A1",
+      "title": "Enhanced fluorescence tissue and cancer margin imaging (Kersey)",
+      "publication_date": "2026-03-13",
+      "assignee": "CytoVeris Inc.",
+      "inventors": "Alan Kersey",
+      "source_query": "odp CytoVeris",
+      "theme": "oncolux_lumis_theranostic",
+      "source": "uspto_odp_mcp",
+      "asset_ids": [
+        "ip_oncolux_lumis"
+      ],
+      "science_field": "Surgical oncology \u2014 fluorescence margin imaging",
+      "association": "primary",
+      "application_number": "18893082",
+      "note": "Kersey prior entity; maps to OncoLux LUMIS diligence"
+    },
+    {
+      "patent_number": "US20250076201A1",
+      "title": "Multispectral in-vivo imaging probe for enhanced tissue visualization",
+      "publication_date": "2025-03-06",
+      "assignee": "CytoVeris Inc.",
+      "inventors": "Alan Kersey",
+      "source_query": "odp CytoVeris",
+      "theme": "oncolux_lumis_theranostic",
+      "source": "uspto_odp_mcp",
+      "asset_ids": [
+        "ip_oncolux_lumis"
+      ],
+      "science_field": "Surgical oncology \u2014 multispectral fluorescence",
+      "association": "primary",
+      "application_number": "18823616"
+    },
+    {
+      "patent_number": "US20240310617A1",
+      "title": "Mitigating specular highlights in imaging of biological tissue",
+      "publication_date": "2024-09-19",
+      "assignee": "CytoVeris Inc.",
+      "inventors": "Alan Kersey",
+      "source_query": "odp CytoVeris",
+      "theme": "oncolux_lumis_theranostic",
+      "source": "uspto_odp_mcp",
+      "asset_ids": [
+        "ip_oncolux_lumis"
+      ],
+      "science_field": "Surgical imaging \u2014 optical artifact correction",
+      "association": "adjacent",
+      "application_number": "18575708"
     }
-  ]
+  ],
+  "updated_at": "2026-06-04T18:04:59+00:00"
 }

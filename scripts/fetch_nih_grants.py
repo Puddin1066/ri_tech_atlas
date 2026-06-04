@@ -27,6 +27,48 @@ THEME_QUERIES: dict[str, dict] = {
     "epigenetics_christensen": {"pi_names": [{"any_name": "Christensen Brock"}], "fiscal_years": list(range(2018, 2027))},
     "digital_health_levine": {"pi_names": [{"any_name": "Levine Adam"}], "fiscal_years": list(range(2015, 2027))},
     "psychiatry_petzschner": {"pi_names": [{"any_name": "Petzschner Frederike"}], "fiscal_years": list(range(2018, 2027))},
+    "uri_phlip_lnp": {
+        "pi_names": [{"any_name": "Reshetnyak Yana"}, {"any_name": "Engelman Donald"}],
+        "org_names": ["UNIVERSITY OF RHODE ISLAND"],
+        "org_states": ["RI"],
+        "fiscal_years": list(range(2015, 2027)),
+    },
+    "rih_jayasuriya_msk": {
+        "pi_names": [{"any_name": "Jayasuriya Chathuraka"}, {"any_name": "Trivedi Jay"}],
+        "org_names": ["RHODE ISLAND HOSPITAL"],
+        "org_states": ["RI"],
+        "fiscal_years": list(range(2018, 2027)),
+    },
+    "rih_tapinos_glioma": {
+        "pi_names": [{"any_name": "Tapinos Nikolaos"}],
+        "org_states": ["RI"],
+        "fiscal_years": list(range(2015, 2027)),
+    },
+    "rih_dudley_cardio": {
+        "pi_names": [{"any_name": "Dudley Samuel"}, {"any_name": "Ventetuolo Corey"}],
+        "org_states": ["RI"],
+        "fiscal_years": list(range(2015, 2027)),
+    },
+    "rih_kreiling_ad": {
+        "pi_names": [{"any_name": "Kreiling Jill"}, {"any_name": "Quesenberry Peter"}],
+        "org_states": ["RI"],
+        "fiscal_years": list(range(2018, 2027)),
+    },
+    "rih_liang_ph": {
+        "pi_names": [{"any_name": "Liang Olin"}],
+        "org_states": ["RI"],
+        "fiscal_years": list(range(2018, 2027)),
+    },
+    "rih_song_lpa": {
+        "pi_names": [{"any_name": "Song Wenliang"}],
+        "org_states": ["RI"],
+        "fiscal_years": list(range(2018, 2027)),
+    },
+    "msk_fallon_biglycan": {
+        "pi_names": [{"any_name": "Fallon Justin"}],
+        "org_states": ["RI"],
+        "fiscal_years": list(range(2010, 2027)),
+    },
 }
 
 

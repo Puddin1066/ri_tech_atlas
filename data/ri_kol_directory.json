@@ -1,0 +1,2300 @@
+{
+  "version": "1.2",
+  "updated_at": "2026-06-04T21:04:39+00:00",
+  "methodology": "Five KOL candidates per RI patent asset or company, identified via patent inventors, publication co-authors, trial/clinical program pages, company SAB/advisory lists, and web search (June 2026). physician_led_fit reflects suitability for equity + formal KOL advisory per ri_physician_led_financing.json\u2014not a recommendation to contact without COI review.",
+  "physician_led_note": "Prefer MD/DO with RI or Brown Health/RIH/W&I/VA Providence ties for Slater-match packaging. PhD scientific founders listed where they anchor evidence but equity+KOL physician-led formation typically requires licensed clinician on cap table or SAB.",
+  "assets": {
+    "ip_iaip_neonatal": {
+      "entity": "ProThera Biologics",
+      "inventors_anchors": [
+        "Yow-Pin Lim",
+        "David C. Hixson"
+      ],
+      "kols": [
+        {
+          "rank": 1,
+          "name": "Yow-Pin Lim",
+          "credentials": "MD PhD",
+          "affiliation": "ProThera Biologics; Brown Alpert",
+          "role_fit": "Founder-scientist; physician equity archetype",
+          "physician_led_fit": "high",
+          "evidence": "ProThera team; SBIR PI; IAIP inventor",
+          "urls": [
+            "https://www.protherabiologics.com/team/"
+          ]
+        },
+        {
+          "rank": 2,
+          "name": "James F. Padbury",
+          "credentials": "MD",
+          "affiliation": "Women & Infants Hospital; Brown Alpert",
+          "role_fit": "Pediatrician-in-Chief; NICU PI on SBIR LFIA",
+          "physician_led_fit": "high",
+          "evidence": "Named on R44 Fast Track grant; W&I collaborator",
+          "urls": [
+            "https://www.protherabiologics.com/prothera-biologics-awarded-2-million-fast-track-nih-grant/"
+          ]
+        },
+        {
+          "rank": 3,
+          "name": "Barbara S. Stonestreet",
+          "credentials": "MD",
+          "affiliation": "Women & Infants Hospital; Brown Alpert",
+          "role_fit": "Neonatal-perinatal; HIE/NEC SBIR collaborator",
+          "physician_led_fit": "high",
+          "evidence": "Phase II HIE grant; ProThera team page",
+          "urls": [
+            "https://www.protherabiologics.com/prothera-biologics-awarded-1-95-million-nih-grant/"
+          ]
+        },
+        {
+          "rank": 4,
+          "name": "Adam C. Levine",
+          "credentials": "MD MPH FACEP",
+          "affiliation": "Brown Emergency Medicine; RIH",
+          "role_fit": "Pediatric sepsis digital health; complementary Dx pathway",
+          "physician_led_fit": "medium",
+          "evidence": "Wearable sepsis ML (R33TW012211); Brown vivo",
+          "urls": [
+            "https://vivo.brown.edu/display/al16"
+          ]
+        },
+        {
+          "rank": 5,
+          "name": "Stephanie C. Garbern",
+          "credentials": "MD",
+          "affiliation": "Brown Emergency Medicine; RIH",
+          "role_fit": "mPI pediatric sepsis wearable study with Levine",
+          "physician_led_fit": "medium",
+          "evidence": "FIC R33 co-PI; PLOS Digit Health 2024",
+          "urls": [
+            "https://www.fic.nih.gov/Grants/Search/Pages/mhealth-R21TW012211.aspx"
+          ]
+        }
+      ]
+    },
+    "ip_ecm_morsels_xm": {
+      "entity": "XM Therapeutics Inc",
+      "inventors_anchors": [
+        "Jeffrey R. Morgan",
+        "Frank W. Sellke"
+      ],
+      "kols": [
+        {
+          "rank": 1,
+          "name": "Frank W. Sellke",
+          "credentials": "MD",
+          "affiliation": "Brown University Health CV Research; ex-Chief CT Surgery RIH",
+          "role_fit": "Cardiac surgery KOL; MI model translation",
+          "physician_led_fit": "high",
+          "evidence": "PMID 39705507 context; Sellke Lab; Brown Health",
+          "urls": [
+            "https://www.brownhealth.org/providers/frank-w-sellke-md"
+          ]
+        },
+        {
+          "rank": 2,
+          "name": "Mark J. Cunningham",
+          "credentials": "MD",
+          "affiliation": "Brown Health; Chief Cardiovascular Surgery RIH",
+          "role_fit": "Active cardiac surgery chief; HF/structural heart",
+          "physician_led_fit": "high",
+          "evidence": "Succeeded Sellke; CV Institute",
+          "urls": [
+            "https://www.brownhealth.org/providers/mark-j-cunningham-md"
+          ]
+        },
+        {
+          "rank": 3,
+          "name": "Rachel Putman",
+          "credentials": "MD MPH",
+          "affiliation": "Brown Health; ILD Program Director",
+          "role_fit": "ILD clinical lead if IPF indication pursued",
+          "physician_led_fit": "high",
+          "evidence": "CALC; co-author network with Morgan IPF literature",
+          "urls": [
+            "https://www.brownhealth.org/providers/rachel-putman-md-mph"
+          ]
+        },
+        {
+          "rank": 4,
+          "name": "Corey E. Ventetuolo",
+          "credentials": "MD MS",
+          "affiliation": "Brown Health; CALC Director",
+          "role_fit": "Advanced lung disease; PH/ILD trials",
+          "physician_led_fit": "medium",
+          "evidence": "CALC leadership",
+          "urls": [
+            "https://www.brownhealth.org/centers-services/center-advanced-lung-care"
+          ]
+        },
+        {
+          "rank": 5,
+          "name": "Jeffrey R. Morgan",
+          "credentials": "PhD",
+          "affiliation": "Brown; XM Therapeutics co-founder",
+          "role_fit": "Scientific co-founder (not MD); SAB chair candidate",
+          "physician_led_fit": "scientific_only",
+          "evidence": "Patent inventor; XM CEO network",
+          "urls": [
+            "https://www.xmtherapeutics.com"
+          ]
+        }
+      ]
+    },
+    "ip_nanopieces_rna": {
+      "entity": "NanoDe Therapeutics",
+      "inventors_anchors": [
+        "Qian Chen"
+      ],
+      "kols": [
+        {
+          "rank": 1,
+          "name": "Richard Terek",
+          "credentials": "MD",
+          "affiliation": "Lifespan Cancer Institute; Brown Ortho Surgery",
+          "role_fit": "Orthopedic oncology; Nanopieces co-author",
+          "physician_led_fit": "high",
+          "evidence": "Brown news 2019 Nanopieces chondrosarcoma study",
+          "urls": [
+            "https://www.brown.edu/news/2019-11-06/nanopieces"
+          ]
+        },
+        {
+          "rank": 2,
+          "name": "Alan H. Daniels",
+          "credentials": "MD",
+          "affiliation": "Brown Health Orthopedics; Spine Division Chief",
+          "role_fit": "Ortho spine; joint/cartilage delivery KOL",
+          "physician_led_fit": "high",
+          "evidence": "Ortho Institute spine; COBRE ortho context",
+          "urls": [
+            "https://www.brownhealth.org/centers-services/orthopedics-institute/spine-care/our-spine-experts"
+          ]
+        },
+        {
+          "rank": 3,
+          "name": "Qian Chen",
+          "credentials": "PhD",
+          "affiliation": "RIH/Brown Ortho Research; NanoDe scientific founder",
+          "role_fit": "Scientific founder; head SAB",
+          "physician_led_fit": "scientific_only",
+          "evidence": "All Nanopieces patents; STTR R41TR002298",
+          "urls": [
+            "https://www.brownhealth.org/people/qian-chen-phd"
+          ]
+        },
+        {
+          "rank": 4,
+          "name": "Bassel G. Diebo",
+          "credentials": "MD",
+          "affiliation": "Brown Health; Spine Center Miriam",
+          "role_fit": "Spine deformity; procedural KOL for ortho pilots",
+          "physician_led_fit": "medium",
+          "evidence": "Spine Center co-director",
+          "urls": [
+            "https://www.brownhealth.org/centers-services/orthopedics-institute/spine-care/spine-center"
+          ]
+        },
+        {
+          "rank": 5,
+          "name": "Adetokunbo Oyelese",
+          "credentials": "MD PhD FAANS",
+          "affiliation": "Norman Prince Spine Institute; Brown Neurosurgery",
+          "role_fit": "Neurosurgery spine director; CNS delivery angle",
+          "physician_led_fit": "medium",
+          "evidence": "NPSI director; Brown Health",
+          "urls": [
+            "https://www.brownhealth.org/centers-services/norman-prince-spine-institute/our-experts"
+          ]
+        }
+      ]
+    },
+    "ip_chitinase_ocf203": {
+      "entity": "Ocean Biomedical / Elkurt / RI newco",
+      "inventors_anchors": [
+        "Jack A. Elias"
+      ],
+      "kols": [
+        {
+          "rank": 1,
+          "name": "Jack A. Elias",
+          "credentials": "MD",
+          "affiliation": "Brown University; Dean Alpert Medical School",
+          "role_fit": "Scientific founder; CHIT1 biology",
+          "physician_led_fit": "high",
+          "evidence": "US11717528B2; P01HL114501 PI",
+          "urls": [
+            "https://vivo.brown.edu/display/jaelias"
+          ]
+        },
+        {
+          "rank": 2,
+          "name": "Rachel Putman",
+          "credentials": "MD MPH",
+          "affiliation": "Brown Health; ILD Director",
+          "role_fit": "ILD trial design; CALC site PI",
+          "physician_led_fit": "high",
+          "evidence": "ILD Collaborative RIH; CALC",
+          "urls": [
+            "https://www.ildcollaborative.org/partner-centers/rih"
+          ]
+        },
+        {
+          "rank": 3,
+          "name": "Barry S. Shea",
+          "credentials": "MD",
+          "affiliation": "MGH (ex-RIH ILD founder); Brown affiliate history",
+          "role_fit": "IPF trial PI experience; Elias collaborator",
+          "physician_led_fit": "high",
+          "evidence": "Founded RIH ILD program; fibrosis trials",
+          "urls": [
+            "https://doctors.massgeneralbrigham.org/provider/barry-s-shea/2101481"
+          ]
+        },
+        {
+          "rank": 4,
+          "name": "Corey E. Ventetuolo",
+          "credentials": "MD MS",
+          "affiliation": "Brown Health; CALC Director",
+          "role_fit": "Advanced lung disease; multisystem enrollment",
+          "physician_led_fit": "medium",
+          "evidence": "CALC director",
+          "urls": [
+            "https://www.brownhealth.org/centers-services/center-advanced-lung-care"
+          ]
+        },
+        {
+          "rank": 5,
+          "name": "Caitlin Sarmanian",
+          "credentials": "MD",
+          "affiliation": "Brown Health; Center for Advanced Lung Care",
+          "role_fit": "ILD clinic; patient stratification",
+          "physician_led_fit": "medium",
+          "evidence": "CALC team (diligence report \u00a76)",
+          "urls": [
+            "https://www.brownhealth.org/centers-services/center-advanced-lung-care/meet-our-team"
+          ]
+        }
+      ]
+    },
+    "ip_dendritic_ad_mindimmune": {
+      "entity": "MindImmune Therapeutics",
+      "inventors_anchors": [
+        "Stevin Zorn",
+        "Robert Nelson"
+      ],
+      "kols": [
+        {
+          "rank": 1,
+          "name": "Peter J. Snyder",
+          "credentials": "PhD",
+          "affiliation": "URI; MindImmune Consulting CMO",
+          "role_fit": "Consulting CMO; AD biomarkers (not MD)",
+          "physician_led_fit": "medium",
+          "evidence": "MindImmune about; LinkedIn CMO",
+          "urls": [
+            "https://www.mindimmune.com/about"
+          ]
+        },
+        {
+          "rank": 2,
+          "name": "M. Teresa Gomez-Isla",
+          "credentials": "MD",
+          "affiliation": "Harvard/MGH; MindImmune SAB",
+          "role_fit": "Neurology; MADRC; AD clinical KOL",
+          "physician_led_fit": "high",
+          "evidence": "MindImmune Science Advisory Board",
+          "urls": [
+            "https://www.mindimmune.com/about"
+          ]
+        },
+        {
+          "rank": 3,
+          "name": "Stephen Salloway",
+          "credentials": "MD MS",
+          "affiliation": "Butler Hospital MAP; Brown Neurology/Psychiatry",
+          "role_fit": "RI AD trial leader; prevention trials",
+          "physician_led_fit": "high",
+          "evidence": "Brown vivo; ACTC; Elias network adjacent",
+          "urls": [
+            "https://vivo.brown.edu/display/ssallowa"
+          ]
+        },
+        {
+          "rank": 4,
+          "name": "Ole Isacson",
+          "credentials": "MD",
+          "affiliation": "McLean/Harvard; MindImmune SAB",
+          "role_fit": "Neuroregeneration; innate immunity CNS",
+          "physician_led_fit": "medium",
+          "evidence": "MindImmune SAB",
+          "urls": [
+            "https://www.mindimmune.com/about"
+          ]
+        },
+        {
+          "rank": 5,
+          "name": "Cynthia Lemere",
+          "credentials": "PhD",
+          "affiliation": "Brigham; MindImmune SAB",
+          "role_fit": "Neurology research; immunology (PhD)",
+          "physician_led_fit": "scientific_only",
+          "evidence": "MindImmune SAB",
+          "urls": [
+            "https://www.mindimmune.com/about"
+          ]
+        }
+      ]
+    },
+    "ip_wireless_neurograins": {
+      "entity": "Brown OTL spinout (TBD)",
+      "inventors_anchors": [
+        "Arto Nurmikko",
+        "David Borton",
+        "Jacob Rosenstein"
+      ],
+      "kols": [
+        {
+          "rank": 1,
+          "name": "Leigh R. Hochberg",
+          "credentials": "MD PhD",
+          "affiliation": "Brown Engineering; MGH; VA Providence CfNN",
+          "role_fit": "BrainGate PI; neurocritical care; trial design",
+          "physician_led_fit": "high",
+          "evidence": "BrainGate director; Providence VA",
+          "urls": [
+            "https://www.braingate.org/team/leigh-hochberg-m-d-ph-d/"
+          ]
+        },
+        {
+          "rank": 2,
+          "name": "Stephen T. Mernoff",
+          "credentials": "MD",
+          "affiliation": "VA Providence; Brown Neurology",
+          "role_fit": "VA BrainGate site PI; ALS/TBI clinics",
+          "physician_led_fit": "high",
+          "evidence": "BrainGate clinical co-investigator",
+          "urls": [
+            "https://www.braingate.org/team/stephen-mernoff-m-d/"
+          ]
+        },
+        {
+          "rank": 3,
+          "name": "David Borton",
+          "credentials": "PhD",
+          "affiliation": "Brown Engineering; RIH Neurosurgery affiliate",
+          "role_fit": "Scientific PI; neurograins inventor",
+          "physician_led_fit": "scientific_only",
+          "evidence": "DARPA neurograins; UH2NS095548",
+          "urls": [
+            "https://engineering.brown.edu/people/david-borton"
+          ]
+        },
+        {
+          "rank": 4,
+          "name": "Ziya Gokaslan",
+          "credentials": "MD",
+          "affiliation": "Brown Health; Neurosurgeon-in-Chief RIH/Miriam",
+          "role_fit": "Neurosurgery executive; implant program scale",
+          "physician_led_fit": "medium",
+          "evidence": "NPSI/RIH neurosurgery leadership",
+          "urls": [
+            "https://www.brownhealth.org/centers-services/norman-prince-spine-institute/our-experts"
+          ]
+        },
+        {
+          "rank": 5,
+          "name": "Theresa L. Williamson",
+          "credentials": "MD",
+          "affiliation": "Brown Health; CINNR / Norman Prince Spine",
+          "role_fit": "CINNR director; SCI/neurotech clinical",
+          "physician_led_fit": "medium",
+          "evidence": "Quoted on Borton SCI stimulation study 2026",
+          "urls": [
+            "https://www.brownhealth.org/news/center-innovative-neurotechnology-neural-repair-presents-groundbreaking-research-us-congress"
+          ]
+        }
+      ]
+    },
+    "ip_speech_tablet_ibci": {
+      "entity": "BrainGate / decode SPV",
+      "inventors_anchors": [
+        "Leigh Hochberg",
+        "John Simeral",
+        "Thomas Hosman"
+      ],
+      "kols": [
+        {
+          "rank": 1,
+          "name": "Leigh R. Hochberg",
+          "credentials": "MD PhD",
+          "affiliation": "BrainGate; Brown; VA Providence",
+          "role_fit": "Sponsor-investigator; speech/tablet trials",
+          "physician_led_fit": "high",
+          "evidence": "NEJM 2024 speech; U01DC017844",
+          "urls": [
+            "https://www.brown.edu/news/2024-08-14/bci-speak-again"
+          ]
+        },
+        {
+          "rank": 2,
+          "name": "Stephen T. Mernoff",
+          "credentials": "MD",
+          "affiliation": "VA Providence BrainGate site",
+          "role_fit": "ALS typing trials; VA enrollment",
+          "physician_led_fit": "high",
+          "evidence": "BrainGate VA co-investigator",
+          "urls": [
+            "https://www.braingate.org/clinical-trials/"
+          ]
+        },
+        {
+          "rank": 3,
+          "name": "Stephen Salloway",
+          "credentials": "MD MS",
+          "affiliation": "Butler Hospital; Brown",
+          "role_fit": "RI neurology; cognitive endpoints",
+          "physician_led_fit": "medium",
+          "evidence": "Brown AD/BCI ecosystem",
+          "urls": [
+            "https://vivo.brown.edu/display/ssallowa"
+          ]
+        },
+        {
+          "rank": 4,
+          "name": "John Simeral",
+          "credentials": "PhD",
+          "affiliation": "Brown; VA CfNN",
+          "role_fit": "Decode algorithm co-inventor",
+          "physician_led_fit": "scientific_only",
+          "evidence": "Speech patent family; BrainGate team",
+          "urls": [
+            "https://centerforneuro.org/executive-council/"
+          ]
+        },
+        {
+          "rank": 5,
+          "name": "David Brandman",
+          "credentials": "MD PhD FRCSC",
+          "affiliation": "UC Davis (BrainGate consortium)",
+          "role_fit": "Speech neuroprosthesis surgeon co-author",
+          "physician_led_fit": "medium",
+          "evidence": "NEJM 2024; Healey Prize BrainGate team",
+          "urls": [
+            "https://www.massgeneral.org/neurology/als/news/healey-center-als-international-prize"
+          ]
+        }
+      ]
+    },
+    "ip_spinal_isi_dbs": {
+      "entity": "Brown OTL / medtech SPV",
+      "inventors_anchors": [
+        "David Borton",
+        "Emad Eskandar",
+        "Alik S. Widge"
+      ],
+      "kols": [
+        {
+          "rank": 1,
+          "name": "David Borton",
+          "credentials": "PhD",
+          "affiliation": "Brown; RIH Neurosurgery; VA CfNN",
+          "role_fit": "ISI PI; NCT04302259",
+          "physician_led_fit": "scientific_only",
+          "evidence": "DARPA ISI $6.3M; Nature BME 2026 SCI",
+          "urls": [
+            "https://ibeam.brown.edu/research-projects/intelligent-spine-interface"
+          ]
+        },
+        {
+          "rank": 2,
+          "name": "Jared Fridley",
+          "credentials": "MD",
+          "affiliation": "UT Austin (formerly RIH NPSI)",
+          "role_fit": "ISI clinical neurosurgeon; DARPA demo",
+          "physician_led_fit": "high",
+          "evidence": "ISI trial with Borton; Brown Health news 2023",
+          "urls": [
+            "https://www.brownhealth.org/news/center-innovative-neurotechnology-neural-repair-presents-groundbreaking-research-us-congress"
+          ]
+        },
+        {
+          "rank": 3,
+          "name": "Theresa L. Williamson",
+          "credentials": "MD",
+          "affiliation": "Brown Health; CINNR",
+          "role_fit": "SCI rehab clinical leadership",
+          "physician_led_fit": "high",
+          "evidence": "CINNR; SCI stimulation trial quotes",
+          "urls": [
+            "https://www.brown.edu/news/2026-03-11/spinal-cord-stimulation"
+          ]
+        },
+        {
+          "rank": 4,
+          "name": "Stephen T. Mernoff",
+          "credentials": "MD",
+          "affiliation": "VA Providence",
+          "role_fit": "SCI/ALS rehab; VA neurotech",
+          "physician_led_fit": "medium",
+          "evidence": "VA CfNN; spinal cord injury clinic",
+          "urls": [
+            "https://www.braingate.org/team/stephen-mernoff-m-d/"
+          ]
+        },
+        {
+          "rank": 5,
+          "name": "Adetokunbo Oyelese",
+          "credentials": "MD PhD FAANS",
+          "affiliation": "Norman Prince Spine Institute",
+          "role_fit": "Spine surgery; implant referral pathway",
+          "physician_led_fit": "medium",
+          "evidence": "NPSI director RIH",
+          "urls": [
+            "https://www.brownhealth.org/centers-services/norman-prince-spine-institute/our-experts"
+          ]
+        }
+      ]
+    },
+    "ip_tregitope_immunomod": {
+      "entity": "EpiVax Inc / EpiVax Therapeutics",
+      "inventors_anchors": [
+        "Anne S. De Groot",
+        "William Martin"
+      ],
+      "kols": [
+        {
+          "rank": 1,
+          "name": "Anne S. De Groot",
+          "credentials": "MD",
+          "affiliation": "EpiVax founder; URI/UGA adjunct",
+          "role_fit": "Physician-founder; immunoinformatics KOL",
+          "physician_led_fit": "high",
+          "evidence": "Tregitope patents; EpiVax CSO/CEO history",
+          "urls": [
+            "https://epivax.com/about-us-fearless-science/"
+          ]
+        },
+        {
+          "rank": 2,
+          "name": "Eleanor Ramos",
+          "credentials": "MD",
+          "affiliation": "EpiVax Therapeutics advisors",
+          "role_fit": "Clinical development; medical affairs",
+          "physician_led_fit": "medium",
+          "evidence": "EpiVax Therapeutics team page",
+          "urls": [
+            "https://www.eva-therapeutics.com/team"
+          ]
+        },
+        {
+          "rank": 3,
+          "name": "Amy Rosenberg",
+          "credentials": "MD",
+          "affiliation": "EpiVax; ex-FDA CDER",
+          "role_fit": "Regulatory KOL; therapeutic spinout",
+          "physician_led_fit": "medium",
+          "evidence": "EpiVax Therapeutics advisors",
+          "urls": [
+            "https://www.eva-therapeutics.com/team"
+          ]
+        },
+        {
+          "rank": 4,
+          "name": "Judy Lieberman",
+          "credentials": "MD PhD",
+          "affiliation": "Harvard Medical School",
+          "role_fit": "Immunology SAB; epitope biology",
+          "physician_led_fit": "medium",
+          "evidence": "EpiVax Therapeutics advisor",
+          "urls": [
+            "https://www.eva-therapeutics.com/team"
+          ]
+        },
+        {
+          "rank": 5,
+          "name": "Gary Steinberg",
+          "credentials": "MD",
+          "affiliation": "EpiVax Therapeutics (CMO pending)",
+          "role_fit": "Oncology CMO for spinout therapeutics",
+          "physician_led_fit": "medium",
+          "evidence": "EpiVax Therapeutics leadership page",
+          "urls": [
+            "https://www.eva-therapeutics.com/team"
+          ]
+        }
+      ]
+    },
+    "ip_biglycan_msk": {
+      "entity": "BRF OTL newco (TBD)",
+      "inventors_anchors": [
+        "Justin Fallon"
+      ],
+      "kols": [
+        {
+          "rank": 1,
+          "name": "Justin R. Fallon",
+          "credentials": "PhD",
+          "affiliation": "Brown Neuroscience; Tivorsan founder",
+          "role_fit": "Scientific founder; TVN-102/biglycan",
+          "physician_led_fit": "scientific_only",
+          "evidence": "US8658596B2; Tivorsan orphan designation",
+          "urls": [
+            "https://vivo.brown.edu/display/jfallonp"
+          ]
+        },
+        {
+          "rank": 2,
+          "name": "Kara A. Stavros",
+          "credentials": "MD",
+          "affiliation": "Brown Health; MDA Clinical Care Center RIH",
+          "role_fit": "Neuromuscular clinic; DMD patient access",
+          "physician_led_fit": "high",
+          "evidence": "MDA center neurologist",
+          "urls": [
+            "https://www.brownhealth.org/centers-services/muscular-dystrophy-association-clinical-care-center"
+          ]
+        },
+        {
+          "rank": 3,
+          "name": "Duyu A. Nie",
+          "credentials": "MD PhD",
+          "affiliation": "Hasbro Children's; Brown Pediatric Neurology",
+          "role_fit": "Pediatric neurology; neuromuscular disorders",
+          "physician_led_fit": "medium",
+          "evidence": "Hasbro pediatric neuro; muscular dystrophy program",
+          "urls": [
+            "https://www.brownhealth.org/providers/duyu-nie-md-phd"
+          ]
+        },
+        {
+          "rank": 4,
+          "name": "James F. Padbury",
+          "credentials": "MD",
+          "affiliation": "Women & Infants; Brown",
+          "role_fit": "Perinatal/neonatal muscle-adjacent KOL (RI anchor)",
+          "physician_led_fit": "medium",
+          "evidence": "W&I research leadership",
+          "urls": [
+            "https://www.protherabiologics.com/prothera-biologics-awarded-2-million-fast-track-nih-grant/"
+          ]
+        },
+        {
+          "rank": 5,
+          "name": "Barbara S. Stonestreet",
+          "credentials": "MD",
+          "affiliation": "Women & Infants; Brown",
+          "role_fit": "Neonatal HIE; RI clinical trial sites",
+          "physician_led_fit": "medium",
+          "evidence": "ProThera collaborator; neonatal research",
+          "urls": [
+            "https://www.protherabiologics.com/team/"
+          ]
+        }
+      ]
+    },
+    "ip_neural_decoding_legacy": {
+      "entity": "BrainGate / royalty",
+      "inventors_anchors": [
+        "John Donoghue",
+        "Leigh Hochberg"
+      ],
+      "kols": [
+        {
+          "rank": 1,
+          "name": "Leigh R. Hochberg",
+          "credentials": "MD PhD",
+          "affiliation": "BrainGate consortium",
+          "role_fit": "Consortium clinical lead; FOU licenses",
+          "physician_led_fit": "high",
+          "evidence": "Legacy decode trials",
+          "urls": [
+            "https://www.braingate.org/"
+          ]
+        },
+        {
+          "rank": 2,
+          "name": "Stephen T. Mernoff",
+          "credentials": "MD",
+          "affiliation": "VA Providence",
+          "role_fit": "VA site governance",
+          "physician_led_fit": "high",
+          "evidence": "BrainGate VA investigator",
+          "urls": [
+            "https://www.braingate.org/team/stephen-mernoff-m-d/"
+          ]
+        },
+        {
+          "rank": 3,
+          "name": "John Donoghue",
+          "credentials": "PhD",
+          "affiliation": "Brown",
+          "role_fit": "Legacy patent inventor; scientific",
+          "physician_led_fit": "scientific_only",
+          "evidence": "US7212851 family",
+          "urls": [
+            "https://vivo.brown.edu/display/jdonoghu"
+          ]
+        },
+        {
+          "rank": 4,
+          "name": "Stephen Salloway",
+          "credentials": "MD MS",
+          "affiliation": "Butler/Brown",
+          "role_fit": "RI clinical research network",
+          "physician_led_fit": "medium",
+          "evidence": "Brown neuro trials",
+          "urls": [
+            "https://vivo.brown.edu/display/ssallowa"
+          ]
+        },
+        {
+          "rank": 5,
+          "name": "John Simeral",
+          "credentials": "PhD",
+          "affiliation": "Brown; VA",
+          "role_fit": "Decode co-inventor",
+          "physician_led_fit": "scientific_only",
+          "evidence": "BrainGate patents overlap diligence",
+          "urls": [
+            "https://centerforneuro.org/executive-council/"
+          ]
+        }
+      ]
+    },
+    "ip_osteopearl_vcf_lenoss": {
+      "entity": "Lenoss Medical Inc",
+      "inventors_anchors": [
+        "Dom Messerli"
+      ],
+      "kols": [
+        {
+          "rank": 1,
+          "name": "Joseph Lane",
+          "credentials": "MD",
+          "affiliation": "Lenoss Medical Advisors",
+          "role_fit": "Orthopedic surgery; OsteoPearl advisory",
+          "physician_led_fit": "high",
+          "evidence": "Lenoss.com medical advisors",
+          "urls": [
+            "https://lenoss.com/about-our-company/"
+          ]
+        },
+        {
+          "rank": 2,
+          "name": "J. Kevin McGraw",
+          "credentials": "MD",
+          "affiliation": "Lenoss Medical Advisors",
+          "role_fit": "Interventional radiology; VCF procedures",
+          "physician_led_fit": "high",
+          "evidence": "Lenoss.com medical advisors",
+          "urls": [
+            "https://lenoss.com/about-our-company/"
+          ]
+        },
+        {
+          "rank": 3,
+          "name": "Michael Sichlau",
+          "credentials": "MD",
+          "affiliation": "Lenoss Medical Advisors",
+          "role_fit": "Interventional radiology",
+          "physician_led_fit": "high",
+          "evidence": "Lenoss.com medical advisors",
+          "urls": [
+            "https://lenoss.com/about-our-company/"
+          ]
+        },
+        {
+          "rank": 4,
+          "name": "Alan H. Daniels",
+          "credentials": "MD",
+          "affiliation": "Brown Health Ortho Spine",
+          "role_fit": "RI spine surgeon; registry/KOL recruit",
+          "physician_led_fit": "medium",
+          "evidence": "Spine division chief RIH",
+          "urls": [
+            "https://www.brownhealth.org/providers/alan-h-daniels-md"
+          ]
+        },
+        {
+          "rank": 5,
+          "name": "Bassel G. Diebo",
+          "credentials": "MD",
+          "affiliation": "Brown Health Spine Center",
+          "role_fit": "Spine deformity; VCF referral network",
+          "physician_led_fit": "medium",
+          "evidence": "Miriam spine center",
+          "urls": [
+            "https://www.brownhealth.org/centers-services/orthopedics-institute/spine-care/spine-center"
+          ]
+        }
+      ]
+    },
+    "ip_af_mapping_ai": {
+      "entity": "Volta Medical Inc",
+      "inventors_anchors": [
+        "Jerome Kalifa"
+      ],
+      "kols": [
+        {
+          "rank": 1,
+          "name": "Jerome Kalifa",
+          "credentials": "MD PhD",
+          "affiliation": "Volta Medical; Brown faculty; RIH",
+          "role_fit": "Co-founder CMO; VX1 clinical champion",
+          "physician_led_fit": "high",
+          "evidence": "Volta founder; Providence EP practice",
+          "urls": [
+            "https://www.volta-medical.us/"
+          ]
+        },
+        {
+          "rank": 2,
+          "name": "Corey E. Ventetuolo",
+          "credentials": "MD MS",
+          "affiliation": "Brown Health CALC",
+          "role_fit": "Cardiopulmonary; AF comorbidity trials",
+          "physician_led_fit": "medium",
+          "evidence": "Advanced cardiopulmonary RI",
+          "urls": [
+            "https://www.brownhealth.org/providers/corey-e-ventetuolo-md-ms"
+          ]
+        },
+        {
+          "rank": 3,
+          "name": "Mark J. Cunningham",
+          "credentials": "MD",
+          "affiliation": "Brown Health Cardiac Surgery",
+          "role_fit": "Structural heart surgical perspective",
+          "physician_led_fit": "medium",
+          "evidence": "CV Institute chief surgery",
+          "urls": [
+            "https://www.brownhealth.org/providers/mark-j-cunningham-md"
+          ]
+        },
+        {
+          "rank": 4,
+          "name": "Frank W. Sellke",
+          "credentials": "MD",
+          "affiliation": "Brown Health CV Research",
+          "role_fit": "Cardiac surgery research emeritus leader",
+          "physician_led_fit": "medium",
+          "evidence": "Long-standing RIH cardiac research",
+          "urls": [
+            "https://www.brownhealth.org/providers/frank-w-sellke-md"
+          ]
+        },
+        {
+          "rank": 5,
+          "name": "Kaushik Mandal",
+          "credentials": "MD MS MPH",
+          "affiliation": "Brown Health; Minimally invasive valve",
+          "role_fit": "EP/valve quality outcomes",
+          "physician_led_fit": "medium",
+          "evidence": "CV Institute team",
+          "urls": [
+            "https://www.brownhealth.org/centers-services/cardiovascular-surgery/meet-cardiovascular-surgery-team"
+          ]
+        }
+      ]
+    },
+    "ip_genomics_hans": {
+      "entity": "Nabsys 2.0 LLC",
+      "inventors_anchors": [
+        "Sean Ling",
+        "Barrett Bready",
+        "John Oliver"
+      ],
+      "kols": [
+        {
+          "rank": 1,
+          "name": "Barrett Bready",
+          "credentials": "MD",
+          "affiliation": "Nabsys CEO; Brown adjunct",
+          "role_fit": "Physician-founder; OhmX commercial",
+          "physician_led_fit": "high",
+          "evidence": "Nabsys founder; Brown PLME MD",
+          "urls": [
+            "https://www.nabsys.com/"
+          ]
+        },
+        {
+          "rank": 2,
+          "name": "Karl T. Kelsey",
+          "credentials": "MD",
+          "affiliation": "Brown Epidemiology/Pathology",
+          "role_fit": "Cancer epigenomics; SV biomarker research",
+          "physician_led_fit": "medium",
+          "evidence": "Brown cancer epi; genomics overlap",
+          "urls": [
+            "https://vivo.brown.edu/display/ktkelsey"
+          ]
+        },
+        {
+          "rank": 3,
+          "name": "Wafik S. El-Deiry",
+          "credentials": "MD PhD",
+          "affiliation": "Brown/Lifespan Cancer",
+          "role_fit": "Precision oncology; tumor genomics",
+          "physician_led_fit": "medium",
+          "evidence": "Legorreta Cancer Center director",
+          "urls": [
+            "https://wafik-el-deiry.com/"
+          ]
+        },
+        {
+          "rank": 4,
+          "name": "Lucas A. Salas",
+          "credentials": "MD MPH PhD",
+          "affiliation": "Dartmouth (Brown collaborator)",
+          "role_fit": "HiTIMED-adjacent epigenomic deconvolution",
+          "physician_led_fit": "medium",
+          "evidence": "HiTIMED developer; Christensen co-author",
+          "urls": [
+            "https://geiselmed.dartmouth.edu/epidemiology/profile/lucas-salas-md-mph-phd/"
+          ]
+        },
+        {
+          "rank": 5,
+          "name": "Brock C. Christensen",
+          "credentials": "PhD",
+          "affiliation": "Brown Epidemiology",
+          "role_fit": "Scientific anchor (not MD)",
+          "physician_led_fit": "scientific_only",
+          "evidence": "Brown genomics/epigenetics PI",
+          "urls": [
+            "https://geiselmed.dartmouth.edu/christensenlab/"
+          ]
+        }
+      ]
+    },
+    "ip_ect_ophthalmology": {
+      "entity": "Neurotech Pharmaceuticals",
+      "inventors_anchors": [
+        "Jeffrey Goldberg",
+        "Neurotech"
+      ],
+      "kols": [
+        {
+          "rank": 1,
+          "name": "Gaurav Gupta",
+          "credentials": "MD",
+          "affiliation": "Rhode Island Eye Institute; Brown Clinical Assoc Prof",
+          "role_fit": "Vitreoretinal surgeon; implant procedures",
+          "physician_led_fit": "high",
+          "evidence": "RI surgical retina lead; Brown residency",
+          "urls": [
+            "https://rieyeinstitute.com/doctor/gaurav-gupta-md/"
+          ]
+        },
+        {
+          "rank": 2,
+          "name": "Peter J. McDonnell",
+          "credentials": "MD",
+          "affiliation": "Johns Hopkins Wilmer (Neurotech board 2026)",
+          "role_fit": "National retina KOL; board governance",
+          "physician_led_fit": "medium",
+          "evidence": "Neurotech board appointment press 2026",
+          "urls": [
+            "https://www.businesswire.com/news/home/20260312451243/en/Neurotech-Provides-Corporate-Update-on-Commercial-Progress"
+          ]
+        },
+        {
+          "rank": 3,
+          "name": "Magdalena Krzystolik",
+          "credentials": "MD",
+          "affiliation": "Mass Eye and Ear; Providence service",
+          "role_fit": "Retina specialist; MacTel expertise",
+          "physician_led_fit": "medium",
+          "evidence": "Regional retina practice (web search)",
+          "urls": [
+            "https://www.encelto.com/"
+          ]
+        },
+        {
+          "rank": 4,
+          "name": "Stephen Salloway",
+          "credentials": "MD MS",
+          "affiliation": "Butler/Brown",
+          "role_fit": "Neurodegeneration trials network (adjacent)",
+          "physician_led_fit": "low",
+          "evidence": "Brown neurology trials",
+          "urls": [
+            "https://vivo.brown.edu/display/ssallowa"
+          ]
+        },
+        {
+          "rank": 5,
+          "name": "Barrett Bready",
+          "credentials": "MD",
+          "affiliation": "Nabsys; Brown",
+          "role_fit": "RI physician-entrepreneur; genomics-adjacent",
+          "physician_led_fit": "low",
+          "evidence": "Providence life-science ecosystem",
+          "urls": [
+            "https://bioedfaculty.brown.edu/people/barrett-bready-md"
+          ]
+        }
+      ]
+    },
+    "gap_smurf2_oncology": {
+      "entity": "SMURF-Therapeutics Inc",
+      "inventors_anchors": [
+        "Wafik S. El-Deiry"
+      ],
+      "kols": [
+        {
+          "rank": 1,
+          "name": "Wafik S. El-Deiry",
+          "credentials": "MD PhD FACP",
+          "affiliation": "SMURF-Tx founder; Legorreta Cancer Center",
+          "role_fit": "Founder; HIF/oncology KOL",
+          "physician_led_fit": "high",
+          "evidence": "SMURF-Tx founded 2021; WIN chair",
+          "urls": [
+            "https://smurftherapeutics.com/"
+          ]
+        },
+        {
+          "rank": 2,
+          "name": "Howard Safran",
+          "credentials": "MD",
+          "affiliation": "Lifespan Cancer Institute; Brown",
+          "role_fit": "Chief Hem/Onc; BU Oncology Group director",
+          "physician_led_fit": "high",
+          "evidence": "Brown Health chief hematology/oncology; GI trials PI",
+          "urls": [
+            "https://www.brownhealth.org/providers/howard-p-safran-md"
+          ]
+        },
+        {
+          "rank": 3,
+          "name": "Lucas A. Salas",
+          "credentials": "MD MPH PhD",
+          "affiliation": "Dartmouth; Brown collaborator",
+          "role_fit": "Epigenetic biomarker trials",
+          "physician_led_fit": "medium",
+          "evidence": "Christensen/El-Deiry network publications",
+          "urls": [
+            "https://geiselmed.dartmouth.edu/epidemiology/profile/lucas-salas-md-mph-phd/"
+          ]
+        },
+        {
+          "rank": 4,
+          "name": "Karl T. Kelsey",
+          "credentials": "MD",
+          "affiliation": "Brown",
+          "role_fit": "Cancer molecular epi; biomarker endpoints",
+          "physician_led_fit": "medium",
+          "evidence": "Brown pathology/epi",
+          "urls": [
+            "https://vivo.brown.edu/display/ktkelsey"
+          ]
+        },
+        {
+          "rank": 5,
+          "name": "Stephen Salloway",
+          "credentials": "MD MS",
+          "affiliation": "Butler/Brown",
+          "role_fit": "WIN-adjacent RI oncology trials network",
+          "physician_led_fit": "low",
+          "evidence": "Brown clinical research",
+          "urls": [
+            "https://vivo.brown.edu/display/ssallowa"
+          ]
+        }
+      ]
+    },
+    "gap_soma_dtx": {
+      "entity": "SOMAScience (forming)",
+      "inventors_anchors": [
+        "Frederike Petzschner",
+        "Chloe Gunsilius"
+      ],
+      "kols": [
+        {
+          "rank": 1,
+          "name": "Justin Y. Li",
+          "credentials": "MD",
+          "affiliation": "Norman Prince Spine Institute; Brown Neurosurgery",
+          "role_fit": "Pain medicine; neuromodulation research",
+          "physician_led_fit": "high",
+          "evidence": "Brown Health pain physician; neuromodulation",
+          "urls": [
+            "https://www.brownhealth.org/providers/justin-y-li-md"
+          ]
+        },
+        {
+          "rank": 2,
+          "name": "Ross E. Barker",
+          "credentials": "DO",
+          "affiliation": "Norman Prince Spine Institute; Brown",
+          "role_fit": "Pain management; chronic pain clinic",
+          "physician_led_fit": "high",
+          "evidence": "Brown Health pain specialist",
+          "urls": [
+            "https://www.brownhealth.org/providers/ross-e-barker-do"
+          ]
+        },
+        {
+          "rank": 3,
+          "name": "Laert Rusha",
+          "credentials": "MD",
+          "affiliation": "Norman Prince Spine Institute",
+          "role_fit": "Pain medicine; procedural pain",
+          "physician_led_fit": "high",
+          "evidence": "Brown Health pain fellowship-trained",
+          "urls": [
+            "https://www.brownhealth.org/providers/laert-rusha-md"
+          ]
+        },
+        {
+          "rank": 4,
+          "name": "Alexios G. Carayannopoulos",
+          "credentials": "DO MPH",
+          "affiliation": "Brown Health PM&R Chief",
+          "role_fit": "PM&R pain; rehab integration for DTx",
+          "physician_led_fit": "high",
+          "evidence": "Brown Health PM&R leadership",
+          "urls": [
+            "https://www.brownhealth.org/centers-services/norman-prince-spine-institute/our-experts"
+          ]
+        },
+        {
+          "rank": 5,
+          "name": "Frederike H. Petzschner",
+          "credentials": "PhD",
+          "affiliation": "Brown Carney; SOMA PI",
+          "role_fit": "Scientific founder (not MD); digital KOL",
+          "physician_led_fit": "scientific_only",
+          "evidence": "Carney SOMA project; COBRE pilots",
+          "urls": [
+            "https://vivo.brown.edu/display/fpetzsch"
+          ]
+        }
+      ]
+    },
+    "ip_monaghan_deep_rna_dx": {
+      "entity": "RIH deep RNA Dx spinout (forming)",
+      "inventors_anchors": [
+        "Sean F. Monaghan",
+        "Gerard J. Nau",
+        "Alger M. Fredericks"
+      ],
+      "kols": [
+        {
+          "rank": 1,
+          "name": "Sean F. Monaghan",
+          "credentials": "MD FACS",
+          "affiliation": "RIH / Brown Surgery; Monaghan Lab",
+          "role_fit": "Physician-founder; deep RNA-seq sepsis PI",
+          "physician_led_fit": "high",
+          "evidence": "US20220340972A1; R35GM142638; RNA Center",
+          "urls": [
+            "https://www.brownhealth.org/providers/sean-monaghan-md",
+            "https://surgery.med.brown.edu/divisions/surgical-research/laboratories/monaghan-lab"
+          ]
+        },
+        {
+          "rank": 2,
+          "name": "Gerard J. Nau",
+          "credentials": "PhD",
+          "affiliation": "Brown / RIH surgical research",
+          "role_fit": "Co-inventor; translational microbiology",
+          "physician_led_fit": "scientific_only",
+          "evidence": "RIH patent family co-inventor",
+          "urls": [
+            "https://vivo.brown.edu/display/smonagha"
+          ]
+        },
+        {
+          "rank": 3,
+          "name": "Alger M. Fredericks",
+          "credentials": "PhD",
+          "affiliation": "Monaghan Lab; Brown",
+          "role_fit": "Co-inventor; RNA-seq methods (Sci Rep 2022)",
+          "physician_led_fit": "scientific_only",
+          "evidence": "Deep RNA ICU COVID/sepsis publications",
+          "urls": [
+            "https://doi.org/10.1038/s41598-022-20139-1"
+          ]
+        },
+        {
+          "rank": 4,
+          "name": "William G. Fairbrother",
+          "credentials": "PhD",
+          "affiliation": "Brown; splicing/NMD collaborator",
+          "role_fit": "SAB; Whippet/NMD pipeline co-author",
+          "physician_led_fit": "medium",
+          "evidence": "Life Science Alliance 2025 NMD sepsis paper",
+          "urls": [
+            "https://doi.org/10.26508/lsa.202503380"
+          ]
+        },
+        {
+          "rank": 5,
+          "name": "Mitchell M. Levy",
+          "credentials": "MD",
+          "affiliation": "Brown / RIH critical care",
+          "role_fit": "Sepsis clinical trials; Surviving Sepsis network",
+          "physician_led_fit": "high",
+          "evidence": "Sepsis cohort co-author network",
+          "urls": [
+            "https://vivo.brown.edu/display/smonagha"
+          ]
+        }
+      ]
+    },
+    "gap_christensen_epigenetics": {
+      "entity": "HiTIMED diagnostics / pharma license (Dartmouth IP)",
+      "inventors_anchors": [
+        "Brock C. Christensen",
+        "Lucas A. Salas",
+        "Ze Zhang",
+        "Karl T. Kelsey",
+        "John K. Wiencke"
+      ],
+      "kols": [
+        {
+          "rank": 1,
+          "name": "Lucas A. Salas",
+          "credentials": "MD MPH PhD",
+          "affiliation": "Dartmouth; HiTIMED developer",
+          "role_fit": "HiTIMED clinical translation; IO stratification",
+          "physician_led_fit": "high",
+          "evidence": "HiTIMED author; Christensen mentee",
+          "urls": [
+            "https://geiselmed.dartmouth.edu/epidemiology/profile/lucas-salas-md-mph-phd/"
+          ]
+        },
+        {
+          "rank": 2,
+          "name": "Karl T. Kelsey",
+          "credentials": "MD",
+          "affiliation": "Brown Epidemiology/Pathology",
+          "role_fit": "Immunomethylomics; cancer epi",
+          "physician_led_fit": "high",
+          "evidence": "Multiple Christensen co-publications",
+          "urls": [
+            "https://vivo.brown.edu/display/ktkelsey"
+          ]
+        },
+        {
+          "rank": 3,
+          "name": "Wafik S. El-Deiry",
+          "credentials": "MD PhD",
+          "affiliation": "Lifespan/Brown Cancer",
+          "role_fit": "Precision oncology; pharma stratification deals",
+          "physician_led_fit": "medium",
+          "evidence": "Brown cancer program director",
+          "urls": [
+            "https://wafik-el-deiry.com/"
+          ]
+        },
+        {
+          "rank": 4,
+          "name": "Howard P. Safran",
+          "credentials": "MD",
+          "affiliation": "Brown Health Cancer Institute; Chief Hem/Onc",
+          "role_fit": "Oncology trial PI; BU Oncology Group",
+          "physician_led_fit": "medium",
+          "evidence": "Brown Health chief hematology/oncology",
+          "urls": [
+            "https://www.brownhealth.org/providers/howard-p-safran-md"
+          ]
+        },
+        {
+          "rank": 5,
+          "name": "Brock C. Christensen",
+          "credentials": "PhD",
+          "affiliation": "Brown Epidemiology",
+          "role_fit": "Scientific founder (not MD)",
+          "physician_led_fit": "scientific_only",
+          "evidence": "R01CA253976; R01CA216265 PI",
+          "urls": [
+            "https://geiselmed.dartmouth.edu/christensenlab/"
+          ]
+        }
+      ]
+    },
+    "ip_bolden_musk_neurogenesis": {
+      "entity": "Bolden Therapeutics Inc",
+      "inventors_anchors": [
+        "Justin R. Fallon",
+        "Ashley E. Webb",
+        "Johnny Page"
+      ],
+      "kols": [
+        {
+          "rank": 1,
+          "name": "Stephen Salloway",
+          "credentials": "MD MS",
+          "affiliation": "Butler Hospital; Brown ADRC",
+          "role_fit": "Bolden scientific advisor; AD trials",
+          "physician_led_fit": "high",
+          "evidence": "Bolden NIA STTR PR; ADRC",
+          "urls": [
+            "https://vivo.brown.edu/display/ssallowa"
+          ]
+        },
+        {
+          "rank": 2,
+          "name": "Justin R. Fallon",
+          "credentials": "PhD",
+          "affiliation": "Brown; Bolden SAB chair",
+          "role_fit": "MuSK-BMP scientific founder",
+          "physician_led_fit": "scientific_only",
+          "evidence": "US12458657B2; vivo Bolden translation",
+          "urls": [
+            "https://vivo.brown.edu/display/jfallonp"
+          ]
+        },
+        {
+          "rank": 3,
+          "name": "Ashley E. Webb",
+          "credentials": "PhD",
+          "affiliation": "Brown; Bolden co-founder",
+          "role_fit": "Neural stem cell biology",
+          "physician_led_fit": "scientific_only",
+          "evidence": "Brown Daily Herald Bolden profile",
+          "urls": [
+            "https://www.brown.edu/academics/biomed/people/ashley-webb"
+          ]
+        },
+        {
+          "rank": 4,
+          "name": "Johnny Page",
+          "credentials": "MD (trainee)",
+          "affiliation": "Bolden CEO; Brown PLME",
+          "role_fit": "Entrepreneur CEO; Fallon lab alum",
+          "physician_led_fit": "medium",
+          "evidence": "Bolden pre-seed PR 2024",
+          "urls": [
+            "https://www.boldentherapeutics.com/"
+          ]
+        },
+        {
+          "rank": 5,
+          "name": "Peter J. Snyder",
+          "credentials": "PhD",
+          "affiliation": "URI; AD biomarkers",
+          "role_fit": "AD clinical trial design (adjacent KOL)",
+          "physician_led_fit": "low",
+          "evidence": "RI neurodegeneration ecosystem",
+          "urls": [
+            "https://web.uri.edu/pharmacy/meet/peter-snyder/"
+          ]
+        }
+      ]
+    },
+    "ip_pax_aav_vegf_tendon": {
+      "entity": "Pax Therapeutics",
+      "inventors_anchors": [
+        "Paul Y. Liu",
+        "Xiao Wu"
+      ],
+      "kols": [
+        {
+          "rank": 1,
+          "name": "Paul Y. Liu",
+          "credentials": "MD FACS",
+          "affiliation": "Brown Plastic Surgery; RIH; Pax chairman",
+          "role_fit": "Physician-founder; hand/ortho KOL",
+          "physician_led_fit": "high",
+          "evidence": "WO2019146830A1; Boston Globe 2025",
+          "urls": [
+            "https://www.paxtherapeutics.com/about-us"
+          ]
+        },
+        {
+          "rank": 2,
+          "name": "Jin Bo Tang",
+          "credentials": "MD",
+          "affiliation": "Pax advisor; elite flexor tendon outcomes",
+          "role_fit": "Hand surgery KOL",
+          "physician_led_fit": "high",
+          "evidence": "Pax science page advisor",
+          "urls": [
+            "https://www.paxtherapeutics.com/the-science"
+          ]
+        },
+        {
+          "rank": 3,
+          "name": "Dom Messerli",
+          "credentials": "\u2014",
+          "affiliation": "Lenoss CEO; RI ortho ecosystem",
+          "role_fit": "MSK entrepreneur peer (not MD)",
+          "physician_led_fit": "low",
+          "evidence": "Providence spine/ortho network",
+          "urls": [
+            "https://lenoss.com/"
+          ]
+        },
+        {
+          "rank": 4,
+          "name": "Qian Chen",
+          "credentials": "PhD",
+          "affiliation": "RIH/Brown; NanoDe",
+          "role_fit": "Orthopedic delivery peer",
+          "physician_led_fit": "scientific_only",
+          "evidence": "RI musculoskeletal innovation belt",
+          "urls": [
+            "https://nanodetherapeutics.com/"
+          ]
+        },
+        {
+          "rank": 5,
+          "name": "Xiao Wu",
+          "credentials": "PhD",
+          "affiliation": "Brown; AAV2-VEGF developer",
+          "role_fit": "Scientific co-inventor",
+          "physician_led_fit": "scientific_only",
+          "evidence": "3M WHS Award 2012; Pax about",
+          "urls": [
+            "https://www.paxtherapeutics.com/about-us"
+          ]
+        }
+      ]
+    },
+    "ip_oncolux_lumis": {
+      "entity": "OncoLux Inc",
+      "inventors_anchors": [
+        "Alan Kersey"
+      ],
+      "kols": [
+        {
+          "rank": 1,
+          "name": "Howard P. Safran",
+          "credentials": "MD",
+          "affiliation": "Brown Health Cancer Institute",
+          "role_fit": "Surgical oncology trials network",
+          "physician_led_fit": "high",
+          "evidence": "RI oncology clinical infrastructure",
+          "urls": [
+            "https://www.brownhealth.org/providers/howard-p-safran-md"
+          ]
+        },
+        {
+          "rank": 2,
+          "name": "Wafik S. El-Deiry",
+          "credentials": "MD PhD",
+          "affiliation": "Legorreta Cancer Center",
+          "role_fit": "Oncology translational advisor pool",
+          "physician_led_fit": "medium",
+          "evidence": "Brown/Lifespan cancer hub",
+          "urls": [
+            "https://wafik-el-deiry.com/"
+          ]
+        },
+        {
+          "rank": 3,
+          "name": "Rachel Putman",
+          "credentials": "MD MPH",
+          "affiliation": "Brown Health ILD Program",
+          "role_fit": "Thoracic/oncology adjacent (bronchoscopy path)",
+          "physician_led_fit": "medium",
+          "evidence": "OncoLux Mayo bronchoscopy PR 2026",
+          "urls": [
+            "https://www.brownhealth.org/centers-services/center-advanced-lung-care"
+          ]
+        },
+        {
+          "rank": 4,
+          "name": "Alan Kersey",
+          "credentials": "\u2014",
+          "affiliation": "OncoLux CEO",
+          "role_fit": "Photonics founder (not MD)",
+          "physician_led_fit": "scientific_only",
+          "evidence": "oncoluxinc.com; RILSH relocation",
+          "urls": [
+            "https://oncoluxinc.com/about_us/"
+          ]
+        },
+        {
+          "rank": 5,
+          "name": "Mark A. Turco",
+          "credentials": "MD",
+          "affiliation": "RI Life Science Hub CEO",
+          "role_fit": "State ecosystem; cardiologist-operator",
+          "physician_led_fit": "medium",
+          "evidence": "RI Medical Journal Ocean State Labs",
+          "urls": [
+            "https://governor.ri.gov/press-releases/governor-mckee-ri-life-science-hub-announce-five-foundational-companies-ocean-state"
+          ]
+        }
+      ]
+    },
+    "gap_ni2o_kiwi_bci": {
+      "entity": "ni2o Inc",
+      "inventors_anchors": [
+        "Newton Howard"
+      ],
+      "kols": [
+        {
+          "rank": 1,
+          "name": "Leigh Hochberg",
+          "credentials": "MD PhD",
+          "affiliation": "Brown; BrainGate",
+          "role_fit": "iBCI clinical trials; FTO diligence",
+          "physician_led_fit": "high",
+          "evidence": "Brown neurotech overlap",
+          "urls": [
+            "https://www.braingate.org/team/leigh-hochberg-m-d-ph-d/"
+          ]
+        },
+        {
+          "rank": 2,
+          "name": "David Borton",
+          "credentials": "PhD",
+          "affiliation": "Brown Engineering; RIH",
+          "role_fit": "Implantable neurotech PI",
+          "physician_led_fit": "scientific_only",
+          "evidence": "Wireless/spinal BCI patents",
+          "urls": [
+            "https://vivo.brown.edu/display/dborton"
+          ]
+        },
+        {
+          "rank": 3,
+          "name": "Newton Howard",
+          "credentials": "PhD",
+          "affiliation": "ni2o CEO; Oxford/MIT",
+          "role_fit": "BCI scientific founder",
+          "physician_led_fit": "scientific_only",
+          "evidence": "ni2o.com KIWI; Nurosene PR",
+          "urls": [
+            "https://ni2o.com/"
+          ]
+        },
+        {
+          "rank": 4,
+          "name": "Stevin H. Zorn",
+          "credentials": "PhD",
+          "affiliation": "MindImmune CSO",
+          "role_fit": "Neurodegeneration therapeutics peer",
+          "physician_led_fit": "low",
+          "evidence": "RI CNS ecosystem",
+          "urls": [
+            "https://www.mindimmune.com/"
+          ]
+        },
+        {
+          "rank": 5,
+          "name": "John Donoghue",
+          "credentials": "PhD",
+          "affiliation": "Brown",
+          "role_fit": "Legacy BMI patents; scientific",
+          "physician_led_fit": "scientific_only",
+          "evidence": "ip_neural_decoding_legacy inventor",
+          "urls": [
+            "https://vivo.brown.edu/display/jdonoghu"
+          ]
+        }
+      ]
+    },
+    "gap_levine_pediatric_sepsis": {
+      "entity": "Brown / RIH pediatric sepsis CDSS",
+      "inventors_anchors": [
+        "Adam C. Levine",
+        "Stephanie C. Garbern"
+      ],
+      "kols": [
+        {
+          "rank": 1,
+          "name": "Adam C. Levine",
+          "credentials": "MD MPH FACEP",
+          "affiliation": "Brown EM; RIH",
+          "role_fit": "PI wearable pediatric sepsis ML",
+          "physician_led_fit": "high",
+          "evidence": "R33TW012211; PMID39475844",
+          "urls": [
+            "https://vivo.brown.edu/display/al16"
+          ]
+        },
+        {
+          "rank": 2,
+          "name": "Stephanie C. Garbern",
+          "credentials": "MD",
+          "affiliation": "Brown EM; RIH",
+          "role_fit": "mPI pediatric sepsis wearable",
+          "physician_led_fit": "high",
+          "evidence": "FIC R33 co-PI",
+          "urls": [
+            "https://www.fic.nih.gov/Grants/Search/Pages/mhealth-R21TW012211.aspx"
+          ]
+        },
+        {
+          "rank": 3,
+          "name": "Sean F. Monaghan",
+          "credentials": "MD FACS",
+          "affiliation": "RIH Surgery",
+          "role_fit": "Complementary RNA Dx (orthogonal)",
+          "physician_led_fit": "medium",
+          "evidence": "ip_monaghan_deep_rna_dx",
+          "urls": [
+            "https://www.brownhealth.org/providers/sean-monaghan-md"
+          ]
+        },
+        {
+          "rank": 4,
+          "name": "Yow-Pin Lim",
+          "credentials": "MD PhD",
+          "affiliation": "ProThera",
+          "role_fit": "Neonatal sepsis biologic peer",
+          "physician_led_fit": "medium",
+          "evidence": "ip_iaip_neonatal",
+          "urls": [
+            "https://www.protherabiologics.com/"
+          ]
+        },
+        {
+          "rank": 5,
+          "name": "Mitchell M. Levy",
+          "credentials": "MD",
+          "affiliation": "Brown critical care",
+          "role_fit": "Sepsis guidelines network",
+          "physician_led_fit": "high",
+          "evidence": "Surviving Sepsis adjacent",
+          "urls": [
+            "https://vivo.brown.edu/display/mlevymd"
+          ]
+        }
+      ],
+      "evidence": "PMID39475844; R33TW012211"
+    },
+    "gap_uri_phlip_lnp": {
+      "entity": "URI PHLIP platform (spinout forming)",
+      "inventors_anchors": [
+        "Yana K. Reshetnyak",
+        "Oleg A. Andreev",
+        "Donald M. Engelman",
+        "Umberto Romeo",
+        "Eleonora Fratus"
+      ],
+      "kols": [
+        {
+          "rank": 1,
+          "name": "Wafik S. El-Deiry",
+          "credentials": "MD PhD",
+          "affiliation": "Brown/Lifespan",
+          "role_fit": "STING-oncology trial design peer",
+          "physician_led_fit": "medium",
+          "evidence": "Innate immuno-oncology network",
+          "urls": [
+            "https://wafik-el-deiry.com/"
+          ]
+        },
+        {
+          "rank": 2,
+          "name": "Howard P. Safran",
+          "credentials": "MD",
+          "affiliation": "Brown Health Cancer",
+          "role_fit": "Oncology translational",
+          "physician_led_fit": "medium",
+          "evidence": "Cancer institute trials",
+          "urls": [
+            "https://www.brownhealth.org/providers/howard-p-safran-md"
+          ]
+        },
+        {
+          "rank": 3,
+          "name": "Qian Chen",
+          "credentials": "PhD",
+          "affiliation": "RIH; NanoDe",
+          "role_fit": "RNA delivery peer (distinct chemistry)",
+          "physician_led_fit": "scientific_only",
+          "evidence": "ip_nanopieces_rna",
+          "urls": [
+            "https://nanodetherapeutics.com/"
+          ]
+        },
+        {
+          "rank": 4,
+          "name": "Karl T. Kelsey",
+          "credentials": "MD",
+          "affiliation": "Brown",
+          "role_fit": "Cancer biomarker trials",
+          "physician_led_fit": "medium",
+          "evidence": "Oncology epi",
+          "urls": [
+            "https://vivo.brown.edu/display/ktkelsey"
+          ]
+        },
+        {
+          "rank": 5,
+          "name": "Peter J. Snyder",
+          "credentials": "PhD",
+          "affiliation": "URI",
+          "role_fit": "RI research leadership adjacent",
+          "physician_led_fit": "low",
+          "evidence": "URI life-science",
+          "urls": [
+            "https://web.uri.edu/pharmacy/meet/peter-snyder/"
+          ]
+        }
+      ],
+      "evidence": "PMID24659971; R01GM073857"
+    },
+    "gap_rih_salivary_ev_ad": {
+      "entity": "RIH salivary EV AD Dx",
+      "inventors_anchors": [
+        "Jill Kreiling",
+        "Peter Quesenberry",
+        "Zhijin Wu"
+      ],
+      "kols": [
+        {
+          "rank": 1,
+          "name": "Stephen Salloway",
+          "credentials": "MD MS",
+          "affiliation": "Butler/Brown ADRC",
+          "role_fit": "AD trial network",
+          "physician_led_fit": "high",
+          "evidence": "Brown AD research",
+          "urls": [
+            "https://vivo.brown.edu/display/ssallowa"
+          ]
+        },
+        {
+          "rank": 2,
+          "name": "Stevin H. Zorn",
+          "credentials": "PhD",
+          "affiliation": "MindImmune",
+          "role_fit": "AD therapeutic peer",
+          "physician_led_fit": "low",
+          "evidence": "ip_dendritic_ad_mindimmune",
+          "urls": [
+            "https://www.mindimmune.com/"
+          ]
+        },
+        {
+          "rank": 3,
+          "name": "Peter J. Snyder",
+          "credentials": "PhD",
+          "affiliation": "URI/Brown network",
+          "role_fit": "AD biomarker expertise",
+          "physician_led_fit": "medium",
+          "evidence": "RI neurodegeneration",
+          "urls": [
+            "https://web.uri.edu/pharmacy/meet/peter-snyder/"
+          ]
+        },
+        {
+          "rank": 4,
+          "name": "Sean F. Monaghan",
+          "credentials": "MD FACS",
+          "affiliation": "RIH",
+          "role_fit": "Hospital translational PI peer",
+          "physician_led_fit": "medium",
+          "evidence": "RIH Dx spinout pattern",
+          "urls": [
+            "https://www.brownhealth.org/providers/sean-monaghan-md"
+          ]
+        },
+        {
+          "rank": 5,
+          "name": "Rachel Putman",
+          "credentials": "MD MPH",
+          "affiliation": "Brown Health",
+          "role_fit": "Pulmonary/neuro adjacent",
+          "physician_led_fit": "low",
+          "evidence": "Brown clinical research",
+          "urls": [
+            "https://www.brownhealth.org/centers-services/center-advanced-lung-care"
+          ]
+        }
+      ],
+      "evidence": "PMID41602168; R01AG074284"
+    },
+    "gap_rih_bx912_pulmonary_htn": {
+      "entity": "RIH BX-912 PH program",
+      "inventors_anchors": [
+        "Olin D. Liang",
+        "James R. Klinger",
+        "Christopher James Rhodes",
+        "Eleni Vasilaki",
+        "Rachel Walters"
+      ],
+      "kols": [
+        {
+          "rank": 1,
+          "name": "Rachel Putman",
+          "credentials": "MD MPH",
+          "affiliation": "Brown Health ILD/PH",
+          "role_fit": "Pulmonary hypertension clinical",
+          "physician_led_fit": "high",
+          "evidence": "Advanced lung care center",
+          "urls": [
+            "https://www.brownhealth.org/centers-services/center-advanced-lung-care"
+          ]
+        },
+        {
+          "rank": 2,
+          "name": "Jack A. Elias",
+          "credentials": "MD",
+          "affiliation": "Brown",
+          "role_fit": "Pulmonary medicine leadership",
+          "physician_led_fit": "medium",
+          "evidence": "ip_chitinase_ocf203 PI",
+          "urls": [
+            "https://vivo.brown.edu/display/jaelias"
+          ]
+        },
+        {
+          "rank": 3,
+          "name": "Frank W. Sellke",
+          "credentials": "MD",
+          "affiliation": "Brown Health CV",
+          "role_fit": "Cardiac surgery / vascular",
+          "physician_led_fit": "medium",
+          "evidence": "Cardiovascular research",
+          "urls": [
+            "https://vivo.brown.edu/display/fsellke"
+          ]
+        },
+        {
+          "rank": 4,
+          "name": "Mitchell M. Levy",
+          "credentials": "MD",
+          "affiliation": "Brown",
+          "role_fit": "Critical care cardiopulmonary",
+          "physician_led_fit": "medium",
+          "evidence": "RI critical care",
+          "urls": [
+            "https://vivo.brown.edu/display/mlevymd"
+          ]
+        },
+        {
+          "rank": 5,
+          "name": "Howard P. Safran",
+          "credentials": "MD",
+          "affiliation": "Brown Health",
+          "role_fit": "Oncology-cardio interface",
+          "physician_led_fit": "low",
+          "evidence": "Clinical trials infrastructure",
+          "urls": [
+            "https://www.brownhealth.org/providers/howard-p-safran-md"
+          ]
+        }
+      ]
+    },
+    "gap_rih_pahtn_dx": {
+      "entity": "RIH PAH/SCD diagnostics",
+      "inventors_anchors": [
+        "Samuel C. Dudley Jr.",
+        "Corey E. Ventetuolo"
+      ],
+      "kols": [
+        {
+          "rank": 1,
+          "name": "Rachel Putman",
+          "credentials": "MD MPH",
+          "affiliation": "Brown Health",
+          "role_fit": "PH/ILD diagnostics adoption",
+          "physician_led_fit": "high",
+          "evidence": "Pulmonary clinic",
+          "urls": [
+            "https://www.brownhealth.org/centers-services/center-advanced-lung-care"
+          ]
+        },
+        {
+          "rank": 2,
+          "name": "Frank W. Sellke",
+          "credentials": "MD",
+          "affiliation": "Brown Health CV",
+          "role_fit": "Cardiac risk / SCD",
+          "physician_led_fit": "high",
+          "evidence": "Cardiovascular outcomes",
+          "urls": [
+            "https://vivo.brown.edu/display/fsellke"
+          ]
+        },
+        {
+          "rank": 3,
+          "name": "Mark A. Turco",
+          "credentials": "MD",
+          "affiliation": "RI Life Science Hub",
+          "role_fit": "State clinical network",
+          "physician_led_fit": "medium",
+          "evidence": "RI ecosystem",
+          "urls": [
+            "https://www.rilifescience.com/"
+          ]
+        },
+        {
+          "rank": 4,
+          "name": "Mitchell M. Levy",
+          "credentials": "MD",
+          "affiliation": "Brown",
+          "role_fit": "ICU risk tools",
+          "physician_led_fit": "medium",
+          "evidence": "Critical care",
+          "urls": [
+            "https://vivo.brown.edu/display/mlevymd"
+          ]
+        },
+        {
+          "rank": 5,
+          "name": "Jack A. Elias",
+          "credentials": "MD",
+          "affiliation": "Brown",
+          "role_fit": "Pulmonary research",
+          "physician_led_fit": "medium",
+          "evidence": "Pulmonary medicine",
+          "urls": [
+            "https://vivo.brown.edu/display/jaelias"
+          ]
+        }
+      ]
+    },
+    "gap_rih_bbb_nucleic_delivery": {
+      "entity": "RIH BBB nucleic acid delivery",
+      "inventors_anchors": [
+        "Qian Chen"
+      ],
+      "kols": [
+        {
+          "rank": 1,
+          "name": "Stephen Salloway",
+          "credentials": "MD MS",
+          "affiliation": "Brown ADRC",
+          "role_fit": "CNS trial design",
+          "physician_led_fit": "high",
+          "evidence": "Neurodegeneration trials",
+          "urls": [
+            "https://vivo.brown.edu/display/ssallowa"
+          ]
+        },
+        {
+          "rank": 2,
+          "name": "Leigh Hochberg",
+          "credentials": "MD PhD",
+          "affiliation": "Brown BrainGate",
+          "role_fit": "CNS intervention peer",
+          "physician_led_fit": "medium",
+          "evidence": "Neurotech clinical",
+          "urls": [
+            "https://www.braingate.org/"
+          ]
+        },
+        {
+          "rank": 3,
+          "name": "Stevin H. Zorn",
+          "credentials": "PhD",
+          "affiliation": "MindImmune",
+          "role_fit": "CNS therapeutic peer",
+          "physician_led_fit": "low",
+          "evidence": "AD program",
+          "urls": [
+            "https://www.mindimmune.com/"
+          ]
+        },
+        {
+          "rank": 4,
+          "name": "Justin R. Fallon",
+          "credentials": "PhD",
+          "affiliation": "Brown",
+          "role_fit": "Neuroscience translation",
+          "physician_led_fit": "scientific_only",
+          "evidence": "ip_bolden_musk",
+          "urls": [
+            "https://vivo.brown.edu/display/jfallonp"
+          ]
+        },
+        {
+          "rank": 5,
+          "name": "David Borton",
+          "credentials": "PhD",
+          "affiliation": "Brown",
+          "role_fit": "Neural engineering",
+          "physician_led_fit": "scientific_only",
+          "evidence": "Brown neurotech",
+          "urls": [
+            "https://vivo.brown.edu/display/dborton"
+          ]
+        }
+      ],
+      "evidence": "WO2025171161A1"
+    },
+    "gap_rih_motile_cell_msk": {
+      "entity": "RIH motile cell MSK repair",
+      "inventors_anchors": [
+        "Chathuraka Teekshana Jayasuriya",
+        "Jay Trivedi"
+      ],
+      "kols": [
+        {
+          "rank": 1,
+          "name": "Paul Y. Liu",
+          "credentials": "MD FACS",
+          "affiliation": "Brown; Pax",
+          "role_fit": "Hand/MSK surgery KOL",
+          "physician_led_fit": "high",
+          "evidence": "ip_pax_aav_vegf_tendon",
+          "urls": [
+            "https://www.paxtherapeutics.com/"
+          ]
+        },
+        {
+          "rank": 2,
+          "name": "Jin Bo Tang",
+          "credentials": "MD",
+          "affiliation": "Pax advisor",
+          "role_fit": "Tendon outcomes KOL",
+          "physician_led_fit": "high",
+          "evidence": "Flexor tendon expertise",
+          "urls": [
+            "https://www.paxtherapeutics.com/the-science"
+          ]
+        },
+        {
+          "rank": 3,
+          "name": "Dom Messerli",
+          "credentials": "\u2014",
+          "affiliation": "Lenoss",
+          "role_fit": "Spine/ortho entrepreneur peer",
+          "physician_led_fit": "low",
+          "evidence": "ip_osteopearl_vcf_lenoss",
+          "urls": [
+            "https://lenoss.com/"
+          ]
+        },
+        {
+          "rank": 4,
+          "name": "Jeffrey R. Morgan",
+          "credentials": "PhD",
+          "affiliation": "Brown/XM",
+          "role_fit": "Matrix biology peer",
+          "physician_led_fit": "scientific_only",
+          "evidence": "ip_ecm_morsels_xm",
+          "urls": [
+            "https://vivo.brown.edu/display/jrmorgan"
+          ]
+        },
+        {
+          "rank": 5,
+          "name": "Jack A. Elias",
+          "credentials": "MD",
+          "affiliation": "Brown",
+          "role_fit": "Translational medicine",
+          "physician_led_fit": "low",
+          "evidence": "RI physician-scientist network",
+          "urls": [
+            "https://vivo.brown.edu/display/jaelias"
+          ]
+        }
+      ],
+      "evidence": "PMID36312551; R01AR080726"
+    },
+    "gap_rih_ecm_joint_repair": {
+      "entity": "RIH ECM joint repair",
+      "inventors_anchors": [
+        "Chathuraka Teekshana Jayasuriya",
+        "Daniel S. Yang"
+      ],
+      "kols": [
+        {
+          "rank": 1,
+          "name": "Paul Y. Liu",
+          "credentials": "MD FACS",
+          "affiliation": "Brown Surgery",
+          "role_fit": "Joint/tendon clinical KOL",
+          "physician_led_fit": "high",
+          "evidence": "MSK RI ecosystem",
+          "urls": [
+            "https://vivo.brown.edu/display/pl8"
+          ]
+        },
+        {
+          "rank": 2,
+          "name": "Jeffrey R. Morgan",
+          "credentials": "PhD",
+          "affiliation": "Brown/XM",
+          "role_fit": "ECM platform peer\u2014FOU diligence",
+          "physician_led_fit": "scientific_only",
+          "evidence": "ip_ecm_morsels_xm",
+          "urls": [
+            "https://vivo.brown.edu/display/jrmorgan"
+          ]
+        },
+        {
+          "rank": 3,
+          "name": "Jin Bo Tang",
+          "credentials": "MD",
+          "affiliation": "Hand surgery",
+          "role_fit": "Orthopedic clinical outcomes",
+          "physician_led_fit": "high",
+          "evidence": "Pax network",
+          "urls": [
+            "https://www.paxtherapeutics.com/"
+          ]
+        },
+        {
+          "rank": 4,
+          "name": "Dom Messerli",
+          "credentials": "\u2014",
+          "affiliation": "Lenoss",
+          "role_fit": "Spine MSK devices",
+          "physician_led_fit": "low",
+          "evidence": "Lenoss Series A",
+          "urls": [
+            "https://lenoss.com/"
+          ]
+        },
+        {
+          "rank": 5,
+          "name": "Qian Chen",
+          "credentials": "PhD",
+          "affiliation": "NanoDe",
+          "role_fit": "Delivery/materials peer",
+          "physician_led_fit": "scientific_only",
+          "evidence": "Nanopieces ortho",
+          "urls": [
+            "https://nanodetherapeutics.com/"
+          ]
+        }
+      ]
+    },
+    "gap_rih_enhancer_rna_glioma": {
+      "entity": "RIH eRNA glioma therapeutics",
+      "inventors_anchors": [
+        "Nikolaos Tapinos",
+        "Blessing Akobundu"
+      ],
+      "kols": [
+        {
+          "rank": 1,
+          "name": "Howard P. Safran",
+          "credentials": "MD",
+          "affiliation": "Brown Health Cancer",
+          "role_fit": "Neuro-oncology trials",
+          "physician_led_fit": "high",
+          "evidence": "Cancer institute",
+          "urls": [
+            "https://www.brownhealth.org/providers/howard-p-safran-md"
+          ]
+        },
+        {
+          "rank": 2,
+          "name": "Wafik S. El-Deiry",
+          "credentials": "MD PhD",
+          "affiliation": "Lifespan/Brown",
+          "role_fit": "Oncology translational",
+          "physician_led_fit": "medium",
+          "evidence": "Precision oncology",
+          "urls": [
+            "https://wafik-el-deiry.com/"
+          ]
+        },
+        {
+          "rank": 3,
+          "name": "Stephen Salloway",
+          "credentials": "MD MS",
+          "affiliation": "Brown",
+          "role_fit": "CNS trial network",
+          "physician_led_fit": "medium",
+          "evidence": "Neuro trials",
+          "urls": [
+            "https://vivo.brown.edu/display/ssallowa"
+          ]
+        },
+        {
+          "rank": 4,
+          "name": "Lucas A. Salas",
+          "credentials": "MD MPH PhD",
+          "affiliation": "Dartmouth",
+          "role_fit": "Brain tumor epi peer",
+          "physician_led_fit": "medium",
+          "evidence": "gap_christensen_epigenetics",
+          "urls": [
+            "https://geiselmed.dartmouth.edu/epidemiology/profile/lucas-salas-md-mph-phd/"
+          ]
+        },
+        {
+          "rank": 5,
+          "name": "Alan Kersey",
+          "credentials": "\u2014",
+          "affiliation": "OncoLux",
+          "role_fit": "Surgical oncology imaging peer",
+          "physician_led_fit": "low",
+          "evidence": "ip_oncolux_lumis",
+          "urls": [
+            "https://oncoluxinc.com/"
+          ]
+        }
+      ]
+    },
+    "gap_rih_lpa_therapeutic": {
+      "entity": "RIH Lp(a) therapeutics",
+      "inventors_anchors": [
+        "Wenliang Song",
+        "Siarhei Salamevich"
+      ],
+      "kols": [
+        {
+          "rank": 1,
+          "name": "Frank W. Sellke",
+          "credentials": "MD",
+          "affiliation": "Brown Health CV",
+          "role_fit": "Cardiovascular outcomes KOL",
+          "physician_led_fit": "high",
+          "evidence": "Cardiac surgery research",
+          "urls": [
+            "https://vivo.brown.edu/display/fsellke"
+          ]
+        },
+        {
+          "rank": 2,
+          "name": "Mark A. Turco",
+          "credentials": "MD",
+          "affiliation": "RI Life Science Hub",
+          "role_fit": "Cardio metabolic network",
+          "physician_led_fit": "medium",
+          "evidence": "RI clinical ecosystem",
+          "urls": [
+            "https://www.rilifescience.com/"
+          ]
+        },
+        {
+          "rank": 3,
+          "name": "Jack A. Elias",
+          "credentials": "MD",
+          "affiliation": "Brown",
+          "role_fit": "Pulmonary-vascular interface",
+          "physician_led_fit": "medium",
+          "evidence": "Vascular biology",
+          "urls": [
+            "https://vivo.brown.edu/display/jaelias"
+          ]
+        },
+        {
+          "rank": 4,
+          "name": "Mitchell M. Levy",
+          "credentials": "MD",
+          "affiliation": "Brown",
+          "role_fit": "Critical care cardiology",
+          "physician_led_fit": "medium",
+          "evidence": "RI hospital medicine",
+          "urls": [
+            "https://vivo.brown.edu/display/mlevymd"
+          ]
+        },
+        {
+          "rank": 5,
+          "name": "Howard P. Safran",
+          "credentials": "MD",
+          "affiliation": "Brown Health",
+          "role_fit": "Clinical trials infrastructure",
+          "physician_led_fit": "low",
+          "evidence": "Oncology-cardio",
+          "urls": [
+            "https://www.brownhealth.org/providers/howard-p-safran-md"
+          ]
+        }
+      ],
+      "evidence": "R01HL159204; WO2025245119A1"
+    }
+  },
+  "url_audit_note": "KOL profile URLs verified/corrected via web search (Jun 2026): Brown Vivo slugs (jdonoghu, jaelias, jrmorgan, mlevymd, pl8); Ashley Webb Brown Biomed page; Brock Christensen Dartmouth lab; Peter Snyder URI Pharmacy; Corey Ventetuolo Brown Health slug."
+}

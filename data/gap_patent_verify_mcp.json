@@ -1,0 +1,399 @@
+{
+  "via": "patent-mcp-server (same as uspto-patents MCP)",
+  "ppubs": {
+    "hitimed": {
+      "query": "HiTIMED.ti.",
+      "count": 0,
+      "rows": [],
+      "top_keys": [
+        "success",
+        "source",
+        "count",
+        "total",
+        "offset",
+        "limit",
+        "has_more",
+        "results"
+      ]
+    },
+    "christensen_dartmouth": {
+      "query": "IN/\"Christensen\" AND AN/\"Dartmouth\"",
+      "error": true,
+      "message": "{\"status\":\"INTERNAL_SERVER_ERROR\",\"message\":\"An unexpected error occurred.\",\"developerMessage\":\"Unable to Process\"}",
+      "status_code": 500
+    },
+    "eldeiry_smurf": {
+      "query": "IN/\"El-Deiry\" AND SMURF.ti.",
+      "error": true,
+      "message": "{\"status\":\"INTERNAL_SERVER_ERROR\",\"message\":\"An unexpected error occurred.\",\"developerMessage\":\"Unable to Process\"}",
+      "status_code": 500
+    },
+    "petzschner": {
+      "query": "IN/\"Petzschner\"",
+      "error": true,
+      "message": "{\"status\":\"INTERNAL_SERVER_ERROR\",\"message\":\"An unexpected error occurred.\",\"developerMessage\":\"Unable to Process\"}",
+      "status_code": 500
+    },
+    "garbern_sepsis": {
+      "query": "IN/\"Garbern\" AND sepsis.ti.",
+      "error": true,
+      "message": "{\"status\":\"INTERNAL_SERVER_ERROR\",\"message\":\"An unexpected error occurred.\",\"developerMessage\":\"Unable to Process\"}",
+      "status_code": 500
+    },
+    "levine_brown": {
+      "query": "IN/\"Levine\" AND AN/\"Brown\"",
+      "error": true,
+      "message": "{\"status\":\"INTERNAL_SERVER_ERROR\",\"message\":\"An unexpected error occurred.\",\"developerMessage\":\"Unable to Process\"}",
+      "status_code": 500
+    },
+    "howard_bci": {
+      "query": "IN/\"Howard\" AND (BCI OR implant).ti.",
+      "error": true,
+      "message": "{\"status\":\"INTERNAL_SERVER_ERROR\",\"message\":\"An unexpected error occurred.\",\"developerMessage\":\"Unable to Process\"}",
+      "status_code": 500
+    },
+    "kersey": {
+      "query": "IN/\"Kersey\" AND fluorescence.ti.",
+      "error": true,
+      "message": "{\"status\":\"INTERNAL_SERVER_ERROR\",\"message\":\"An unexpected error occurred.\",\"developerMessage\":\"Unable to Process\"}",
+      "status_code": 500
+    }
+  },
+  "odp": {
+    "eldeiry_smurf_odp": {
+      "kwargs": {
+        "inventor_name": "El-Deiry",
+        "query": "SMURF"
+      },
+      "error": {
+        "error": true,
+        "message": "Not Found",
+        "status_code": 404
+      }
+    },
+    "garbern": {
+      "kwargs": {
+        "inventor_name": "Garbern"
+      },
+      "total": 2,
+      "count": 2,
+      "rows": [
+        {
+          "app": null,
+          "title": "CARDIOMYOCYTES AND COMPOSITIONS AND METHODS FOR PRODUCING THE SAME",
+          "inventor": "JESSICA GARBERN",
+          "filing": "2022-03-29",
+          "status": 218,
+          "applicants": [
+            "THE CHILDREN'S MEDICAL CENTER CORPORATION",
+            "PRESIDENT AND FELLOWS OF HARVARD COLLEGE"
+          ]
+        },
+        {
+          "app": null,
+          "title": "WEAK REFERENCES OF ALLOCATED LOGICAL CLUSTERS",
+          "inventor": "GREGORY DAVID GARBERN",
+          "filing": "2021-10-27",
+          "status": 218,
+          "applicants": [
+            "MICROSOFT TECHNOLOGY LICENSING, LLC"
+          ]
+        }
+      ]
+    },
+    "levine_brown": {
+      "kwargs": {
+        "inventor_name": "Levine",
+        "assignee_name": "Brown University"
+      },
+      "error": {
+        "error": true,
+        "message": "Not Found",
+        "status_code": 404
+      }
+    },
+    "christensen": {
+      "kwargs": {
+        "inventor_name": "Christensen"
+      },
+      "total": 2904,
+      "count": 12,
+      "rows": [
+        {
+          "app": null,
+          "title": "METHODS FOR CONSTRUCTING ICE STRUCTURES",
+          "inventor": "Brent R. Christensen",
+          "filing": "2026-01-29",
+          "status": 30,
+          "applicants": [
+            "Ice Castles, LLC"
+          ]
+        },
+        {
+          "app": null,
+          "title": "CRAFTING APPARATUS",
+          "inventor": "John Barrus Christensen",
+          "filing": "2026-01-07",
+          "status": 30,
+          "applicants": [
+            "Cricut, Inc."
+          ]
+        },
+        {
+          "app": null,
+          "title": "ADIPOSE-DERIVED REGENERATIVE CELL PREPARATIONS",
+          "inventor": "Gitte Lund Christensen",
+          "filing": "2026-01-06",
+          "status": 41,
+          "applicants": [
+            "Blue Cell Therapeutics ApS"
+          ]
+        },
+        {
+          "app": null,
+          "title": "CONTROL SYSTEM FOR COLLECTING ELECTRICITY SENSOR AND DEVICE WIRELESS PAIRING DATA",
+          "inventor": "Scott Christensen",
+          "filing": "2025-12-15",
+          "status": 30,
+          "applicants": [
+            "State Farm Mutual Automobile Insurance Company"
+          ]
+        },
+        {
+          "app": null,
+          "title": "Process and plant for the production of synthesis gas and generation of process condensate",
+          "inventor": "Steffen Spangsberg CHRISTENSEN",
+          "filing": "2025-12-12",
+          "status": 30,
+          "applicants": [
+            "Topsoe A/S"
+          ]
+        },
+        {
+          "app": null,
+          "title": "PROCESS FOR THE PREPARATION OF METHANOL",
+          "inventor": "Troels Juel Friis-Christensen",
+          "filing": "2025-12-02",
+          "status": 17,
+          "applicants": [
+            "Topsoe A/S"
+          ]
+        },
+        {
+          "app": null,
+          "title": "ENGINE CONTROL SYSTEM AND METHODS",
+          "inventor": "Cord Miller Christensen",
+          "filing": "2025-11-24",
+          "status": 30,
+          "applicants": [
+            "Arctic Cat Inc."
+          ]
+        },
+        {
+          "app": null,
+          "title": "MODIFIED PEPTIDE FRAGMENTS OF CAV-1 PROTEIN AND THE USE THEREOF IN THE TREATMENT OF FIBROSIS",
+          "inventor": "Dale CHRISTENSEN",
+          "filing": "2025-11-13",
+          "status": 30,
+          "applicants": [
+            "Rein Therapeutics, Inc."
+          ]
+        },
+        {
+          "app": null,
+          "title": "SYSTEM AND METHOD FOR DAMPENING IMPACT TO A VEHICLE",
+          "inventor": "Scott T. Christensen",
+          "filing": "2025-11-10",
+          "status": 30,
+          "applicants": [
+            "STATE FARM MUTUAL AUTOMOBILE INSURANCE COMPANY"
+          ]
+        },
+        {
+          "app": null,
+          "title": "CLOUD BASED SERVICE FOR CUSTOMER ENTERPRISES",
+          "inventor": "Yann Christensen",
+          "filing": "2025-11-03",
+          "status": 30,
+          "applicants": [
+            "Cisco Technology, Inc."
+          ]
+        },
+        {
+          "app": null,
+          "title": "ATR-BASED HYDROGEN PROCESS AND PLANT",
+          "inventor": "Steffen Spangsberg CHRISTENSEN",
+          "filing": "2025-10-22",
+          "status": 30,
+          "applicants": [
+            "HALDOR TOPS\u00d8E A/S"
+          ]
+        },
+        {
+          "app": null,
+          "title": "TREATING IRON DEFICIENCY WITH FERRIC CARBOXYMALTOSE",
+          "inventor": "Tobias Sidelmann CHRISTENSEN",
+          "filing": "2025-10-17",
+          "status": 37,
+          "applicants": [
+            "PHARMACOSMOS HOLDING A/S"
+          ]
+        }
+      ]
+    },
+    "petzschner": {
+      "kwargs": {
+        "inventor_name": "Petzschner"
+      },
+      "error": {
+        "error": true,
+        "message": "Not Found",
+        "status_code": 404
+      }
+    },
+    "howard": {
+      "kwargs": {
+        "inventor_name": "Howard",
+        "query": "implant"
+      },
+      "total": 77,
+      "count": 12,
+      "rows": [
+        {
+          "app": null,
+          "title": "KINETIC INTELLIGENT WIRELESS IMPLANT",
+          "inventor": "Newton Howard",
+          "filing": "2026-01-15",
+          "status": 41,
+          "applicants": [
+            "Genesis Intelligence, LLC"
+          ]
+        },
+        {
+          "app": null,
+          "title": "KINETIC INTELLIGENT WIRELESS IMPLANT",
+          "inventor": "Newton Howard",
+          "filing": "2025-12-11",
+          "status": 41,
+          "applicants": [
+            "Genesis Intelligence, LLC"
+          ]
+        },
+        {
+          "app": null,
+          "title": "SILICONE BREAST IMPLANT DELIVERY",
+          "inventor": "Howard E. Preissman",
+          "filing": "2025-01-02",
+          "status": 30,
+          "applicants": [
+            "Keller Medical, Inc."
+          ]
+        },
+        {
+          "app": null,
+          "title": "SILICONE BREAST IMPLANT DELIVERY",
+          "inventor": "Howard E. Preissman",
+          "filing": "2024-01-17",
+          "status": 161,
+          "applicants": [
+            "Keller Medical, Inc."
+          ]
+        },
+        {
+          "app": null,
+          "title": "DEVICE AND METHOD FOR BIOELECTRIC STIMULATION ACCELERATING BONE INTEGRATION INTO IMPLANT HEALING",
+          "inventor": "Howard J. Leonhardt",
+          "filing": "2023-03-20",
+          "status": 161,
+          "applicants": [
+            "Leonhardt Ventures LLC"
+          ]
+        },
+        {
+          "app": null,
+          "title": "TRANSDERMALLY POWERED MR-CONDITIONAL MEDICAL IMPLANT INFLATOR SYSTEM",
+          "inventor": "Howard S. NEWMAN",
+          "filing": "2023-01-10",
+          "status": 150,
+          "applicants": [
+            "MHN Biotech LLC"
+          ]
+        },
+        {
+          "app": null,
+          "title": "DEVICE AND METHOD FOR BIOELECTRIC STIMULATION ACCELERATING BONE INTEGRATION INTO IMPLANT HEALING",
+          "inventor": "Howard J. Leonhardt",
+          "filing": "2022-03-18",
+          "status": 159,
+          "applicants": [
+            "LEONHARDT VENTURES LLC"
+          ]
+        },
+        {
+          "app": null,
+          "title": "TRANSDERMALLY POWERED MR-CONDITIONAL MEDICAL IMPLANT INFLATOR SYSTEM",
+          "inventor": "Howard S. Newman",
+          "filing": "2021-07-02",
+          "status": 150,
+          "applicants": [
+            "MHN Biotech LLC"
+          ]
+        },
+        {
+          "app": null,
+          "title": "TRANSCRANIAL KINETIC INTELLIGENT WIRELESS IMPLANT",
+          "inventor": "Newton Howard",
+          "filing": "2021-05-12",
+          "status": 159,
+          "applicants": []
+        },
+        {
+          "app": null,
+          "title": "KINETIC INTELLIGENT WIRELESS IMPLANT/NEURONS ON AUGMENTED HUMAN",
+          "inventor": "Newton Howard",
+          "filing": "2021-03-11",
+          "status": 30,
+          "applicants": [
+            "Genesis Intelligence, LLC"
+          ]
+        },
+        {
+          "app": null,
+          "title": "KINETIC INTELLIGENT WIRELESS IMPLANT/NEURONS ON AUGMENTED HUMAN",
+          "inventor": "Newton Howard",
+          "filing": "2021-02-14",
+          "status": 61,
+          "applicants": [
+            "Genesis Intelligence, LLC"
+          ]
+        },
+        {
+          "app": null,
+          "title": "Kinetic Intelligent Wireless Implant",
+          "inventor": "Newton Howard",
+          "filing": "2021-02-01",
+          "status": 159,
+          "applicants": []
+        }
+      ]
+    }
+  },
+  "lookup": {
+    "US-20250372198-A1": {
+      "keys": [
+        "error",
+        "message",
+        "status_code",
+        "error_code"
+      ]
+    },
+    "EP4505463A1": {
+      "keys": [
+        "error",
+        "message",
+        "status_code",
+        "error_code"
+      ]
+    }
+  }
+}

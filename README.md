@@ -2,11 +2,32 @@
 
 Research and patent intelligence for Rhode Island’s technology landscape.
 
+## Interactive opportunity atlas (Next.js + shadcn)
+
+**[RI Life Science Opportunity Atlas](http://localhost:3000)** — exhaustive, IP-backed diligence for physician-led formation and early-stage investors: comparables matrix, **33** asset dossiers (19 `ip_*` + 14 `gap_*`) with citation chips (NIH, USPTO, PubMed, trials), Slater formation policy, and KOL directory.
+
+```bash
+cd apps/atlas && npm install && npm run dev
+```
+
+Open [http://localhost:3000](http://localhost:3000). Data loads from `data/*.json` (including `ri_comparables_matrix.json`).
+
+**Production (BioticaBio):** [bioticabio.com/ri-life-science-atlas](https://bioticabio.com/ri-life-science-atlas) — deployed via Vercel project `ri-life-science-atlas`, proxied from the main BioticaBio site (same pattern as `/ev-atlas`).
+
+```bash
+cd apps/atlas && npm run build   # prebuild copies ../../data → apps/atlas/data
+vercel --prod                    # from repo root (see vercel.json)
+```
+
+---
+
 ## Investment diligence report
 
-Citation-backed early-stage life sciences diligence (publications, trials, 57 RI-linked patents, company map, and RI expert directory):
+Citation-backed early-stage life sciences diligence (publications, trials, **105** RI-linked patents, company map, and RI expert directory):
 
-**[docs/RI_LIFE_SCIENCE_INVESTMENT_DILIGENCE_REPORT.md](docs/RI_LIFE_SCIENCE_INVESTMENT_DILIGENCE_REPORT.md)** (v2.1 — 12 patent-defined investable assets, 16 grant-correlated themes, OTL/academic IP framing)
+- **[docs/RI_VENTURE_DILIGENCE_MEMORANDUM.md](docs/RI_VENTURE_DILIGENCE_MEMORANDUM.md)** (v2.4 — **33** opportunity units: quantitative/qualitative crystallization profiles, comparables, benchmark paths)
+- **[docs/RI_LIFE_SCIENCE_OPPORTUNITY_ATLAS.md](docs/RI_LIFE_SCIENCE_OPPORTUNITY_ATLAS.md)** (v2.3 — **19** patent-based opportunities + **4** grant gaps; full §5/§6 cards, markets, physician-led + KOL)
+- **[docs/RI_LIFE_SCIENCE_INVESTMENT_DILIGENCE_REPORT.md](docs/RI_LIFE_SCIENCE_INVESTMENT_DILIGENCE_REPORT.md)** (v2.5 — extended grants, trials, patent annex; §4.9 physician-led financing)
 
 Grant data:
 
@@ -16,6 +37,9 @@ python3 scripts/fetch_nih_grants.py   # → data/ri_grants_nih.json
 
 - Matrix: `data/ri_funding_matrix.json`
 - Patent-defined opportunities: `data/ri_patent_investment_opportunities.json`
+- Physician-led / Slater match: `data/ri_physician_led_financing.json` (Slater seed **$200K–$400K**, **third-party match required**; ecosystem stack includes **RI Commerce** vouchers, **Innovate RI (STAC) SBIR match**, **RILSH** Lift/Catalyst)
+- Physician KOL directory (5 KOLs × 33 assets): **[docs/RI_PHYSICIAN_KOL_DIRECTORY.md](docs/RI_PHYSICIAN_KOL_DIRECTORY.md)** · `data/ri_kol_directory.json`
+- Comparables matrix (venture memo §3): `data/ri_comparables_matrix.json` → `/compare` in the atlas app
 
 ## Rate-limited patent research
 
@@ -80,21 +104,25 @@ PatentsView live API tools in this server are **shut down** (March 2026); use PP
 2. **Optional ODP key** (recommended for assignee/inventor metadata):
    - Account at [data.uspto.gov](https://data.uspto.gov) → **My ODP** → copy API key.
    - `cp .env.example .env` and set `USPTO_API_KEY=...`
-3. Reload Cursor; approve **uspto-patents** under Tools & MCP.
+3. **Reload Cursor** (Cmd+Shift+P → “Reload Window”, or quit and reopen).
+4. **Tools & MCP** → enable **uspto-patents** (must show green).
 
-Config in this repo:
+Config in this repo (`.cursor/mcp.json`):
 
 ```json
 {
   "mcpServers": {
     "uspto-patents": {
-      "command": "/opt/homebrew/bin/uvx",
-      "args": ["--python", "3.12", "patent-mcp-server"],
-      "envFile": "${workspaceFolder}/.env"
+      "type": "stdio",
+      "command": "${workspaceFolder}/scripts/run_uspto_patent_mcp.sh"
     }
   }
 }
 ```
+
+The `"type": "stdio"` field is required — without it Cursor may not register the server. The launcher script sources `.env` then runs `uvx patent-mcp-server`.
+
+Verify locally: `./scripts/test_patent_mcp.sh`. In Cursor: **Output → MCP Logs** if the server fails to start.
 
 ### Typical workflow (agent)
 

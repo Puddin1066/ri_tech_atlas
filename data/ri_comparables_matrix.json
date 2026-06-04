@@ -1,0 +1,768 @@
+{
+  "version": "1.5",
+  "updated_at": "2026-06-04T20:58:53+00:00",
+  "source": "docs/RI_VENTURE_DILIGENCE_MEMORANDUM.md \u00a73",
+  "rows": [
+    {
+      "asset_id": "ip_iaip_neonatal",
+      "market": "Sepsis diagnostics is marching toward ~$1.8B globally by 2030 (Grand View Research), with neonatal sepsis called out as a high-mortality segment where faster biomarkers beat culture turnaround. Host-response platforms like MeMed (>$200M raised) and biologic players like Inotrem (Phase 3) show investors will fund both Dx and therapy in the NICU.",
+      "sam": "Neonatal sepsis: IAIP biologic + rapid LFIA at the bedside\u2014not another 48-hour blood culture workflow.",
+      "comparables": [
+        {
+          "name": "Inotrem",
+          "financing": "\u20ac39\u201358M Series B",
+          "path": "Biologic Phase 3",
+          "url": "https://www.globenewswire.com/news-release/2025/07/23/3120247/0/en/Inotrem-Unveils-Game-Changing-Precision-Medicine-Strategy-for-Nangibotide-Clinical-Development-in-Septic-Shock.html"
+        },
+        {
+          "name": "MeMed",
+          "financing": ">$200M; $93M Series E (2022)",
+          "path": "510(k) Dx parallel",
+          "url": "https://www.me-med.com/"
+        }
+      ],
+      "comparable_financing": "Inotrem \u20ac39\u201358M B; MeMed >$200M",
+      "benchmark_path": "Biologic Phase 3 / 510(k) Dx parallel",
+      "ri_path": "SBIR \u2192 Series A",
+      "ri_round": "$5\u201310M A"
+    },
+    {
+      "asset_id": "ip_ecm_morsels_xm",
+      "market": "Cardiac remodeling and injectable matrix therapies sit inside a multi-billion regenerative cardiology wave\u2014Heartseed (~$41M Series B, 2024) and historical Ventrix matrix programs validate investor appetite for preclinical\u2192IND cell/matrix plays. XM Therapeutics already proved a Slater-backed RI path for injectable ECM in Providence.",
+      "sam": "Injectable ECM morsels for ventricular remodeling\u2014Brown/XM field-of-use and large-animal PoC are the gates.",
+      "comparables": [
+        {
+          "name": "Heartseed",
+          "financing": "~$41M Series B (2024)",
+          "path": "iPSC preclinical \u2192 IND",
+          "url": "https://www.heartseed.jp/en/"
+        },
+        {
+          "name": "Ventrix",
+          "financing": "Historical Phase 2",
+          "path": "Matrix gel cardiac",
+          "url": "https://ventrixbio.com/"
+        }
+      ],
+      "comparable_financing": "Heartseed ~$41M B (2024)",
+      "benchmark_path": "iPSC / matrix preclinical \u2192 IND",
+      "ri_path": "Slater $375K \u2192 large-animal \u2192 A",
+      "ri_round": "$15\u201330M A"
+    },
+    {
+      "asset_id": "ip_nanopieces_rna",
+      "market": "Genetic medicines are a trillion-dollar narrative, but the venture heat is in delivery: extrahepatic LNPs are forecast toward ~$4.7B by 2030 (Research and Markets, ~21% CAGR) as siRNA and gene editors escape liver-only tropism. Aera\u2019s $193M raise is the comp; Generation Bio\u2019s restructuring is the cautionary tale on non-viral scale-up.",
+      "sam": "NanoDe non-viral RNA particles\u2014ortho/cartilage first, extrahepatic positioning vs liver-default LNPs.",
+      "comparables": [
+        {
+          "name": "Aera Therapeutics",
+          "financing": "$193M A+B (2023)",
+          "path": "Extrahepatic LNP/PNP \u2192 IND",
+          "url": "https://aeratx.com/"
+        },
+        {
+          "name": "Eascra Biotech",
+          "financing": "~$2.2M grants (NASA $1.8M, NSF SBIR)",
+          "path": "JBNp ortho / cartilage preclinical",
+          "url": "https://eascrabiotech.com/"
+        },
+        {
+          "name": "Generation Bio",
+          "financing": "Restructure 2023 \u2192 XOMA 2025",
+          "path": "Non-viral scale-up caution",
+          "url": "https://www.generationbio.com/"
+        }
+      ],
+      "comparable_financing": "Aera $193M; Eascra ~$2.2M grants; GBIO \u2192 XOMA 2025",
+      "benchmark_path": "STTR/grants \u2192 ortho IND-enabling \u2192 A",
+      "ri_path": "STTR \u2192 Slater $200\u2013400K + match \u2192 A",
+      "ri_round": "$1\u20133M total seed"
+    },
+    {
+      "asset_id": "ip_chitinase_ocf203",
+      "market": "IPF pharmacotherapy is a ~$5\u20137B global market by 2030 (Grand View Research / TBRC) with entrenched antifibrotics\u2014and fresh pain when programs like Pliant\u2019s bexotegrast halt. CHIT1/CHI3L1 biology offers a differentiated anti-fibrotic angle if tox and biomarker strategy are crisp.",
+      "sam": "CHIT1/CHI3L1 small-molecule or biologic for fibrosis\u2014license-first path after P01-enabling data.",
+      "comparables": [
+        {
+          "name": "Pliant Therapeutics",
+          "financing": "Public; bexotegrast halted 2025",
+          "path": "IPF small molecule",
+          "url": "https://pliantrx.com/"
+        },
+        {
+          "name": "Boehringer Ingelheim",
+          "financing": "Commercial IPF leaders",
+          "path": "Approved antifibrotics",
+          "url": "https://public.boehringer-ingelheim.com/uk/products/ofev-nintedanib-esilate-idiopathic-pulmonary-fibrosis"
+        }
+      ],
+      "comparable_financing": "Pliant public; bexotegrast halted 2025",
+      "benchmark_path": "P01 \u2192 license \u2192 IND tox",
+      "ri_path": "License diligence \u2192 seed newco",
+      "ri_round": "Slater $200\u2013400K + match"
+    },
+    {
+      "asset_id": "ip_dendritic_ad_mindimmune",
+      "market": "Alzheimer\u2019s therapeutics is re-rating: analysts peg ~$9\u201315B by 2030 as anti-amyloid biologics and early Dx reshape the funnel (Grand View Research; FDA cleared first blood p-tau test in 2025). Peripheral innate blockade (MindImmune $30M Series A, 2025) competes in a market where mechanism and trial design matter as much as TAM.",
+      "sam": "Peripheral innate immune blockade for AD\u2014Brown spinout adjacent to MindImmune\u2019s CNS-penetrant path.",
+      "comparables": [
+        {
+          "name": "Alector",
+          "financing": "$100M+ rounds",
+          "path": "IND \u2192 Phase 1",
+          "url": "https://www.alector.com/"
+        },
+        {
+          "name": "MindImmune",
+          "financing": "$30M A (2025)",
+          "path": "MITI-101 \u2192 Phase 1",
+          "url": "https://www.mindimmune.com/"
+        }
+      ],
+      "comparable_financing": "MindImmune $30M A; Alector $100M+",
+      "benchmark_path": "IND \u2192 Phase 1 biomarkers",
+      "ri_path": "Post-A \u2192 Phase 1 FIH",
+      "ri_round": "Co-invest"
+    },
+    {
+      "asset_id": "ip_wireless_neurograins",
+      "market": "Brain\u2013computer interfaces are scaling from lab curiosity to ~$4.7B by 2030 (~14% CAGR, The Business Research Company) as assistive communication and neuromodulation go clinical. WEF cites ~$6.2B by 2030 with invasive clinical BCIs and consumer EEG both pulling capital.",
+      "sam": "Wireless neurograin mesh for distributed cortical recording\u2014DARPA heritage, Brown neuroengineering.",
+      "comparables": [
+        {
+          "name": "Paradromics",
+          "financing": "~$121M",
+          "path": "DARPA \u2192 IDE",
+          "url": "https://www.paradromics.com/"
+        },
+        {
+          "name": "Blackrock Neurotech",
+          "financing": "$200M (2024)",
+          "path": "Implant commercial",
+          "url": "https://blackrockneurotech.com/"
+        }
+      ],
+      "comparable_financing": "Paradromics ~$121M; Blackrock $200M",
+      "benchmark_path": "DARPA \u2192 IDE \u2192 strategic",
+      "ri_path": "DARPA $19M \u2192 OTL spinout",
+      "ri_round": "Slater $200\u2013400K + match (+ SPV)"
+    },
+    {
+      "asset_id": "ip_speech_tablet_ibci",
+      "market": "Speech neuroprosthetics ride the same BCI tailwind (~$5B+ 2030, Emergen/WEF) but the nearer commercial proof points are tablet-based AAC and speech-BCI hybrids (Blackrock/BrainGate ecosystem). Stroke and ALS prevalence keep payer interest in communication restoration high.",
+      "sam": "Tablet speech BCI for paralysis\u2014decoding + AAC interface with lower surgical burden than full implants.",
+      "comparables": [
+        {
+          "name": "Synchron",
+          "financing": "~$345M; $200M D (2025)",
+          "path": "Endovascular trials",
+          "url": "https://synchron.com/"
+        },
+        {
+          "name": "Paradromics",
+          "financing": "~$121M",
+          "path": "Cortical implant",
+          "url": "https://www.paradromics.com/"
+        }
+      ],
+      "comparable_financing": "Synchron ~$345M",
+      "benchmark_path": "Trials \u2192 decode license SPV",
+      "ri_path": "U01/VA \u2192 FOU SPV",
+      "ri_round": "$3\u20138M SPV"
+    },
+    {
+      "asset_id": "ip_spinal_isi_dbs",
+      "market": "Spinal cord injury neuromodulation sits inside the broader neuromodulation and neurotech spend (BCI ~$4\u20136B 2030; spinal stimulation devices multi-billion medtech). ISI-triggered DBS concepts target autonomic and motor recovery niches where epidural stimulation has shown clinical signals.",
+      "sam": "ISI-pattern spinal DBS for SCI autonomic/motor goals\u2014device + algorithm package for neurosurgical partners.",
+      "comparables": [
+        {
+          "name": "ONWARD Medical",
+          "financing": "\u20ac50M (Oct 2024); ARC-EX cleared",
+          "path": "DARPA \u2192 IDE \u2192 Nasdaq path",
+          "url": "https://www.onwd.com/"
+        }
+      ],
+      "comparable_financing": "ONWARD \u20ac50M 2024",
+      "benchmark_path": "DARPA \u2192 IDE \u2192 strategic",
+      "ri_path": "ISI IDE \u2192 license/SPV",
+      "ri_round": "SPV / strategic"
+    },
+    {
+      "asset_id": "ip_biglycan_msk",
+      "market": "Duchenne and broader neuromuscular rare disease drugs are exploding toward ~$5\u201310B by 2030 (Grand View Research; gene therapy approvals like Elevidys reset pricing and access). Biglycan biology targets utrophin upregulation\u2014a complement to exon-skipping and gene therapy, not a me-too steroid.",
+      "sam": "Biglycan-mediated utrophin upregulation for DMD\u2014orphan biologic path with clear genetic stratification.",
+      "comparables": [
+        {
+          "name": "Sarepta",
+          "financing": "Commercial gene therapy",
+          "path": "DMD approved products",
+          "url": "https://www.sarepta.com/"
+        },
+        {
+          "name": "Solid Biosciences",
+          "financing": "Restructuring lessons",
+          "path": "Gene therapy caution",
+          "url": "https://www.solidbio.com/"
+        }
+      ],
+      "comparable_financing": "Sarepta commercial; Solid restructure",
+      "benchmark_path": "BRF OTL \u2192 IND \u2192 A",
+      "ri_path": "Academic \u2192 newco",
+      "ri_round": "Slater $200\u2013400K + match"
+    },
+    {
+      "asset_id": "ip_tregitope_immunomod",
+      "market": "Vaccine and immunomodulation platforms remain a ~$50B+ fragmented global market, but venture checks flow to de-risked adjuvant and tolerance mechanisms with human ex vivo data. EpiVax Tregitope science anchors computational immunogenicity\u2014a licensable wedge for biologics and vaccine sponsors.",
+      "sam": "Tregitope tolerogenic peptides\u2014partner licenses for immunogenicity reduction, not standalone vaccine SKU.",
+      "comparables": [
+        {
+          "name": "AbCellera",
+          "financing": "~$555M IPO",
+          "path": "Platform \u2192 therapeutics",
+          "url": "https://www.abcellera.com/"
+        },
+        {
+          "name": "Absci",
+          "financing": "$86M + AZ $247M deal",
+          "path": "AI biologic discovery",
+          "url": "https://www.absci.com/"
+        }
+      ],
+      "comparable_financing": "ABCL ~$555M IPO; ABSI + AZ $247M",
+      "benchmark_path": "Platform ARR \u2192 spinout",
+      "ri_path": "SBIR/U01 \u2192 spinout/strategic",
+      "ri_round": "Growth / strategic"
+    },
+    {
+      "asset_id": "ip_neural_decoding_legacy",
+      "market": "Neural decoding IP bundles into the same BCI/SaMD opportunity (~$5B 2030) where acquirers pay for speech and motor decoding libraries ahead of full device approvals. Legacy Brown decoding patents are option value for neurotech strategics.",
+      "sam": "Legacy neural decoding patent package\u2014out-license to speech-BCI or neuromodulation platforms.",
+      "comparables": [
+        {
+          "name": "BrainGate",
+          "financing": "Consortium / non-dilutive",
+          "path": "FOU licenses",
+          "url": "https://www.braingate.org/"
+        },
+        {
+          "name": "Blackrock Neurotech",
+          "financing": "Commercial ecosystem",
+          "path": "Royalty / sublicense",
+          "url": "https://blackrockneurotech.com/"
+        }
+      ],
+      "comparable_financing": "N/A (royalty)",
+      "benchmark_path": "Consortium \u2192 sublicense",
+      "ri_path": "Royalty / FOU only",
+      "ri_round": "N/A"
+    },
+    {
+      "asset_id": "ip_osteopearl_vcf_lenoss",
+      "market": "Vertebral compression fractures affect hundreds of thousands of patients annually in the U.S. alone; kyphoplasty/vertebroplasty devices and bone cements remain a steady medtech lane with Lenoss as the RI commercial anchor. Reimbursed procedures and ASC migration keep interest in differentiated cement/pearl technologies.",
+      "sam": "OsteoPearl VCF technology\u2014RI-based Lenoss commercialization vs commodity kyphoplasty cement.",
+      "comparables": [
+        {
+          "name": "Medtronic Kyphon",
+          "financing": "Strategic incumbent",
+          "path": "PMMA standard of care",
+          "url": "https://www.medtronic.com/"
+        },
+        {
+          "name": "Lenoss Medical",
+          "financing": "~$4M A; ~$12.6M total cited",
+          "path": "J&J license \u2192 NEMIC \u2192 commercial",
+          "url": "https://lenoss.com/"
+        }
+      ],
+      "comparable_financing": "Lenoss ~$4M A",
+      "benchmark_path": "Registry + scale",
+      "ri_path": "Registry + scale",
+      "ri_round": "Growth"
+    },
+    {
+      "asset_id": "ip_af_mapping_ai",
+      "market": "Atrial fibrillation ablation is a growth procedure set: AF surgery/ablation markets forecast ~$5\u201313B by 2030 depending on scope (GII / Grand View ablation catheters ~$12B). CDC projects ~12.1M Americans with AF by 2030\u2014mapping AI that shortens fluoro time has clear hospital economics.",
+      "sam": "AI-assisted AF substrate mapping\u2014hospital efficiency play on top of EP ablation volume growth.",
+      "comparables": [
+        {
+          "name": "Volta Medical",
+          "financing": ">\u20ac90M; \u20ac36M B (2023)",
+          "path": "CE/FDA SaMD \u2192 Series B",
+          "url": "https://www.volta-medical.us/"
+        },
+        {
+          "name": "Acutus Medical",
+          "financing": "Historical caution",
+          "path": "AF mapping",
+          "url": "https://acutusmedical.com/us/technology/"
+        }
+      ],
+      "comparable_financing": "Volta >\u20ac90M",
+      "benchmark_path": "CE/FDA SaMD \u2192 Series B",
+      "ri_path": "Commercial expansion",
+      "ri_round": "Growth VC"
+    },
+    {
+      "asset_id": "ip_genomics_hans",
+      "market": "Structural variant detection is the gap NGS still struggles with; optical genome mapping is ~$200M today heading toward ~$566M by 2031 (Mordor Intelligence, ~23% CAGR). Nabsys electronic mapping (Hitachi-backed) competes on cost and resolution vs optical leaders like Bionano.",
+      "sam": "Nabsys electronic genome mapping\u2014strategic exit/licensing, not Slater-style de novo startup.",
+      "comparables": [
+        {
+          "name": "Bionano",
+          "financing": "$30.8M FY24 rev",
+          "path": "OGM commercial",
+          "url": "https://bionano.com/"
+        },
+        {
+          "name": "Hitachi / Nabsys",
+          "financing": "Hitachi majority 2024",
+          "path": "Strategic M&A",
+          "url": "https://www.nabsys.com/"
+        }
+      ],
+      "comparable_financing": "Bionano $30.8M FY24; Hitachi 2024",
+      "benchmark_path": "SBIR \u2192 strategic",
+      "ri_path": "Hitachi pull-through",
+      "ri_round": "M&A / royalty"
+    },
+    {
+      "asset_id": "ip_ect_ophthalmology",
+      "market": "Retinal and anterior-segment device markets remain niche but durable: ECT-related ophthalmic platforms target surgical efficiency and outcomes in cataract/vitreoretinal workflows where single-product medtech exits are common. RI angle is license to an established ophthalmic commercial partner.",
+      "sam": "Electro-chemical ophthalmic technique\u2014partner license after clinical utility and regulatory class clarity.",
+      "comparables": [
+        {
+          "name": "Neurotech ENCELTO",
+          "financing": "Private; FDA 2025 MacTel",
+          "path": "Phase 3 \u2192 BLA \u2192 J-code",
+          "url": "https://www.neurotechpharmaceuticals.com/"
+        }
+      ],
+      "comparable_financing": "Private commercial",
+      "benchmark_path": "BLA \u2192 J3403",
+      "ri_path": "J3403 commercial",
+      "ri_round": "Royalty / M&A"
+    },
+    {
+      "asset_id": "gap_smurf2_oncology",
+      "market": "HIF pathway drugs went commercial with belzutifan (Welireg) in VHL-associated tumors, proving renal cell and HIF biology can support premium oncology pricing. SMURF2 sits adjacent as a degradation-pathway target\u2014venture interest follows if biomarker-selected solid tumor PoC emerges.",
+      "sam": "SMURF2 oncology target\u2014Brown biology; needs biomarker-defined tumor PoC before Series A scale.",
+      "comparables": [
+        {
+          "name": "Merck Welireg",
+          "financing": "~$199M/qtr (2026)",
+          "path": "Approved HIF-2\u03b1",
+          "url": "https://www.merck.com/"
+        },
+        {
+          "name": "Inotrem",
+          "financing": "\u20ac58M B (financing proxy)",
+          "path": "Biologic formation",
+          "url": "https://www.globenewswire.com/news-release/2025/07/23/3120247/0/en/Inotrem-Unveils-Game-Changing-Precision-Medicine-Strategy-for-Nangibotide-Clinical-Development-in-Septic-Shock.html"
+        }
+      ],
+      "comparable_financing": "Welireg commercial scale",
+      "benchmark_path": "R01 \u2192 biomarker \u2192 seed",
+      "ri_path": "SMURF-Tx spinout",
+      "ri_round": "Slater $200\u2013400K + match"
+    },
+    {
+      "asset_id": "gap_soma_dtx",
+      "market": "Digital chronic pain therapeutics are projected toward ~$15\u201322B by 2033 (Growth Market Reports, ~17\u201319% CAGR) as payers seek non-opioid, scalable behavioral + sensor programs. FDA\u2019s expanding DTx precedent lowers regulatory risk versus novel small molecules.",
+      "sam": "SOMA digital pain program\u2014Brown/RI clinical validation then reimbursement-first commercialization.",
+      "comparables": [
+        {
+          "name": "Kaia Health",
+          "financing": "$125M / $75M C",
+          "path": "DTx pivotal",
+          "url": "https://kaiahealth.com/"
+        },
+        {
+          "name": "Pear Therapeutics",
+          "financing": "Ch.11 2023 caution",
+          "path": "FDA DTx",
+          "url": "https://www.pursuecare.com/digital-therapeutics-pioneer-pears-treatments-get-a-second-life-a-year-after-bankruptcy/"
+        }
+      ],
+      "comparable_financing": "Kaia $125M; Pear Ch.11 2023",
+      "benchmark_path": "COBRE \u2192 SaMD pivotal",
+      "ri_path": "Carney \u2192 spinout",
+      "ri_round": "Seed post-pilot"
+    },
+    {
+      "asset_id": "ip_monaghan_deep_rna_dx",
+      "market": "Blood-based Alzheimer\u2019s diagnostics are the fastest-moving Dx lane: ~$530M by 2033 (~17% CAGR, Grand View Research) after FDA\u2019s 2025 clearance of plasma p-tau/A\u03b2 ratio tests. Deep RNA signatures from whole blood compete on workflow fit for health-system screening.",
+      "sam": "Deep RNA blood panel for AD risk/stratification\u2014Monaghan lab science vs plasma protein incumbents.",
+      "comparables": [
+        {
+          "name": "Karius",
+          "financing": ">$200M+ raised (blood microbial RNA)",
+          "path": "CLIA LDT \u2192 health-system adoption",
+          "url": "https://kariusdx.com/"
+        },
+        {
+          "name": "Day Zero Diagnostics",
+          "financing": ">$130M VC cited (blood culture acceleration)",
+          "path": "Genomic ID + AST",
+          "url": "https://www.biomerieux.com/us/en/journalists/press-releases/NGS-sequencing-acquisition-day-zero-diagnostics.html"
+        },
+        {
+          "name": "MeMed",
+          "financing": ">$200M; $93M Series E (2022)",
+          "path": "Host-response immuno-Dx",
+          "url": "https://www.me-med.com/"
+        }
+      ],
+      "comparable_financing": "Karius / Day Zero $100M+; MeMed host-response >$200M",
+      "benchmark_path": "R35 + ICU cohort \u2192 LDT validation \u2192 Series A",
+      "ri_path": "RIH license \u2192 physician-founder spinout \u2192 Slater $200\u2013400K + match",
+      "ri_round": "$3\u20138M seed"
+    },
+    {
+      "asset_id": "gap_christensen_epigenetics",
+      "market": "Tumor microenvironment and epigenetic reprogramming are core IO themes\u2014biomarker licensing and platform deals (not single-asset Ph3) dominate early academic oncology. Pharma pays for validated patient-selection signatures that de-risk combination trials.",
+      "sam": "Christensen TME epigenetics\u2014signature licensing to IO sponsors, not standalone drug launch.",
+      "comparables": [
+        {
+          "name": "CIBERSORTx",
+          "financing": "Software licensing",
+          "path": "Deconvolution SaaS",
+          "url": "https://cibersortx.stanford.edu/"
+        },
+        {
+          "name": "Epicypher",
+          "financing": "Reagent / epigenetics",
+          "path": "Commercial kits",
+          "url": "https://www.epicypher.com/"
+        }
+      ],
+      "comparable_financing": "Software / reagent models",
+      "benchmark_path": "R01 \u2192 pharma license",
+      "ri_path": "OTL stratification deal",
+      "ri_round": "Upfront + milestones"
+    },
+    {
+      "asset_id": "ip_bolden_musk_neurogenesis",
+      "market": "Neurogenesis and CNS biologics ride the AD therapeutics expansion (~$10B+ 2030) and broader neurodegeneration spend, but capital is selective post-anti-amyloid rollercoaster. ASO/small-molecule neurorestoration requires crisp target biology and biomarker strategy.",
+      "sam": "MUSK-pathway neurogenesis modulators\u2014Bolden lab CNS assets for license or disciplined seed.",
+      "comparables": [
+        {
+          "name": "Biogen/Ionis ASO franchise",
+          "financing": "Big-pharma CNS ASO",
+          "path": "Exon-skipping \u2192 approval",
+          "url": "https://www.biogen.com/"
+        },
+        {
+          "name": "MindImmune",
+          "financing": "$30M A (2025)",
+          "path": "AD innate immunity \u2192 Phase 1",
+          "url": "https://www.mindimmune.com/"
+        }
+      ],
+      "comparable_financing": "Slater + $1.5M pre-seed; NIA $500K STTR",
+      "benchmark_path": "OTL license \u2192 in vivo PoC \u2192 seed/Series A",
+      "ri_path": "Bolden: Brown license \u2192 NIA STTR \u2192 Slater",
+      "ri_round": "Slater $200\u2013400K + match"
+    },
+    {
+      "asset_id": "ip_pax_aav_vegf_tendon",
+      "market": "Soft-tissue injury burden is massive\u2014~17M U.S. tendon/ligament injuries annually with multi\u2011tens\u2011of\u2011billions in indirect cost\u2014while biologic ortho plays (PRP, allograft, gene therapy) consolidate. Local AAV-VEGF for tendon healing is a high-differentiation biologic if delivery and expression are controlled.",
+      "sam": "PAX3-driven AAV-VEGF tendon repair\u2014preclinical ortho biologic with gene therapy regulatory path.",
+      "comparables": [
+        {
+          "name": "Flexion Therapeutics (historical)",
+          "financing": "Acquired 2020",
+          "path": "Orthobiologic precedent",
+          "url": "https://zilretta.com/"
+        },
+        {
+          "name": "Organogenesis",
+          "financing": "Public commercial",
+          "path": "Soft-tissue repair devices",
+          "url": "https://www.organogenesis.com/"
+        }
+      ],
+      "comparable_financing": "~$1.7M seed; RILSH LIFT",
+      "benchmark_path": "Pre-IND \u2192 IND \u2192 hand flexor Phase 1",
+      "ri_path": "RIH spinout \u2192 IND \u2192 sports/ortho KOL",
+      "ri_round": "$5\u201315M Series A post-IND"
+    },
+    {
+      "asset_id": "ip_oncolux_lumis",
+      "market": "Fluorescence-guided surgery systems are forecast to ~$424M by 2034 (~13.5% CAGR, Insight Partners) as oncology resections demand better margins; intraoperative PDT adds a therapeutic layer NCI is actively trialing in colorectal recurrence. Dual FGS+PDT is the differentiated RI story.",
+      "sam": "OncoLux Lumis FGS + intraoperative PDT\u2014resection guidance plus residual-tumor kill in one workflow.",
+      "comparables": [
+        {
+          "name": "Medtronic / Covidien VISUALIZE",
+          "financing": "Strategic medtech",
+          "path": "Fluorescence-guided surgery",
+          "url": "https://www.medtronic.com/covidien/en-us/products/visualization-solutions/elevision-ir-platform.html"
+        },
+        {
+          "name": "Spectral MD (context)",
+          "financing": "Wound imaging",
+          "path": "Multispectral tissue imaging",
+          "url": "https://www.spectral-ai.com/"
+        }
+      ],
+      "comparable_financing": "RILSH attraction (undisclosed per co.)",
+      "benchmark_path": "Clinical validation \u2192 510(k)/PMA path TBD",
+      "ri_path": "CT\u2192RI \u2192 Mayo collaboration \u2192 growth",
+      "ri_round": "Growth equity / strategic"
+    },
+    {
+      "asset_id": "gap_ni2o_kiwi_bci",
+      "market": "Non-invasive BCI and neuromodulation for sleep/apnea and related conditions tap the same ~$5\u20136B BCI TAM (WEF / TBRC) but with consumer-grade form factors and shorter regulatory paths than implanted cortical arrays. Strategics buy optionality on EEG/fNIRS hybrids.",
+      "sam": "N\u2082O/Kiwi non-invasive neurostimulation\u2014wellness/clinical niche before invasive BCI capital intensity.",
+      "comparables": [
+        {
+          "name": "Paradromics",
+          "financing": "~$121M",
+          "path": "High-channel cortical IDE",
+          "url": "https://www.paradromics.com/"
+        },
+        {
+          "name": "Blackrock Neurotech",
+          "financing": "$200M (2024)",
+          "path": "Utah Array commercial",
+          "url": "https://blackrockneurotech.com/"
+        }
+      ],
+      "comparable_financing": "~$1.3M cited (verify)",
+      "benchmark_path": "Preclinical \u2192 IDE \u2192 partnership",
+      "ri_path": "Providence HQ; FTO vs Brown BCI",
+      "ri_round": "Strategic / large seed if RI IP found"
+    },
+    {
+      "asset_id": "gap_levine_pediatric_sepsis",
+      "market": "Hospital sepsis early-warning and AI prediction markets are racing toward ~$1.5\u20132.4B by 2030\u201333 (Research and Markets; MarketIntel) as health systems chase mortality and ICU cost avoidance. Pediatric wearables + ML are under-served vs adult Epic-integrated rules engines.",
+      "sam": "Pediatric sepsis wearable + ML\u2014prospective Bangladesh ICU data as bridge to U.S. SaMD pilot.",
+      "comparables": [
+        {
+          "name": "Epic sepsis models",
+          "financing": "EHR-embedded",
+          "path": "Health-system SaaS",
+          "url": "https://www.epic.com/epic/post/epics-director-of-nursing-discusses-new-research-on-its-sepsis-early-warning-model/"
+        },
+        {
+          "name": "PeraHealth (Rothman Index)",
+          "financing": "Acquired by Vocera",
+          "path": "Early warning scores",
+          "url": "https://spacelabshealthcare.com/about-us/perahealth-joins-the-spacelabs-family/"
+        }
+      ],
+      "comparable_financing": "Enterprise health IT",
+      "benchmark_path": "R33 LMIC validation \u2192 FDA SaMD \u2192 US pilot",
+      "ri_path": "Brown/RIH \u2192 digital health spinout",
+      "ri_round": "Grant-first; Slater after SaMD path"
+    },
+    {
+      "asset_id": "gap_uri_phlip_lnp",
+      "market": "Tumor-selective delivery is the bottleneck for innate agonists and genetic payloads: extrahepatic LNP platforms are projected ~$4.7B by 2030 (~21% CAGR). PHLIP\u2019s acid-targeted insertion is a mechanistic alternative to ligand-decorated LNPs (Aera $193M comp).",
+      "sam": "URI PHLIP peptide delivery for LNP/STING\u2014acid microenvironment selectivity vs systemic liver uptake.",
+      "comparables": [
+        {
+          "name": "Aera Therapeutics",
+          "financing": "$193M Series A+B (2023)",
+          "path": "Extrahepatic LNP \u2192 IND",
+          "url": "https://aeratx.com/"
+        },
+        {
+          "name": "pHLIP Therapeutics",
+          "financing": "Clinical-stage imaging",
+          "path": "Acidosis-targeted peptide delivery",
+          "url": "https://www.phlip.com/"
+        }
+      ],
+      "comparable_financing": "Aera $193M; pHLIP clinical imaging path",
+      "benchmark_path": "Rodent tumor delivery PoC \u2192 URI license",
+      "ri_path": "URI OTL \u2192 RI genetic-medicine spinout",
+      "ri_round": "Slater $200\u2013400K + match"
+    },
+    {
+      "asset_id": "gap_rih_salivary_ev_ad",
+      "market": "Alzheimer\u2019s blood diagnostics (~$530M by 2033, Grand View Research) just gained FDA legitimacy; salivary EV RNA is the next comfort-and-cost frontier versus plasma draws. Quanterix and C2N prove Dx platforms can raise $200M+ when biomarkers align with therapy trials.",
+      "sam": "Salivary EV liquid biopsy for AD\u2014non-invasive sample type with R01AG074284 analytical backbone.",
+      "comparables": [
+        {
+          "name": "Quanterix Simoa",
+          "financing": "Public (NASDAQ: QTRX)",
+          "path": "Ultra-sensitive blood immunoassays",
+          "url": "https://www.quanterix.com/"
+        },
+        {
+          "name": "C2N Diagnostics",
+          "financing": "VC-backed AD blood tests",
+          "path": "Plasma A\u03b2/tau commercialization",
+          "url": "https://c2ndiagnostics.com/"
+        }
+      ],
+      "comparable_financing": "Public Dx platforms; C2N VC path",
+      "benchmark_path": "Analytical validation \u2192 CLIA pilot",
+      "ri_path": "RIH/Brown license \u2192 Dx spinout",
+      "ri_round": "$3\u20138M seed"
+    },
+    {
+      "asset_id": "gap_rih_bx912_pulmonary_htn",
+      "market": "PAH pharmacotherapy is an ~$8\u201313B global market by 2030 (Grand View / Strategic Market Research) reshaped by 2024\u2019s first-in-class biologic approval (sotatercept). Small-molecule entrants need clear differentiation vs entrenched prostacyclin and ERA pathways.",
+      "sam": "BX-912 small-molecule PH\u2014RIH PCT asset; crowded market but visible regulatory benchmarks.",
+      "comparables": [
+        {
+          "name": "Merck Winrevair (sotatercept)",
+          "financing": "FDA-approved 2024",
+          "path": "Activin signaling PAH biologic",
+          "url": "https://www.merck.com/"
+        },
+        {
+          "name": "Liquidia Yutrepia",
+          "financing": "Commercial inhaled PH",
+          "path": "Treprostinil dry powder",
+          "url": "https://liquidia.com/"
+        }
+      ],
+      "comparable_financing": "Approved PAH benchmarks",
+      "benchmark_path": "PH model PoC \u2192 IND-enabling",
+      "ri_path": "RIH license \u2192 cardio therapeutics",
+      "ri_round": "Seed / Series A"
+    },
+    {
+      "asset_id": "gap_rih_pahtn_dx",
+      "market": "Cardiopulmonary risk stratification benefits from AF and PAH procedure growth (~$5B+ ablation TAM; PAH drugs ~$8B+). AI-augmented Dx (Eko $125M+) shows hospitals pay for earlier structural heart and PH signals in outpatient workflows.",
+      "sam": "PAH/SCD diagnostic panel\u2014mature RIH patent family; retrospective\u2192prospective validation drives value.",
+      "comparables": [
+        {
+          "name": "Eko Health",
+          "financing": "$125M+ raised",
+          "path": "AI cardiac auscultation FDA-cleared",
+          "url": "https://www.ekohealth.com/"
+        },
+        {
+          "name": "HeartTest Laboratories",
+          "financing": "Public micro-vascular Dx",
+          "path": "Endothelial function screening",
+          "url": "https://heartsciences.com/"
+        }
+      ],
+      "comparable_financing": "Cardio Dx VC / public comps",
+      "benchmark_path": "Retrospective cohort \u2192 prospective registry",
+      "ri_path": "RIH diagnostic license",
+      "ri_round": "License or seed Dx"
+    },
+    {
+      "asset_id": "gap_rih_bbb_nucleic_delivery",
+      "market": "CNS genetic medicines are strategic for every large pharma, while BBB delivery remains the gating risk\u2014Denali ATV and Voyager partnerships show billions flow to platforms that crack CNS exposure. Nucleic acid BBB tech is license/option economics, not retail therapeutics day one.",
+      "sam": "RIH BBB nucleic-acid delivery\u2014rodent PoC then gene-therapy partnership, not standalone pill.",
+      "comparables": [
+        {
+          "name": "Denali Therapeutics (ATV)",
+          "financing": "Big-pharma partnerships",
+          "path": "BBB transport vehicle biologics",
+          "url": "https://www.denalitherapeutics.com/"
+        },
+        {
+          "name": "Voyager Therapeutics",
+          "financing": "Strategic CNS gene therapy",
+          "path": "AAV CNS programs",
+          "url": "https://www.voyagertherapeutics.com/"
+        }
+      ],
+      "comparable_financing": "Strategic CNS delivery deals",
+      "benchmark_path": "Rodent BBB delivery PoC",
+      "ri_path": "RIH \u2192 pharma option/license",
+      "ri_round": "Upfront / option"
+    },
+    {
+      "asset_id": "gap_rih_motile_cell_msk",
+      "market": "Orthobiologics is a ~$7\u201310B global market by 2030 (Grand View / Mordor) fueled by sports injury, aging joints, and stem-cell/PRP adoption. Meniscus injury drives PTOA downstream costs\u2014programs with NIAMS backing (R01AR080726) signal credible regenerative science.",
+      "sam": "Motile injectable cell therapy for meniscus/MSK\u2014distinct from XM ECM morsels; large-animal gate next.",
+      "comparables": [
+        {
+          "name": "Orthocell (CelGro)",
+          "financing": "ASX-listed orthobiologics",
+          "path": "Collagen scaffold tendon repair",
+          "url": "https://orthocell.com/"
+        },
+        {
+          "name": "MiMedx",
+          "financing": "Public amniotic products",
+          "path": "Orthobiologics commercial",
+          "url": "https://www.mimedx.com/"
+        }
+      ],
+      "comparable_financing": "Public orthobiologics comps",
+      "benchmark_path": "Large-animal meniscus repair \u2192 IND path",
+      "ri_path": "RIH spinout after NIAMS-funded PoC",
+      "ri_round": "$5\u201315M Series A"
+    },
+    {
+      "asset_id": "gap_rih_ecm_joint_repair",
+      "market": "Joint repair and injectable matrices sit in the same orthobiologics growth (~5\u20136% CAGR to ~$8\u201310B 2030) where XM Therapeutics already validated RI Slater path. Field-of-use clarity vs Brown/XM OTL is the commercial unlock.",
+      "sam": "Biomimetic ECM joint repair\u2014RIH license only if FOU clears against XM injectable morsels.",
+      "comparables": [
+        {
+          "name": "XM Therapeutics",
+          "financing": "Slater $375K + BBII",
+          "path": "Injectable ECM morsels (Brown/XM)",
+          "url": "https://www.xmtherapeutics.com/"
+        },
+        {
+          "name": "Anika Therapeutics",
+          "financing": "Public orthobiologics",
+          "path": "Joint viscosupplementation",
+          "url": "https://www.anikatherapeutics.com/"
+        }
+      ],
+      "comparable_financing": "XM Slater-backed RI precedent",
+      "benchmark_path": "Ortho pilot; FOU diligence vs XM OTL",
+      "ri_path": "RIH license if FOU clear",
+      "ri_round": "Slater $200\u2013400K + match"
+    },
+    {
+      "asset_id": "gap_rih_enhancer_rna_glioma",
+      "market": "Adult malignant glioma therapeutics head toward ~$4\u20135B by 2030 (~8\u201310% CAGR; GII/TBRC) with GBM still dominated by surgery, TMZ, and TTFields. eRNA mechanisms are early but fit the push for non-coding targets and precision neuro-oncology.",
+      "sam": "Enhancer RNA\u2013targeted glioma therapy\u2014Tapinos-led RIH/Brown science; IND-enabling is years out.",
+      "comparables": [
+        {
+          "name": "Day One (ONC201)",
+          "financing": "Public glioma program",
+          "path": "Diffuse midline glioma",
+          "url": "https://www.dayonebio.com/"
+        },
+        {
+          "name": "Chimerix (ONC201 lineage)",
+          "financing": "Clinical-stage heritage",
+          "path": "Imipridone glioma path",
+          "url": "https://www.jazzpharma.com/science/pipeline"
+        }
+      ],
+      "comparable_financing": "Neuro-onc public/clinical comps",
+      "benchmark_path": "Glioma models \u2192 IND-enabling tox",
+      "ri_path": "RIH \u2192 neuro-onc biotech",
+      "ri_round": "Series A"
+    },
+    {
+      "asset_id": "gap_rih_lpa_therapeutic",
+      "market": "Lp(a) lowering is the next cardiovascular frontier: analysts model ~$3\u201311B therapeutic potential if outcomes trials succeed (HORIZON/OCEAN(a) readouts expected mid\u20112020s). No approved Lp(a)-specific drug yet\u2014RIH assets compete for pharma option dollars, not retail launch.",
+      "sam": "RIH Lp(a)-lowering approach\u2014strategic license vs Novartis pelacarsen / Amgen olpasiran Phase 3 leaders.",
+      "comparables": [
+        {
+          "name": "Novartis pelacarsen",
+          "financing": "Phase 3 Lp(a) antisense",
+          "path": "Lp(a) lowering outcomes trials",
+          "url": "https://www.novartis.com/"
+        },
+        {
+          "name": "Amgen olpasiran",
+          "financing": "Phase 3 siRNA Lp(a)",
+          "path": "Lp(a) cardiovascular outcomes",
+          "url": "https://www.amgen.com/"
+        }
+      ],
+      "comparable_financing": "Big-pharma Lp(a) programs",
+      "benchmark_path": "Mechanism PoC \u2192 partner discussions",
+      "ri_path": "RIH license \u2192 pharma option",
+      "ri_round": "Strategic / Series A"
+    }
+  ],
+  "market_context_note": "Market/SAM copy enriched via public industry reports (Grand View Research, Mordor Intelligence, WEF, Research and Markets, etc.); figures are illustrative TAM/SAM.",
+  "url_audit_note": "Comparable URLs verified/corrected via web search (Jun 2026): MeMed me-med.com, Ventrix ventrixbio.com, HeartSciences, Liquidia, Orthocell; acquisition targets (Jazz/Chimerix, bioM\u00e9rieux/Day Zero); product pages (OFEV, EleVision, Zilretta, Spectral AI, Epic sepsis ESM, PursueCare/Pear legacy, Spacelabs/PeraHealth)."
+}

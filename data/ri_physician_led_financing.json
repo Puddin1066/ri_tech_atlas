@@ -1,0 +1,648 @@
+{
+  "version": "1.3",
+  "updated_at": "2026-06-04T18:31:28+00:00",
+  "slater_investment_policy": {
+    "summary": "Early-stage Slater Technology Fund equity requires a third-party financing match; practical Slater seed checks are typically $200K\u2013$400K, not the full round.",
+    "third_party_match_required": true,
+    "match_description": "Slater seed investments are structured with matching capital from other investors (e.g., angels, RightHill SPV co-investors, strategic partners, RI Life Science Hub Lift/Catalyst, Innovate RI SBIR/STTR match, or qualified third-party equity). Total close = Slater component + match.",
+    "practical_seed_range_usd": [
+      200000,
+      400000
+    ],
+    "historical_note": "Older press and milestone stories (e.g., ProThera $100K\u2192$500K, XM $375K) reflect prior deals; size new term sheets to current $200K\u2013$400K Slater band plus required match.",
+    "url": "https://slaterfund.com/"
+  },
+  "definition": {
+    "physician_led": "A Rhode Island life-science venture is physician-led when (1) one or more licensed clinicians hold equity (founder, co-founder, angel/SAB equity, or documented cap-table allocation tied to clinical leadership) AND (2) the company maintains formal KOL advisory roles (paid SAB, clinical advisory board, or RI Clinician-Entrepreneur Network match) that shape indication, endpoints, and trial/site strategy.",
+    "not_physician_led": "Trial site only, uncompensated informal advice, or physician consulting without equity does not qualify for this atlas label.",
+    "conflict_note": "Equity-holding physician advisors require hospital COI review and fair-market compensation documentation before Slater/RightHill diligence."
+  },
+  "ecosystem_stack": [
+    {
+      "id": "ri_clinician_entrepreneur_network",
+      "name": "RI Clinician-Entrepreneur Network",
+      "role": "KOL advisory match",
+      "url": "https://ri-bio.org/clinician-entrepreneur-network/",
+      "note": "RI Bio matches clinicians to startups for advisor, board, or trial PI roles."
+    },
+    {
+      "id": "ri_commerce_innovation_voucher",
+      "name": "RI Commerce \u2014 Innovation Voucher",
+      "role": "Non-dilutive R&D with knowledge partner",
+      "url": "https://commerceri.com/innovation-voucher/",
+      "typical_award_usd": 75000,
+      "note": "Up to $75K for R&D with Brown, RIH, URI, or other RI knowledge partners. Periodic funding rounds via Commerce Innovation Initiatives."
+    },
+    {
+      "id": "ri_commerce_invention_incentive",
+      "name": "RI Commerce \u2014 Invention Incentive",
+      "role": "Patent filing reimbursement",
+      "url": "https://commerceri.com/business-assistance/innovation/",
+      "typical_award_usd": 5000,
+      "note": "Up to $5K for eligible USPTO filing costs. Part of Commerce Innovation Initiatives portfolio."
+    },
+    {
+      "id": "innovate_ri_sbir_match",
+      "name": "Innovate RI Fund (STAC) \u2014 SBIR/STTR Match",
+      "role": "State match to federal Phase I/II",
+      "url": "https://stac.ri.gov/find-funding/innovate-ri-fund/",
+      "typical_award_usd": [
+        3000,
+        150000
+      ],
+      "note": "$3K application prep; up to $75K Phase I match; up to $150K Phase II match; $6.5K intern grant. RI for-profit \u226450 FTE; \u226551% research in RI."
+    },
+    {
+      "id": "ri_life_science_hub_growth_catalyst",
+      "name": "RI Life Science Hub \u2014 Growth Catalyst",
+      "role": "Non-dilutive scale / commercialization",
+      "url": "https://www.rilifescience.com/rhode-island-grow-catalyst-program",
+      "note": "Up to 25% of project cost for life-science commercial milestones (1\u20132 year term). Precedent: NanoDe, MindImmune."
+    },
+    {
+      "id": "ri_life_science_hub_lift",
+      "name": "RI Life Science Hub \u2014 RI Lift",
+      "role": "Non-dilutive match post-close (pre-seed / seed / A)",
+      "url": "https://www.rilifescience.com/rhode-island-lift",
+      "typical_award_usd": [
+        100000,
+        200000
+      ],
+      "note": "Up to $100K pre-seed, $150K seed, $200K Series A \u2014 within 60 days of closed round. 2025 cycle closed Oct 2025; monitor next round."
+    },
+    {
+      "id": "nemic",
+      "name": "NEMIC (New England Medical Innovation Center)",
+      "role": "Medtech commercialization + investor intros",
+      "url": "https://nemic.org/",
+      "note": "Activate program; Lenoss precedent (Innovation Voucher + Activate)."
+    },
+    {
+      "id": "ri_bio_eir",
+      "name": "RI Bio Entrepreneur in Residence",
+      "role": "Funding + regulatory navigation",
+      "url": "https://ri-bio.org/clinician-entrepreneur-network/",
+      "note": "Jay Round EIR office hours (Providence / Innovate Newport)."
+    },
+    {
+      "id": "slater_technology_fund",
+      "name": "Slater Technology Fund",
+      "role": "Seed equity (RI-based)",
+      "url": "https://slaterfund.com/",
+      "typical_seed_range_usd": [
+        200000,
+        400000
+      ],
+      "third_party_match_required": true,
+      "note": "Practical Slater seed $200K\u2013$400K with required third-party financing match. Often stacked after SBIR/STTR + STAC match or Hub grant."
+    },
+    {
+      "id": "righthill_ventures",
+      "name": "RightHill Ventures",
+      "role": "Slater-backed syndicate / Series A SPV",
+      "url": "https://righthill.vc/",
+      "note": "University-driven companies; Slater participates in SPVs with alumni/accredited co-investors."
+    }
+  ],
+  "universal_gates_18mo": [
+    {
+      "id": "G0",
+      "gate": "RI anchor",
+      "milestone": "Company HQ or exclusive OTL license with RI FTE commitment"
+    },
+    {
+      "id": "G1",
+      "gate": "Physician equity",
+      "milestone": "Cap table or term sheet showing clinician equity (\u22650.25% typical angel/SAB; higher if co-founder)"
+    },
+    {
+      "id": "G2",
+      "gate": "KOL advisory",
+      "milestone": "\u22652 named KOLs (SAB/CAB) with charters; \u22651 via Clinician-Entrepreneur Network or Brown Health/RIH letter"
+    },
+    {
+      "id": "G3",
+      "gate": "Technical proof",
+      "milestone": "Modality-specific PoC (see per-asset)"
+    },
+    {
+      "id": "G4",
+      "gate": "Non-dilutive + match plan",
+      "milestone": "Federal SBIR/STTR + Innovate RI (STAC) match and/or RI Commerce Innovation Voucher; RILSH Growth Catalyst or Lift when eligible; documented third-party co-investor(s) for Slater match"
+    },
+    {
+      "id": "G5",
+      "gate": "Follow-on",
+      "milestone": "Slater $200K\u2013$400K seed close (with match) or RightHill SPV / Series A with physician-validated clinical plan"
+    }
+  ],
+  "slater_physician_match_by_asset": {
+    "ip_ecm_morsels_xm": {
+      "slater_fit": "high",
+      "physician_equity_model": "Recruit cardiothoracic or ILD physician co-founder or angel (0.5\u20132%) alongside Sellke-aligned SAB; Morgan remains scientific co-founder.",
+      "kol_advisory_targets": [
+        "Frank W. Sellke MD (cardiac)",
+        "Rachel Putman MD / Corey Ventetuolo MD (ILD if pursued)"
+      ],
+      "milestones_18mo": [
+        "Large-animal cardiac PoP with KOL-signed protocol synopsis",
+        "CMC/lot-release plan for human ECM morsels",
+        "SAB charter with \u22652 equity or paid KOL members",
+        "Slater/RightHill $15\u201330M Series A close post-PoP"
+      ],
+      "capital_stack": "Slater $375K done \u2192 RightHill + Series A",
+      "precedent": "Slater reinvestment press Oct 2023"
+    },
+    "ip_chitinase_ocf203": {
+      "slater_fit": "medium",
+      "physician_equity_model": "Newco sublicense: Elias scientific founder equity; recruit ILD director as co-founder/angel (1\u20135%).",
+      "kol_advisory_targets": [
+        "Jack A. Elias MD",
+        "Rachel Putman MD",
+        "Barry Shea MD"
+      ],
+      "milestones_18mo": [
+        "OCF-203 license chain confirmed with Ocean/Elkurt",
+        "IND-enabling tox plan approved by ILD KOL SAB",
+        "First CALC-affiliated PI LOI for Phase 1/2 design",
+        "Slater $200\u2013400K seed (with third-party match) into Elkurt or newco"
+      ],
+      "capital_stack": "P01 de-risk \u2192 Slater seed \u2192 Series A",
+      "precedent": "Ocean public path separate; RI newco for field-of-use"
+    },
+    "ip_nanopieces_rna": {
+      "slater_fit": "high",
+      "physician_equity_model": "Ortho or neonatal PI angel equity in NanoDe expansion OR newco with hospital PI co-founder.",
+      "kol_advisory_targets": [
+        "Qian Chen PhD + ortho/neonatal PI at RIH"
+      ],
+      "milestones_18mo": [
+        "STTR R41TR002298 milestone completion",
+        "First in vivo biodistribution in disease model with KOL oversight",
+        "SAB with procedural KOL (spine or NICU)",
+        "Slater $200\u2013400K + third-party match; total seed expand often $1\u20133M"
+      ],
+      "capital_stack": "STTR \u2192 Innovate RI Phase I match \u2192 Commerce Voucher (ortho PoC) \u2192 Slater + match \u2192 Series A",
+      "precedent": "Hospital OTL + existing NanoDe entity"
+    },
+    "ip_wireless_neurograins": {
+      "slater_fit": "medium",
+      "physician_equity_model": "OTL spinout: neurosurgeon co-founder equity; VA/BrainGate PI on SAB (paid, may be non-equity if COI).",
+      "kol_advisory_targets": [
+        "David Borton PhD",
+        "Leigh Hochberg MD PhD (clinical trial design)"
+      ],
+      "milestones_18mo": [
+        "OTL exclusive license term sheet",
+        "Pre-IND briefing package with neurosurgical KOL",
+        "DARPA/UH2 milestone completion report",
+        "Slater $200\u2013400K + match into spinout (additional SPV/strategic for hardware scale)"
+      ],
+      "capital_stack": "DARPA/UH2 \u2192 Slater seed \u2192 strategic (Blackrock-class)",
+      "precedent": "Academic assignee \u2014 requires spinout formation"
+    },
+    "ip_speech_tablet_ibci": {
+      "slater_fit": "medium",
+      "physician_equity_model": "Consortium SPV: Hochberg clinical PI equity in decode-focused newco; BrainGate trial PIs on paid SAB.",
+      "kol_advisory_targets": [
+        "Leigh Hochberg MD PhD",
+        "John Simeral PhD"
+      ],
+      "milestones_18mo": [
+        "Field-of-use license for speech/tablet decode separate from implant vendor",
+        "U01/VA trial milestone tied to tablet endpoint",
+        "\u22651 equity-holding physician on cap table",
+        "Slater + RightHill SPV for decode co-dev"
+      ],
+      "capital_stack": "U01/VA \u2192 consortium license \u2192 SPV",
+      "precedent": "NCT05724173 family recruiting"
+    },
+    "ip_spinal_isi_dbs": {
+      "slater_fit": "medium",
+      "physician_equity_model": "PM&R / neurosurgery co-founder in medtech spinout; Eskandar/Borton scientific + clinical KOL SAB.",
+      "kol_advisory_targets": [
+        "David Borton PhD",
+        "RIH SCI rehab PI"
+      ],
+      "milestones_18mo": [
+        "IDE enrollment target on NCT04302259 pathway",
+        "Strategic medtech LOI (ONWARD-class)",
+        "Physician co-founder equity documented",
+        "Slater seed into SPV if no strategic"
+      ],
+      "capital_stack": "DARPA ISI \u2192 IDE \u2192 strategic license",
+      "precedent": "DARPA $6.3M ISI"
+    },
+    "ip_iaip_neonatal": {
+      "slater_fit": "high_archetype",
+      "physician_equity_model": "Physician-founder: Yow-Pin Lim MD PhD equity (existing); expand neonatal KOL SAB with Women & Infants PIs.",
+      "kol_advisory_targets": [
+        "Yow-Pin Lim PhD",
+        "James F. Padbury MD",
+        "Barbara S. Stonestreet MD"
+      ],
+      "milestones_18mo": [
+        "LFIA clinical validation at NICU site",
+        "SBIR R44 milestone tranche",
+        "SAB refresh with equity or paid W&I neonatologists",
+        "Series A $5\u201310M (post-Slater milestone model)"
+      ],
+      "capital_stack": "SBIR stack + Innovate RI match \u2192 Slater milestone \u2192 Series A",
+      "precedent": "ProThera Slater milestone financing archetype"
+    },
+    "ip_dendritic_ad_mindimmune": {
+      "slater_fit": "low_new_slater",
+      "physician_equity_model": "Past Slater seed; add Alzheimer clinician angel (0.25\u20131%) + paid neurology KOL SAB for Phase 1 design (not required to be equity if conflict-limited).",
+      "kol_advisory_targets": [
+        "Memory clinic PI (RI/MA)",
+        "Robert Nelson PhD (scientific)"
+      ],
+      "milestones_18mo": [
+        "IND-enabling tox complete (RI Hub grant)",
+        "Phase 1 protocol with peripheral DC recruitment biomarker",
+        "\u22651 physician equity or documented SAB with FMV fees",
+        "Phase 1 FIH (Series A funded)"
+      ],
+      "capital_stack": "Slater historical \u2192 $30M Series A \u2192 Phase 1",
+      "precedent": "RightHill + Slater in 2025 extension"
+    },
+    "ip_osteopearl_vcf_lenoss": {
+      "slater_fit": "low_growth",
+      "physician_equity_model": "Interventional spine KOL SAB with optional angel equity; Dom Messerli operator (non-physician founder).",
+      "kol_advisory_targets": [
+        "Interventional spine / pain KOL (EVOLVE-aligned literature)"
+      ],
+      "milestones_18mo": [
+        "Multicenter physician-advisor registry study design",
+        "Reimbursement/CPT strategy signed by KOL SAB",
+        "Optional physician angel syndicate alongside Series A",
+        "150+ \u2192 500 implant procedures"
+      ],
+      "capital_stack": "NEMIC Activate \u2192 Commerce Innovation Voucher \u2192 Series A ~$4M \u2192 growth",
+      "precedent": "Slater relationship per lenoss-osteopearl profile"
+    },
+    "ip_tregitope_immunomod": {
+      "slater_fit": "low",
+      "physician_equity_model": "Platform company; therapeutic spinout could add immuno-oncology PI equity + KOL SAB.",
+      "kol_advisory_targets": [
+        "Anne De Groot MD (adjunct)"
+      ],
+      "milestones_18mo": [
+        "Therapeutic spinout cap table with PI equity if formed"
+      ],
+      "capital_stack": "Platform ARR \u2192 spinout or strategic",
+      "precedent": "Mature EpiVax \u2014 growth capital not Slater seed"
+    },
+    "ip_biglycan_msk": {
+      "slater_fit": "high_if_newco",
+      "physician_equity_model": "Rare disease neurologist co-founder (5\u201315%) + neuromuscular KOL SAB before Slater seed.",
+      "kol_advisory_targets": [
+        "Justin Fallon PhD + neuromuscular clinic PI"
+      ],
+      "milestones_18mo": [
+        "BRF/OTL license to newco",
+        "Physician co-founder term sheet",
+        "IND-enabling plan in DMD/MSK model",
+        "Slater $200\u2013400K seed (with third-party match)"
+      ],
+      "capital_stack": "BRF OTL \u2192 Slater \u2192 rare-disease VC",
+      "precedent": "No RI startup yet"
+    },
+    "ip_neural_decoding_legacy": {
+      "slater_fit": "low",
+      "physician_equity_model": "Royalty/license path; Hochberg equity in BrainGate affiliate, not new Slater vehicle.",
+      "kol_advisory_targets": [
+        "Leigh Hochberg MD PhD"
+      ],
+      "milestones_18mo": [
+        "Field-of-use sublicense only"
+      ],
+      "capital_stack": "Royalty stack",
+      "precedent": "Legacy BrainGate"
+    },
+    "ip_af_mapping_ai": {
+      "slater_fit": "low",
+      "physician_equity_model": "EP physician KOL SAB (paid); growth equity, not physician-led formation.",
+      "kol_advisory_targets": [
+        "Volta Medical clinical affairs"
+      ],
+      "milestones_18mo": [
+        "TAILORED-AF RCT readout commercialization"
+      ],
+      "capital_stack": "VC growth ~\u20ac74M",
+      "precedent": "FDA-cleared VX1"
+    },
+    "ip_genomics_hans": {
+      "slater_fit": "low",
+      "physician_equity_model": "Not physician-led; strategic M&A.",
+      "kol_advisory_targets": [],
+      "milestones_18mo": [
+        "Hitachi/OhmX commercial pull-through"
+      ],
+      "capital_stack": "Strategic",
+      "precedent": "Slater historical $4M"
+    },
+    "ip_ect_ophthalmology": {
+      "slater_fit": "low",
+      "physician_equity_model": "Retina KOL SAB; royalty/M&A not Slater seed.",
+      "kol_advisory_targets": [
+        "Retina specialists / Neurotech medical affairs"
+      ],
+      "milestones_18mo": [
+        "MacTel J-code commercial rollout"
+      ],
+      "capital_stack": "Late-stage commercial",
+      "precedent": "FDA MacTel 2025"
+    },
+    "gap_smurf2_oncology": {
+      "slater_fit": "high_if_spinout",
+      "physician_equity_model": "Medical oncologist co-founder equity (El-Deiry lab spinout) + WIN consortium KOL SAB.",
+      "kol_advisory_targets": [
+        "Wafik El-Deiry MD PhD",
+        "Lifespan/WIN PI"
+      ],
+      "milestones_18mo": [
+        "Patent harvest",
+        "Biomarker PoC",
+        "Physician co-founder",
+        "Slater seed"
+      ],
+      "capital_stack": "R01 \u2192 SMURF-Tx \u2192 Slater",
+      "precedent": "SMURF-Tx founded 2021"
+    },
+    "gap_soma_dtx": {
+      "slater_fit": "medium",
+      "physician_equity_model": "Psychiatry/pain physician angel + digital health KOL SAB (Petzschner/Gunsilius network).",
+      "kol_advisory_targets": [
+        "Frederike Petzschner PhD",
+        "Chloe Gunsilius PhD"
+      ],
+      "milestones_18mo": [
+        "COBRE pilot data",
+        "FDA SaMD path memo",
+        "Physician advisor equity in spinout"
+      ],
+      "capital_stack": "COBRE \u2192 spinout \u2192 Slater",
+      "precedent": "Carney innovation award"
+    },
+    "gap_christensen_epigenetics": {
+      "slater_fit": "low_medium",
+      "physician_equity_model": "Oncology PI equity in diagnostics spinout + pharma KOL SAB for HiTIMED licensing.",
+      "kol_advisory_targets": [
+        "Brock Christensen PhD",
+        "Lucas Salas MD PhD"
+      ],
+      "milestones_18mo": [
+        "Dartmouth OTT / Brown sublicense diligence on EP4505463",
+        "Pharma stratification pilot",
+        "Optional physician angel"
+      ],
+      "capital_stack": "R01 + EP4505463 (pending) \u2192 Dartmouth/Brown license \u2192 pharma milestones",
+      "precedent": "Software/method OTL"
+    },
+    "ip_monaghan_deep_rna_dx": {
+      "slater_fit": "high",
+      "physician_equity_model": "Sean F. Monaghan MD as physician-founder; ICU/transfusion medicine KOL SAB; translational co-founders Fredericks/Nau.",
+      "kol_advisory_targets": [
+        "Sean F. Monaghan MD",
+        "Gerard J. Nau",
+        "William G. Fairbrother PhD",
+        "Mitchell M. Levy MD"
+      ],
+      "milestones_18mo": [
+        "RIH hospital license term sheet or exclusive field-of-use",
+        "LDT/analytical validation on sepsis cohort (Shock 2026 pathogen PCR targets)",
+        "SAB with critical-care + microbiology KOLs",
+        "Slater $200\u2013400K + third-party match into Dx spinout"
+      ],
+      "capital_stack": "R35GM142638 \u2192 STTR/SBIR + Innovate RI match \u2192 Commerce Voucher (LDT) \u2192 Slater seed + match \u2192 Series A",
+      "precedent": "Brown RNA Center; complementary to ProThera IAIP (biologic) not duplicate"
+    },
+    "ip_bolden_musk_neurogenesis": {
+      "slater_fit": "high",
+      "physician_equity_model": "Physician KOL SAB (neurology/psychiatry) + scientific founders Fallon/Webb; CEO Page MD trainee path\u2014not classic physician-founder equity.",
+      "kol_advisory_targets": [
+        "Stephen Salloway MD MS",
+        "Brown ADRC network"
+      ],
+      "milestones_18mo": [
+        "Confirm Brown OTL license scope vs US12458657 family",
+        "NIA STTR milestones + in vivo neurogenesis PoC",
+        "Neurology KOL SAB for AD indication sequencing",
+        "Slater follow-on $200\u2013400K + match if third-party lead present"
+      ],
+      "capital_stack": "NIA STTR $500K \u2192 pre-seed $1.5M (Slater in round) \u2192 Series A",
+      "precedent": "Slater in Jan 2024 pre-seed; Biogen Golden Ticket LabCentral"
+    },
+    "ip_pax_aav_vegf_tendon": {
+      "slater_fit": "high",
+      "physician_equity_model": "Paul Liu MD FACS physician-chairman; ortho/hand surgery KOL SAB (e.g. Jin Bo Tang); RIH license.",
+      "kol_advisory_targets": [
+        "Paul Y. Liu MD",
+        "Hand/orthopedic surgeon KOLs",
+        "Sports medicine"
+      ],
+      "milestones_18mo": [
+        "RIH exclusive license confirmed",
+        "IND filed for PAX-001 flexor tendon",
+        "Hand surgery KOL SAB with case series plan",
+        "Slater $200\u2013400K + match post-IND acceptance"
+      ],
+      "capital_stack": "Seed $1.7M \u2192 RILSH LIFT (IND docs) \u2192 Slater + match \u2192 Series A",
+      "precedent": "Ocean State Labs tenant; pre-IND complete per company"
+    },
+    "ip_oncolux_lumis": {
+      "slater_fit": "low",
+      "physician_equity_model": "Surgical oncology KOL advisors (paid); growth medtech\u2014not Slater seed formation.",
+      "kol_advisory_targets": [
+        "Surgical oncology / thoracic surgery KOLs",
+        "Mayo collaboration PIs"
+      ],
+      "milestones_18mo": [
+        "Colorectal + bronchoscopy clinical validation readouts",
+        "Regulatory path memo (510(k) vs De Novo)",
+        "Strategic or growth equity partner"
+      ],
+      "capital_stack": "RILSH attraction \u2192 Mayo know-how \u2192 growth round",
+      "precedent": "Relocated from CT 2025; not physician-led seed"
+    },
+    "gap_ni2o_kiwi_bci": {
+      "slater_fit": "low",
+      "physician_equity_model": "Not physician-led; neurology KOL clinical advisors if IDE path emerges.",
+      "kol_advisory_targets": [
+        "Movement disorders / ALS KOLs (if RI trials)"
+      ],
+      "milestones_18mo": [
+        "USPTO harvest ni2o/Howard vs Brown BrainGate FTO",
+        "Preclinical/device milestone disclosure",
+        "Strategic partnership (not Slater-first)"
+      ],
+      "capital_stack": "Private \u2192 strategic",
+      "precedent": "Nurosene 2021; overlaps Brown neurotech thematically"
+    },
+    "gap_levine_pediatric_sepsis": {
+      "slater_fit": "high",
+      "physician_equity_model": "Levine MD MPH founder equity; Garbern MD co-PI on R33; hospital pilot design with RIH critical care.",
+      "kol_advisory_targets": [
+        "Adam C. Levine MD MPH",
+        "Stephanie C. Garbern MD"
+      ],
+      "milestones_18mo": [
+        "SaMD regulatory classification memo",
+        "US health-system pilot protocol",
+        "Innovate RI match + Slater seed filing"
+      ],
+      "capital_stack": "FIC R33 \u2192 Innovate RI match \u2192 Slater",
+      "precedent": "R33TW012211 Bangladesh wearable ML"
+    },
+    "gap_uri_phlip_lnp": {
+      "slater_fit": "medium",
+      "physician_equity_model": "Oncology/translational MD KOL SAB if STING-oncology spinout; scientific founders from URI PHLIP group.",
+      "kol_advisory_targets": [
+        "URI PHLIP PI",
+        "Oncology KOL for STING trials"
+      ],
+      "milestones_18mo": [
+        "URI exclusive license",
+        "Rodent delivery PoC",
+        "STING-oncology partner outreach"
+      ],
+      "capital_stack": "URI license \u2192 SBIR/STTR \u2192 Slater",
+      "precedent": "PHLIP\u2013LNP WO2025171027"
+    },
+    "gap_rih_salivary_ev_ad": {
+      "slater_fit": "medium",
+      "physician_equity_model": "Neurology/geriatrics physician KOL SAB + hospital lab PI equity in Dx spinout.",
+      "kol_advisory_targets": [
+        "Memory clinic neurology KOL",
+        "RIH pathology/lab medicine"
+      ],
+      "milestones_18mo": [
+        "CLIA analytical validation",
+        "Prospective AD cohort",
+        "Slater seed + match"
+      ],
+      "capital_stack": "RIH license \u2192 LDT \u2192 seed",
+      "precedent": "US20260103757A1"
+    },
+    "gap_rih_bx912_pulmonary_htn": {
+      "slater_fit": "medium",
+      "physician_equity_model": "Pulmonary hypertension cardiologist KOL SAB + scientific PI equity if newco.",
+      "kol_advisory_targets": [
+        "Pulmonary hypertension center PI",
+        "Cardiology translational"
+      ],
+      "milestones_18mo": [
+        "PH model PoC",
+        "IND-enabling tox",
+        "Cardio KOL SAB"
+      ],
+      "capital_stack": "RIH license \u2192 seed",
+      "precedent": "WO2026112526 BX-912 PH"
+    },
+    "gap_rih_pahtn_dx": {
+      "slater_fit": "low_medium",
+      "physician_equity_model": "Cardiology EP / heart failure KOL SAB for risk stratification adoption.",
+      "kol_advisory_targets": [
+        "Cardiac electrophysiology",
+        "Heart failure clinic"
+      ],
+      "milestones_18mo": [
+        "Retrospective validation",
+        "Prospective registry",
+        "Dx license deal"
+      ],
+      "capital_stack": "RIH license \u2192 strategic Dx",
+      "precedent": "US20180094317 PAH/SCD Dx"
+    },
+    "gap_rih_bbb_nucleic_delivery": {
+      "slater_fit": "medium",
+      "physician_equity_model": "Neurology/neurosurgery KOL SAB for CNS delivery translation.",
+      "kol_advisory_targets": [
+        "Neuro-oncology",
+        "Gene therapy neurology"
+      ],
+      "milestones_18mo": [
+        "BBB rodent PoC",
+        "Partner option with gene therapy co",
+        "FTO memo"
+      ],
+      "capital_stack": "RIH license \u2192 upfront/partner",
+      "precedent": "WO2025171161 BBB nucleic acid"
+    },
+    "gap_rih_motile_cell_msk": {
+      "slater_fit": "high",
+      "physician_equity_model": "Orthopedic surgeon KOL on SAB; Jayasuriya/Trivedi inventors anchor NIH meniscus repair awards (R01AR080726).",
+      "kol_advisory_targets": [
+        "Orthopedic surgery",
+        "Sports medicine"
+      ],
+      "milestones_18mo": [
+        "Complete RIH exclusive license",
+        "Large-animal meniscus repair data package",
+        "Slater $200\u2013400K + third-party match"
+      ],
+      "capital_stack": "RIH \u2192 seed \u2192 Series A",
+      "precedent": "WO2025155768 motile cell MSK"
+    },
+    "gap_rih_ecm_joint_repair": {
+      "slater_fit": "medium",
+      "physician_equity_model": "Orthopedic surgeon KOL SAB; field-of-use diligence vs XM Therapeutics.",
+      "kol_advisory_targets": [
+        "Orthopedic surgery KOL",
+        "Jeffrey R. Morgan PhD (XM peer)"
+      ],
+      "milestones_18mo": [
+        "FOU vs XM OTL",
+        "Joint repair pilot",
+        "License or spinout"
+      ],
+      "capital_stack": "RIH license \u2192 Slater if clear FOU",
+      "precedent": "US20240139376 ECM joint"
+    },
+    "gap_rih_enhancer_rna_glioma": {
+      "slater_fit": "medium",
+      "physician_equity_model": "Neuro-oncology physician KOL SAB + scientific PI equity.",
+      "kol_advisory_targets": [
+        "Neuro-oncology",
+        "Brain tumor center PI"
+      ],
+      "milestones_18mo": [
+        "Glioma model efficacy",
+        "IND path memo",
+        "Neuro-onc KOL SAB"
+      ],
+      "capital_stack": "RIH \u2192 seed/Series A",
+      "precedent": "US20230323349 eRNA glioma"
+    },
+    "gap_rih_lpa_therapeutic": {
+      "slater_fit": "low",
+      "physician_equity_model": "Preventive cardiology KOL SAB; likely strategic pharma path vs Slater seed.",
+      "kol_advisory_targets": [
+        "Preventive cardiology",
+        "Lipid clinic"
+      ],
+      "milestones_18mo": [
+        "Differentiation vs siRNA Lp(a)",
+        "Partner discussions",
+        "Phase 1 design"
+      ],
+      "capital_stack": "RIH license \u2192 pharma option",
+      "precedent": "WO2025245119 Lp(a)"
+    }
+  },
+  "priority_slater_physician_match_ranked": [
+    "ip_iaip_neonatal",
+    "ip_monaghan_deep_rna_dx",
+    "ip_pax_aav_vegf_tendon",
+    "ip_bolden_musk_neurogenesis",
+    "ip_ecm_morsels_xm",
+    "ip_nanopieces_rna",
+    "ip_biglycan_msk",
+    "ip_chitinase_ocf203",
+    "ip_wireless_neurograins",
+    "ip_speech_tablet_ibci",
+    "ip_spinal_isi_dbs",
+    "gap_smurf2_oncology"
+  ]
+}

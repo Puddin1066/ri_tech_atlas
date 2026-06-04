@@ -1,0 +1,99 @@
+{
+  "gap_smurf2": [
+    {
+      "q": "SMURF2.ti.",
+      "total": 1,
+      "hits": [
+        {
+          "guid": "US-20160186181-A1",
+          "number": "20160186181",
+          "title": "COMPOSITION FOR REDUCING SENESCENCE OF CELL OR SUBJECT COMPRISING <span term=\"smurf2\" class=\"highlig",
+          "assignee": "Samsung Electronics Co., Ltd.",
+          "type": "US-PGPUB"
+        },
+        {
+          "guid": "US-9951336-B2",
+          "number": "9951336",
+          "title": "Composition for reducing senescence of cell or subject comprising smurf2 inhibitor and use thereof",
+          "assignee": "Samsung Electronics Co., Ltd.",
+          "type": "USPAT"
+        }
+      ]
+    },
+    {
+      "q": "El-Deiry.ti.",
+      "total": 0,
+      "hits": []
+    },
+    {
+      "q": "Wafik.ti. AND SMURF.ti.",
+      "total": 0,
+      "hits": []
+    }
+  ],
+  "gap_soma": [
+    {
+      "q": "Petzschner.ti.",
+      "total": 0,
+      "hits": []
+    },
+    {
+      "q": "interoception.ti. AND pain.ti.",
+      "total": 0,
+      "hits": []
+    }
+  ],
+  "gap_christensen": [
+    {
+      "q": "HiTIMED.ti.",
+      "total": 0,
+      "hits": []
+    },
+    {
+      "q": "Christensen.ti. AND epigenetic.ti.",
+      "total": 0,
+      "hits": []
+    }
+  ],
+  "gap_ni2o": [
+    {
+      "q": "ni2o.ti.",
+      "total": 0,
+      "hits": []
+    },
+    {
+      "q": "Newton Howard.ti. AND BCI.ti.",
+      "total": 0,
+      "hits": []
+    }
+  ],
+  "gap_levine": [
+    {
+      "q": "Garbern.ti. AND sepsis.ti.",
+      "total": 0,
+      "hits": []
+    },
+    {
+      "q": "Levine.ti. AND wearable.ti.",
+      "total": 0,
+      "hits": []
+    }
+  ],
+  "ip_oncolux": [
+    {
+      "q": "OncoLux.ti.",
+      "total": 0,
+      "hits": []
+    },
+    {
+      "q": "Kersey.ti. AND fluorescence.ti.",
+      "total": 0,
+      "hits": []
+    }
+  ],
+  "_tools": [
+    "ppubs_download_patent_pdf",
+    "ppubs_get_patent_by_number",
+    "ppubs_search_patents"
+  ]
+}

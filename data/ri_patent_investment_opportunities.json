@@ -1,15 +1,19 @@
 {
-  "version": "1.0",
-  "updated_at": "2026-06-04T00:00:00+00:00",
+  "version": "2.0",
+  "updated_at": "2026-06-04T18:41:15+00:00",
   "source_patents": "data/ri_patents_curated.json",
   "source_grants": "data/ri_funding_matrix.json",
+  "physician_led_financing": "data/ri_physician_led_financing.json",
+  "physician_led_definition": "Clinician equity on cap table plus formal KOL advisory (SAB/CAB or RI Clinician-Entrepreneur Network match). Slater seed: $200K\u2013$400K with required third-party financing match. See physician_led_financing for slater_investment_policy and 18-month gates per asset.",
   "framing": "Investable units are patent-defined technology packages. Many are university or hospital assignees with OTL/BRF licensing paths, not standalone incorporated startups.",
   "summary": {
-    "patent_defined_opportunities": 12,
-    "academic_or_hospital_assignee_primary": 7,
-    "company_assignee_with_univ_origin": 5,
-    "high_priority_ip_first": 8,
-    "curated_patent_filings_total": 57
+    "patent_defined_opportunities": 19,
+    "academic_or_hospital_assignee_primary": 8,
+    "company_assignee_with_univ_origin": 9,
+    "high_priority_ip_first": 12,
+    "curated_patent_filings_total": 105,
+    "grant_supported_gaps": 14,
+    "total_investable_units": 33
   },
   "scoring_note": "Promise tier (A/B/C) combines patent cluster depth, active federal funding, clinical/regulatory signal, and clarity of license vehicle. Not investment advice.",
   "opportunities": [
@@ -18,216 +22,1061 @@
       "title": "Wireless neurograins & distributed cortical implants",
       "promise_tier": "A",
       "patent_count": 8,
-      "key_patents": ["US10433754B2", "US11464964B2", "WO2016187254A1", "WO2020018571A1", "US20200367749A1", "US20200229704A1"],
+      "key_patents": [
+        "US10433754B2",
+        "US11464964B2",
+        "WO2016187254A1",
+        "WO2020018571A1",
+        "US20200367749A1",
+        "US20200229704A1"
+      ],
       "assignee": "Brown University",
       "assignee_type": "university",
-      "inventors": ["Arto Nurmikko", "David Borton", "Jacob Rosenstein"],
+      "inventors": [
+        "Arto Nurmikko",
+        "David Borton",
+        "Jacob Rosenstein",
+        "Borton",
+        "Nurmikko",
+        "Patterson",
+        "Powell",
+        "Lee",
+        "Laiwalla",
+        "Mercier",
+        "Rosenstein",
+        "Larson",
+        "Asbeck"
+      ],
       "investment_vehicle": "exclusive_license_or_spinout",
       "existing_entity": null,
-      "grant_anchors": ["UH2NS095548", "DARPA_neurograins_19M"],
+      "grant_anchors": [
+        "U24NS113637"
+      ],
       "clinical_stage": "preclinical_human_path",
-      "thesis": "DARPA-scale wireless microscale sensor network replaces tethered Utah arrays; dense Brown continuation family through 2020s applications.",
-      "diligence_priority": 1
+      "thesis": "Brown\u2019s wireless neurograin stack replaces tethered Utah arrays with a scalable microscale mesh\u2014backed by DARPA-scale funding and a dense continuation family through the 2020s. Value is an OTL spinout or exclusive license to a hardware partner before cortical BCI consolidates around a few implant vendors.",
+      "diligence_priority": 1,
+      "headline": "DARPA-scale wireless neurograins\u2014dense cortical sensing without Utah-array tethers.",
+      "opportunity_hook": "Brown OTL spinout after ~$19M DARPA + UH2\u2014hardware path parallel to BrainGate decode IP."
     },
     {
       "id": "ip_speech_tablet_ibci",
       "title": "Speech decoding & multi-device tablet iBCI",
       "promise_tier": "A",
       "patent_count": 6,
-      "key_patents": ["US12042303", "US11972050", "US12561001", "US10448877B2", "US18946156"],
+      "key_patents": [
+        "US12042303",
+        "US11972050",
+        "US12561001",
+        "US10448877B2",
+        "US18946156"
+      ],
       "assignee": "Brown University",
       "assignee_type": "university",
-      "inventors": ["Leigh Hochberg", "John Simeral", "Thomas Hosman"],
+      "inventors": [
+        "Leigh Hochberg",
+        "John Simeral",
+        "Thomas Hosman",
+        "Hochberg",
+        "Donoghue",
+        "Cash",
+        "Simeral",
+        "Hosman",
+        "Goldberg",
+        "Vargas-Irwin",
+        "Gusman"
+      ],
       "investment_vehicle": "consortium_license_or_device_co_dev",
       "existing_entity": "BrainGate (multi-institutional trial program)",
-      "grant_anchors": ["U01DC017844", "I01RX004820", "I01RX002295"],
+      "grant_anchors": [
+        "U01DC017844",
+        "I01RX004820",
+        "I01RX002295"
+      ],
       "clinical_stage": "clinical_trials_recruiting",
-      "trial_anchors": ["NCT05724173", "NCT06094205", "NCT06511934"],
-      "thesis": "Recent grants + recruiting speech/tablet trials de-risk decoding IP separate from hardware vendors (Blackrock, Synchron).",
-      "diligence_priority": 2
+      "trial_anchors": [
+        "NCT05724173",
+        "NCT06094205",
+        "NCT06511934"
+      ],
+      "thesis": "BrainGate-era decode IP is separating from electrode hardware: recruiting speech and tablet trials (NCT05724173 family) plus fresh U01/VA awards de-risk software and algorithm licensing. Best fit is consortium or co-development with device strategics (Blackrock, Synchron)\u2014not a capital-intensive implant startup.",
+      "diligence_priority": 2,
+      "display_name": "BrainGate",
+      "company_url": "https://www.braingate.org/",
+      "headline": "Recruiting speech and tablet iBCI trials\u2014decode IP distinct from electrode vendors.",
+      "opportunity_hook": "U01 + VA funding with NCT05724173 family\u2014consortium license or device co-development."
     },
     {
       "id": "ip_nanopieces_rna",
       "title": "Nanopieces non-viral RNA / nanocarrier delivery",
       "promise_tier": "A",
       "patent_count": 4,
-      "key_patents": ["US11701094B2", "US11608340B2", "US12357635B2", "US20230183253A1"],
+      "key_patents": [
+        "US11701094B2",
+        "US11608340B2",
+        "US12357635B2",
+        "US20230183253A1"
+      ],
       "assignee": "Rhode Island Hospital",
       "assignee_type": "hospital",
-      "inventors": ["Qian Chen"],
+      "inventors": [
+        "Qian Chen"
+      ],
       "investment_vehicle": "license_to_existing_startup_or_newco",
       "existing_entity": "NanoDe Therapeutics",
-      "grant_anchors": ["R41TR002298", "P20GM104416"],
+      "grant_anchors": [
+        "R41TR002298",
+        "P20GM104416"
+      ],
       "clinical_stage": "preclinical_sbir",
-      "thesis": "Hospital assignee with STTR-funded startup; IP package licensable for ortho/CNS indications beyond current NanoDe scope.",
-      "diligence_priority": 3
+      "thesis": "RIH-owned non-viral RNA nanocarriers sit inside an active STTR track at NanoDe but retain licensable field-of-use beyond the startup\u2019s current scope. Extrahepatic and ortho/CNS indications are the venture wedge\u2014partner with NanoDe or stand up a second newco after rodent delivery PoC.",
+      "diligence_priority": 3,
+      "display_name": "NanoDe Therapeutics",
+      "company_url": "https://nanodetherapeutics.com/",
+      "headline": "Hospital-owned non-viral RNA nanocarriers\u2014STTR-backed with expanded field-of-use option.",
+      "opportunity_hook": "RIH assignee + R41TR002298\u2014license to NanoDe or second newco beyond current scope."
     },
     {
       "id": "ip_chitinase_ocf203",
       "title": "Chitinase-1 inhibition for pulmonary fibrosis (OCF-203 family)",
       "promise_tier": "A",
       "patent_count": 1,
-      "key_patents": ["US11717528B2"],
+      "key_patents": [
+        "US11717528B2"
+      ],
       "assignee": "Ocean Biomedical (licensee); Brown origin (Elias)",
       "assignee_type": "licensed_from_university",
-      "inventors": ["Jack A. Elias"],
+      "inventors": [
+        "Jack A. Elias",
+        "Elias (Brown)"
+      ],
       "investment_vehicle": "sublicense_newco_or_asset_purchase",
       "existing_entity": "Ocean Biomedical; Elkurt Therapeutics",
-      "grant_anchors": ["P01HL114501"],
+      "grant_anchors": [
+        "P01HL114501"
+      ],
       "clinical_stage": "preclinical_to_ind",
-      "thesis": "Single high-value composition-of-matter style filing with decades of NHLBI P01 support; corporate license status requires 2025 OCF-203 diligence.",
-      "diligence_priority": 4
+      "thesis": "A single composition-of-matter-style CHIT1/CHI3L1 asset anchors decades of NHLBI P01 fibrosis science (Jack Elias, Brown origin). Near-term value is sublicense or asset purchase diligence on OCF-203 status inside the Ocean Biomedical / Elkurt stack\u2014not greenfield discovery.",
+      "diligence_priority": 4,
+      "display_name": "Ocean Biomedical",
+      "company_url": "https://oceanbiomedical.com/",
+      "headline": "Chitinase-1 IPF composition with decades of NHLBI P01 support\u2014license diligence on OCF-203.",
+      "opportunity_hook": "Brown-origin US11717528B2\u2014sublicense or asset path via Ocean / Elkurt corporate stack."
+    },
+    {
+      "id": "ip_ecm_morsels_xm",
+      "title": "Lab-grown decellularized ECM morsels (injectable matrix therapy)",
+      "promise_tier": "A",
+      "patent_count": 5,
+      "key_patents": [
+        "US20230348859A1",
+        "WO2022140530A1",
+        "US8361781B2",
+        "US11286451B2",
+        "US12435312B2"
+      ],
+      "assignee": "Brown University (licensed to XM Therapeutics)",
+      "assignee_type": "licensed_from_university",
+      "inventors": [
+        "Jeffrey R. Morgan",
+        "Blanche C. Ip",
+        "Benjamin T. Wilks",
+        "Morgan",
+        "Tripathi",
+        "Manning",
+        "Ip",
+        "Wilks"
+      ],
+      "investment_vehicle": "seed_equity_in_startup",
+      "existing_entity": "XM Therapeutics Inc",
+      "grant_anchors": [],
+      "clinical_stage": "preclinical_proof_of_principle",
+      "thesis": "Human MSC-derived ECM morsels (~200 \u00b5m) are injectable matrix therapy with published functional benefit in MI models (PMID 39705507) and a live Slater-backed RI spinout (XM Therapeutics). Formation capital funds large-animal PoP; exit comps are cardiac matrix and regenerative medtech strategics.",
+      "diligence_priority": 4,
+      "evidence_anchors": [
+        "PMID39705507",
+        "PMID40013741",
+        "PMID30267883"
+      ],
+      "display_name": "XM Therapeutics",
+      "company_url": "https://www.xmtherapeutics.com/",
+      "headline": "Injectable human ECM morsels for HF and IPF\u2014Slater-seeded Brown spinout.",
+      "opportunity_hook": "Slater $375K + BBII\u2014large-animal PoP before Heartseed-class Series A."
     },
     {
       "id": "ip_iaip_neonatal",
       "title": "IAIP biologics & rapid LFIA for sepsis/NEC/HIE",
       "promise_tier": "A",
       "patent_count": 4,
-      "key_patents": ["US7932365B2", "US9572872B2", "USRE47972E1", "US20070297982A1"],
+      "key_patents": [
+        "US7932365B2",
+        "US9572872B2",
+        "USRE47972E1",
+        "US20070297982A1"
+      ],
       "assignee": "ProThera Biologics LLC",
       "assignee_type": "startup",
-      "inventors": ["Yow-Pin Lim", "David C. Hixson"],
+      "inventors": [
+        "Yow-Pin Lim",
+        "David C. Hixson",
+        "Lim",
+        "Hixson (RIH)",
+        "Hixson"
+      ],
       "investment_vehicle": "equity_in_company",
       "existing_entity": "ProThera Biologics",
-      "grant_anchors": ["R44AI141283", "R44NS084575", "R43HD114348"],
+      "grant_anchors": [
+        "R44AI141283",
+        "R44NS084575",
+        "R43HD114348",
+        "R43HD069243"
+      ],
       "clinical_stage": "sbir_clinical_enabling",
-      "thesis": "Four-filing estate plus ~$3M+ active SBIR track; plasma-derived and diagnostic claims support dual product paths.",
-      "diligence_priority": 5
+      "thesis": "ProThera\u2019s four-filing estate plus ~$3.7M active SBIR supports parallel paths: plasma-derived IAIP biologic and rapid LFIA for NICU sepsis/NEC. Physician-founder equity and MeMed/Inotrem comps frame a $5\u201310M Series A once clinical-enabling milestones land.",
+      "diligence_priority": 5,
+      "display_name": "ProThera Biologics",
+      "company_url": "https://www.protherabiologics.com/",
+      "headline": "Dual-path NICU play\u2014IAIP biologic plus rapid LFIA on active SBIR stack.",
+      "opportunity_hook": "~$3.7M+ active SBIR\u2014physician-founder equity; Series A $5\u201310M band vs Inotrem/MeMed.",
+      "evidence_anchors": [
+        "PMID41674606"
+      ]
+    },
+    {
+      "id": "ip_osteopearl_vcf_lenoss",
+      "title": "Biological kyphoplasty / VCF \u2014 OsteoPearl cortical allograft & Elevoss cavity system",
+      "promise_tier": "B",
+      "patent_count": 7,
+      "key_patents": [
+        "US10993756B2",
+        "US12029463B2",
+        "USD1106456S1",
+        "USD1106457S1",
+        "US10219851B1",
+        "US20250099150A1",
+        "US8673010B2"
+      ],
+      "assignee": "Lenoss Medical Inc",
+      "assignee_type": "startup",
+      "inventors": [
+        "Dom Messerli",
+        "Curtis Compton",
+        "Dennis Chien"
+      ],
+      "investment_vehicle": "growth_equity_or_strategic",
+      "existing_entity": "Lenoss Medical Inc",
+      "grant_anchors": [],
+      "clinical_stage": "commercial_early_us",
+      "thesis": "Lenoss commercializes 100% cortical allograft kyphoplasty\u2014no PMMA balloon\u2014with linked OsteoPearl pearls and a deep granted patent stack (23+ cited in 2025 press). This is growth equity or strategic medtech, not university OTL formation.",
+      "diligence_priority": 5,
+      "evidence_anchors": [
+        "PMID29547939",
+        "company_press_2025"
+      ],
+      "display_name": "Lenoss Medical",
+      "company_url": "https://lenoss.com/",
+      "headline": "Cortical allograft kyphoplasty without PMMA\u2014commercial early with Series A traction.",
+      "opportunity_hook": "NEMIC + Commerce voucher\u2014growth equity, not university OTL formation."
+    },
+    {
+      "id": "ip_dendritic_ad_mindimmune",
+      "title": "Peripheral dendritic-cell blockade for Alzheimer's (MITI-101)",
+      "promise_tier": "A",
+      "patent_count": 3,
+      "key_patents": [
+        "US20210181185A1",
+        "US10124010B2",
+        "US10238654B2"
+      ],
+      "assignee": "MindImmune Therapeutics Inc",
+      "assignee_type": "startup",
+      "inventors": [
+        "Stevin H. Zorn",
+        "Robert B. Nelson",
+        "Frank S. Menniti",
+        "Brian M. Campbell",
+        "MindImmune",
+        "Lundbeck"
+      ],
+      "investment_vehicle": "series_a_extension_or_co_invest",
+      "existing_entity": "MindImmune Therapeutics Inc",
+      "grant_anchors": [],
+      "clinical_stage": "preclinical_ind_enabling",
+      "thesis": "MITI-101 blocks recruitment of CD11c+ peripheral innate cells into the AD brain\u2014a mechanism orthogonal to amyloid mAbs\u2014with URI Ryan Institute roots and a $30M Series A (Nov 2025). Co-invest or extension alongside Slater/RightHill fits after IND-enabling clarity.",
+      "diligence_priority": 5,
+      "evidence_anchors": [
+        "PMID38705533"
+      ],
+      "display_name": "MindImmune",
+      "company_url": "https://mindimmune.com/",
+      "headline": "Block dendritic recruitment to AD brain\u2014$30M Series A with RI Hub IND grant.",
+      "opportunity_hook": "MITI-101 mAb post\u2013Series A\u2014co-invest or extension with Slater/RightHill in syndicate."
     },
     {
       "id": "ip_spinal_isi_dbs",
       "title": "Intelligent spinal interface & closed-loop DBS facilitation",
       "promise_tier": "A",
       "patent_count": 2,
-      "key_patents": ["WO2019027517A1", "US20170042713A1"],
+      "key_patents": [
+        "WO2019027517A1",
+        "US20170042713A1"
+      ],
       "assignee": "Brown University",
       "assignee_type": "university",
-      "inventors": ["David Borton", "Emad Eskandar", "Alik S. Widge"],
+      "inventors": [
+        "David Borton",
+        "Emad Eskandar",
+        "Alik S. Widge",
+        "Nurmikko",
+        "Borton",
+        "Simeral",
+        "Widge",
+        "Eskandar"
+      ],
       "investment_vehicle": "license_with_strategic_device_partner",
       "existing_entity": null,
-      "grant_anchors": ["DARPA_ISI_6.3M", "NCT04302259"],
+      "grant_anchors": [
+        "I01RX004250"
+      ],
       "clinical_stage": "early_clinical_ide",
-      "thesis": "Distinct from cortical BCI; DARPA-funded SCI rehab with IDE trial at RIH—suitable for medtech strategic or SPV.",
-      "diligence_priority": 6
+      "thesis": "The intelligent spinal interface program is cortically distinct: DARPA-funded SCI rehab with an IDE path at RIH (NCT04302259). Capital expects a medtech strategic, SPV, or field-of-use license\u2014not a consumer neurotech story.",
+      "diligence_priority": 6,
+      "headline": "DARPA intelligent spinal interface\u2014SCI rehab IDE distinct from cortical BCI.",
+      "opportunity_hook": "DARPA $6.3M + NCT04302259\u2014medtech strategic or SPV vs wireless neurograins.",
+      "trial_anchors": [
+        "NCT04302259"
+      ]
     },
     {
       "id": "ip_tregitope_immunomod",
       "title": "Tregitope regulatory T-cell epitope therapeutics",
       "promise_tier": "B",
       "patent_count": 10,
-      "key_patents": ["US7884184B2", "US10213496B2", "US11844826B2", "US10751397B2", "US10925939B2"],
+      "key_patents": [
+        "US7884184B2",
+        "US10213496B2",
+        "US11844826B2",
+        "US10751397B2",
+        "US10925939B2"
+      ],
       "assignee": "EpiVax Inc",
       "assignee_type": "company",
-      "inventors": ["Anne S. De Groot", "William Martin"],
+      "inventors": [
+        "Anne S. De Groot",
+        "William Martin",
+        "De Groot",
+        "Martin",
+        "Rivera"
+      ],
       "investment_vehicle": "growth_equity_or_asset_license",
       "existing_entity": "EpiVax Inc; EpiVax Therapeutics",
-      "grant_anchors": ["R43AI174486", "U01FD007760", "R01AI132205"],
+      "grant_anchors": [
+        "R43AI174486",
+        "U01FD007760",
+        "R01AI132205",
+        "R43TR002441",
+        "R43AI118189"
+      ],
       "clinical_stage": "platform_commercial_plus_therapeutic",
-      "thesis": "Deepest RI patent cluster outside neurotech; platform ARR plus spinout therapeutics—less seed, more strategic/platform capital.",
-      "diligence_priority": 7
+      "thesis": "EpiVax holds RI\u2019s deepest immunoinformatics patent cluster\u2014platform services ARR plus Tregitope therapeutic options. Investors should underwrite growth/strategic capital on license revenue, not a classic $400K Slater seed newco.",
+      "diligence_priority": 7,
+      "display_name": "EpiVax",
+      "company_url": "https://epivax.com/",
+      "headline": "Deepest RI immunoinformatics patent cluster\u2014platform ARR plus therapeutic spinouts.",
+      "opportunity_hook": "Growth/strategic capital on Tregitope stack\u2014not classic Slater seed formation.",
+      "evidence_anchors": [
+        "PMID32318055"
+      ]
     },
     {
       "id": "ip_biglycan_msk",
       "title": "Biglycan musculoskeletal & neuromuscular regeneration",
       "promise_tier": "B",
       "patent_count": 2,
-      "key_patents": ["US8658596B2", "US20110183910A1"],
+      "key_patents": [
+        "US8658596B2",
+        "US20110183910A1"
+      ],
       "assignee": "Brown University Research Foundation",
       "assignee_type": "university_brf",
-      "inventors": ["Justin Fallon"],
+      "inventors": [
+        "Justin Fallon",
+        "Fallon"
+      ],
       "investment_vehicle": "otl_license_newco",
       "existing_entity": null,
-      "grant_anchors": [],
+      "grant_anchors": [
+        "R21AG073743",
+        "R21NS112743"
+      ],
       "clinical_stage": "preclinical_academic",
-      "thesis": "BRF-held rare-disease/muscle regeneration package with no RI startup in map—classic OTL out-license opportunity.",
-      "diligence_priority": 8
+      "thesis": "BRF-held biglycan biology targets utrophin upregulation for neuromuscular restoration with no mapped RI startup\u2014classic Brown OTL out-license. A physician KOL SAB plus Slater seed follows in vivo PoC, not before.",
+      "diligence_priority": 8,
+      "headline": "BRF biglycan MSK regeneration\u2014classic Brown OTL out-license with no RI startup mapped.",
+      "opportunity_hook": "Preclinical academic package\u2014physician KOL SAB + Slater seed after PoC."
     },
     {
       "id": "ip_neural_decoding_legacy",
       "title": "Core neural signal decoding & cortical interface (Donoghue era)",
       "promise_tier": "B",
       "patent_count": 5,
-      "key_patents": ["US7212851", "US7392079", "US7280870", "US20200104689A1", "US9851795"],
+      "key_patents": [
+        "US7212851",
+        "US7392079",
+        "US7280870",
+        "US20200104689A1",
+        "US9851795"
+      ],
       "assignee": "Brown University",
       "assignee_type": "university",
-      "inventors": ["John Donoghue", "Nicholas Hatsopoulos", "Leigh Hochberg"],
+      "inventors": [
+        "John Donoghue",
+        "Nicholas Hatsopoulos",
+        "Leigh Hochberg",
+        "Donoghue",
+        "Vargas-Irwin",
+        "Hatsopoulos",
+        "Nurmikko",
+        "Serruya",
+        "Jarosiewicz",
+        "Bacher"
+      ],
       "investment_vehicle": "royalty_stack_or_field_of_use_license",
       "existing_entity": "BrainGate; Blackrock Neurotech (external)",
-      "grant_anchors": ["BrainGate_multi_IC"],
+      "grant_anchors": [
+        "U01DC017844",
+        "I01RX004820",
+        "I01RX002295"
+      ],
       "clinical_stage": "clinical_legacy",
-      "thesis": "Foundational BMI patents may underpin FTO for new entrants; diligence on encumbrances vs wireless/speech sub-families essential.",
-      "diligence_priority": 9
+      "thesis": "Donoghue-era foundational BMI patents may gate FTO for every new cortical interface entrant. Diligence on encumbrances versus wireless and speech sub-families determines whether value is royalty stack, narrow field-of-use license, or defensive acquisition.",
+      "diligence_priority": 9,
+      "display_name": "BrainGate",
+      "company_url": "https://www.braingate.org/",
+      "headline": "Foundational BMI decode patents\u2014FTO diligence essential for new neurotech entrants.",
+      "opportunity_hook": "Royalty or field-of-use license vs wireless/speech sub-families."
     },
     {
       "id": "ip_af_mapping_ai",
       "title": "AI-guided atrial fibrillation ablation mapping (VX1)",
       "promise_tier": "B",
       "patent_count": 2,
-      "key_patents": ["US10750967B2", "US20210121118A1"],
+      "key_patents": [
+        "US10750967B2",
+        "US20210121118A1"
+      ],
       "assignee": "Volta Medical Inc",
       "assignee_type": "company",
-      "inventors": ["Volta team"],
+      "inventors": [
+        "Volta team"
+      ],
       "investment_vehicle": "growth_vc_or_strategic",
       "existing_entity": "Volta Medical",
       "grant_anchors": [],
       "clinical_stage": "fda_cleared_commercial",
-      "thesis": "Patent-protected SaMD with regulatory clearance; growth-stage, not classic university spinout.",
-      "diligence_priority": 10
+      "thesis": "Volta\u2019s FDA-cleared VX1 SaMD shortens AF ablation cases with AI substrate mapping\u2014protected claims on a ~\u20ac74M VC trajectory. Formation is complete; opportunity is growth or strategic medtech, not Slater physician-match.",
+      "diligence_priority": 10,
+      "display_name": "Volta Medical",
+      "company_url": "https://www.volta-medical.us/",
+      "headline": "FDA-cleared AI AF ablation mapping\u2014growth-stage SaMD with protected claims.",
+      "opportunity_hook": "~\u20ac74M VC path\u2014strategic or growth round, not formation."
     },
     {
       "id": "ip_genomics_hans",
       "title": "Hybridization-assisted nanopore / electronic genome mapping",
       "promise_tier": "C",
       "patent_count": 3,
-      "key_patents": ["US20070190542A1", "WO2007041621A2", "US20140248183A1"],
+      "key_patents": [
+        "US20070190542A1",
+        "WO2007041621A2",
+        "US20140248183A1"
+      ],
       "assignee": "Nabsys 2.0 LLC",
       "assignee_type": "company",
-      "inventors": ["Sean Ling", "Barrett Bready", "John Oliver"],
+      "inventors": [
+        "Sean Ling",
+        "Barrett Bready",
+        "John Oliver",
+        "Bready",
+        "Ling",
+        "Oliver"
+      ],
       "investment_vehicle": "strategic_MA_or_royalty",
       "existing_entity": "Nabsys 2.0 (Hitachi interest)",
-      "grant_anchors": ["R43HG004433"],
+      "display_name": "Nabsys",
+      "company_url": "https://www.nabsys.com/",
+      "grant_anchors": [
+        "R43HG004433"
+      ],
       "clinical_stage": "commercial",
-      "thesis": "Brown-origin genomics IP now commercial; patent package relevant for structural-variant tools M&A, not seed.",
-      "diligence_priority": 11
+      "thesis": "Brown-origin electronic genome mapping (Nabsys, Hitachi-backed) competes in structural variant detection where NGS leaves gaps. Exit logic is strategic M&A or royalty on OhmX adoption\u2014not seed-stage company formation.",
+      "diligence_priority": 11,
+      "headline": "Electronic genome mapping (Nabsys)\u2014commercial Brown-origin IP with strategic exit paths.",
+      "opportunity_hook": "NHGRI R43HG004433 heritage; Hitachi interest\u2014M&A/royalty, not Slater seed."
     },
     {
       "id": "ip_ect_ophthalmology",
       "title": "Encapsulated cell therapy for retinal degeneration (CNTF)",
       "promise_tier": "C",
       "patent_count": 8,
-      "key_patents": ["US12485087B2", "US9149427B2", "US9925219B2", "US10004804B2"],
+      "key_patents": [
+        "US12485087B2",
+        "US9149427B2",
+        "US9925219B2",
+        "US10004804B2"
+      ],
       "assignee": "Neurotech USA Inc",
       "assignee_type": "company",
-      "inventors": ["Jeffrey Goldberg", "Neurotech"],
+      "inventors": [
+        "Jeffrey Goldberg",
+        "Neurotech",
+        "Goldberg",
+        "McGovern",
+        "Tao"
+      ],
       "investment_vehicle": "royalty_MA_late_stage",
       "existing_entity": "Neurotech Pharmaceuticals",
       "grant_anchors": [],
       "clinical_stage": "late_clinical_commercial",
-      "thesis": "Large ECT patent runway in Cumberland RI; secondary liquidity / royalty plays rather than formation capital.",
-      "diligence_priority": 12
+      "thesis": "A broad encapsulated cell therapy (CNTF) estate in Cumberland RI underpins late-stage ophthalmology commercialization (including 2025 MacTel approval). Investors pursue secondary liquidity, royalties, or asset M&A\u2014not de novo spinout capital.",
+      "diligence_priority": 12,
+      "display_name": "Neurotech Pharmaceuticals",
+      "company_url": "https://www.neurotechpharmaceuticals.com/",
+      "headline": "Eight-filing ECT estate with 2025 MacTel approval\u2014liquidity and royalty plays.",
+      "opportunity_hook": "Mature commercial rollout\u2014secondary M&A/royalty, not Slater seed."
+    },
+    {
+      "id": "ip_monaghan_deep_rna_dx",
+      "title": "Deep RNA transcriptomic ICU diagnostics (host + pathogen)",
+      "promise_tier": "A",
+      "patent_count": 4,
+      "key_patents": [
+        "US20220340972A1",
+        "US20250034234A1",
+        "EP4599084A1",
+        "CN120344677A"
+      ],
+      "assignee": "Rhode Island Hospital",
+      "assignee_type": "hospital",
+      "inventors": [
+        "Sean F. Monaghan",
+        "Gerard J. Nau",
+        "Alger M. Fredericks"
+      ],
+      "investment_vehicle": "hospital_license_or_spinout",
+      "existing_entity": null,
+      "grant_anchors": [
+        "R35GM142638"
+      ],
+      "clinical_stage": "clinical_translational_ldt",
+      "evidence_anchors": [
+        "PMID41697057",
+        "https://doi.org/10.26508/lsa.202503380",
+        "https://doi.org/10.1038/s41598-022-20139-1"
+      ],
+      "thesis": "One ICU blood draw yields >100M-read deep RNA: host immune deconvolution (splicing, NMD) plus pathogen/AMR signal from unmapped reads\u2014orthogonal to ProThera biologic and Levine wearable ML. RIH patents and NIGMS R35 support a physician-led Dx spinout before national blood-RNA platforms scale.",
+      "diligence_priority": 5,
+      "headline": "One blood draw, full transcriptome\u2014faster pathogen ID than culture, with host splicing biomarkers.",
+      "opportunity_hook": "RIH-owned deep RNA platform + NIGMS R35 + Brown RNA Center\u2014physician-founder spinout before national blood-RNA Dx scale-up."
+    },
+    {
+      "id": "ip_bolden_musk_neurogenesis",
+      "title": "MuSK-pathway ASO neurogenesis (Bolden Therapeutics)",
+      "promise_tier": "A",
+      "patent_count": 3,
+      "key_patents": [
+        "US12458657B2",
+        "US20220193114A1",
+        "WO20200214987A1"
+      ],
+      "assignee": "Brown University (licensed to Bolden Therapeutics)",
+      "assignee_type": "licensed_from_university",
+      "inventors": [
+        "Justin R. Fallon",
+        "Ashley E. Webb",
+        "Johnny Page",
+        "John Page"
+      ],
+      "investment_vehicle": "seed_equity_in_startup",
+      "existing_entity": "Bolden Therapeutics Inc",
+      "display_name": "Bolden Therapeutics",
+      "company_url": "https://www.boldentherapeutics.com/",
+      "grant_anchors": [],
+      "evidence_anchors": [
+        "https://www.boldentherapeutics.com/"
+      ],
+      "clinical_stage": "preclinical_in_vivo",
+      "thesis": "Bolden holds Brown OTL rights to MuSK Ig3 exon-skipping ASOs that release adult hippocampal neurogenesis\u2014distinct from biglycan MSK and MindImmune innate blockade. Slater/Lifespan pre-seed capital buys IND-enabling runway in a re-opened neuro restoration niche.",
+      "diligence_priority": 8,
+      "headline": "ASO switch for neural stem-cell quiescence\u2014Brown Fallon/Webb science in a Slater-backed Providence newco.",
+      "opportunity_hook": "NIA STTR + $1.5M pre-seed (Slater, Lifespan Vision)\u2014formation capital before Big Pharma neurogenesis comparables."
+    },
+    {
+      "id": "ip_pax_aav_vegf_tendon",
+      "title": "AAV2\u2013VEGF gene therapy for tendon & ligament repair (PAX-001)",
+      "promise_tier": "A",
+      "patent_count": 1,
+      "key_patents": [
+        "WO2019146830A1"
+      ],
+      "assignee": "Rhode Island Hospital (Pax Therapeutics licensee)",
+      "assignee_type": "licensed_from_hospital",
+      "inventors": [
+        "Paul Y. Liu",
+        "Xiao Wu"
+      ],
+      "investment_vehicle": "seed_equity_in_startup",
+      "existing_entity": "Pax Therapeutics",
+      "display_name": "Pax Therapeutics",
+      "company_url": "https://www.paxtherapeutics.com/",
+      "grant_anchors": [],
+      "evidence_anchors": [
+        "https://www.paxtherapeutics.com/our-pipeline"
+      ],
+      "clinical_stage": "preclinical_ind_enabling",
+      "thesis": "Pax Therapeutics delivers local AAV2\u2013VEGF at tendon repair sites, with preclinical signals of accelerated collagen maturation (~350% tensile strength in flexor models). RIH-origin IP, ~$1.7M seed, and pre-IND work position hand flexor first, then ACL/Achilles\u2014with chairman-surgeon governance.",
+      "diligence_priority": 6,
+      "headline": "One-shot gene therapy at repair\u2014faster, stronger tendon healing than surgery alone.",
+      "opportunity_hook": "RIH-origin patents + ~$1.7M seed + RILSH LIFT for IND\u2014physician-chairman Liu MD with pre-IND complete."
+    },
+    {
+      "id": "ip_oncolux_lumis",
+      "title": "LUMIS optical theranostics \u2014 intraoperative see-and-treat oncology",
+      "promise_tier": "B",
+      "patent_count": 3,
+      "key_patents": [
+        "US20260083330A1",
+        "US20250076201A1",
+        "US20240310617A1"
+      ],
+      "assignee": "OncoLux Inc",
+      "assignee_type": "startup",
+      "inventors": [
+        "Alan Kersey"
+      ],
+      "investment_vehicle": "growth_equity_or_strategic_medtech",
+      "existing_entity": "OncoLux Inc",
+      "display_name": "OncoLux",
+      "company_url": "https://oncoluxinc.com/",
+      "grant_anchors": [],
+      "evidence_anchors": [
+        "https://oncoluxinc.com/about_us/"
+      ],
+      "clinical_stage": "clinical_validation",
+      "thesis": "LUMIS combines multispectral fluorescence guidance with intraoperative photodynamic therapy\u2014see-and-treat in one OR workflow\u2014with Kersey/CytoVeris patent linkage and Mayo bronchoscopy collaboration. Medtech growth or strategic partnership fits after clinical validation, not university OTL seed.",
+      "diligence_priority": 10,
+      "headline": "See malignant margins and treat in the same OR workflow\u2014AI-guided optical theranostics.",
+      "opportunity_hook": "RILSH attraction award + Ocean State Labs + Mayo know-how\u2014medtech growth, not university OTL."
     }
   ],
   "gaps_not_in_curated_patents": [
     {
       "id": "gap_smurf2_oncology",
-      "title": "SMURF2–HIF1α oncology",
-      "note": "0 patents in curated set; El-Deiry portfolio ~19 per CV—harvest IN/El-Deiry and SMURF-Therapeutics assignee",
-      "grant_anchors": ["R01CA173453"],
-      "existing_entity": "SMURF-Therapeutics Inc"
+      "title": "SMURF2\u2013HIF1\u03b1 oncology",
+      "note": "3 primary Brown HIF/p53 filings linked (USPTO ODP); no SMURF-Therapeutics assignee \u2014 license from Brown OTL. Penn State p53 background families excluded from key list.",
+      "grant_anchors": [
+        "R01CA173453"
+      ],
+      "existing_entity": "SMURF-Therapeutics Inc",
+      "display_name": "SMURF-Therapeutics",
+      "company_url": "https://smurftherapeutics.com/",
+      "diligence_priority": 14,
+      "headline": "HIF-pathway oncology with Welireg-scale commercial proof\u2014harvest El-Deiry estate.",
+      "opportunity_hook": "R01CA173453 + SMURF-Tx Providence\u2014Slater seed after biomarker PoC.",
+      "evidence_anchors": [
+        "PMID39697237",
+        "PMID34611473"
+      ],
+      "key_patents_harvested": [
+        "WO2024192252A1",
+        "US20230183356A1",
+        "US20230219957A1"
+      ],
+      "patent_science_association": "primary \u2014 HIF-1\u03b1 / p53 oncology matches SMURF2\u2013HIF1\u03b1 asset science; assignee mismatch vs company name",
+      "science_field": "Oncology \u2014 hypoxia / tumor suppressor pathway therapeutics",
+      "assignee_label": "Brown University",
+      "inventors": [
+        "Wafik S. El-Deiry"
+      ],
+      "thesis": "Brown\u2019s SMURF2\u2013HIF1\u03b1 oncology estate (El-Deiry) aligns with Welireg-era proof that HIF biology can support premium oncology pricing\u2014while assignee diligence still maps SMURF-Therapeutics to OTL. Slater-scale capital follows biomarker-selected solid-tumor PoC, not platform hype."
     },
     {
       "id": "gap_soma_dtx",
       "title": "SOMA interoception / pain digital therapeutic",
-      "note": "Grant-supported (COBRE); expect software/trade secret—USPTO assignee search Petzschner/Gunsilius",
-      "grant_anchors": ["P20GM103645"],
-      "existing_entity": "SOMAScience / spinout forming"
+      "note": "No USPTO applications for Petzschner/Gunsilius (ODP 404). COBRE P20GM103645 \u2014 interoception/pain DTx likely SaMD/trade secret, not patent-defined unit.",
+      "grant_anchors": [
+        "P20GM103645"
+      ],
+      "existing_entity": "SOMAScience / spinout forming",
+      "display_name": "SOMAScience",
+      "diligence_priority": 15,
+      "headline": "COBRE-backed interoception pain DTx\u2014spinout forming from Carney.",
+      "opportunity_hook": "Kaia-class financing vs Pear Ch.11 payer lesson\u2014SaMD path after pivotal pilot.",
+      "key_patents_harvested": [],
+      "patent_science_association": "none \u2014 digital therapeutic / computational psychiatry field has no matching US patent annex",
+      "science_field": "Digital health \u2014 interoception / chronic pain DTx",
+      "assignee_label": "Brown University (COBRE)",
+      "inventors": [
+        "Frederike Petzschner",
+        "Chloe Gunsilius"
+      ],
+      "evidence_anchors": [
+        "PMID33378658",
+        "P20GM103645"
+      ],
+      "thesis": "SOMAScience translates Carney COBRE interoception science into a chronic-pain digital therapeutic\u2014grant-first (P20GM103645) without USPTO product filings today. Reimbursement and pivotal pilot design are the gates; comps are Kaia-scale DTx raises, with Pear Chapter 11 as payer-risk lesson."
     },
     {
       "id": "gap_christensen_epigenetics",
       "title": "HiTIMED / immune epigenetic deconvolution",
-      "note": "0 in curated set; Brown OTL software/method disclosures",
-      "grant_anchors": ["R01CA253976", "R01CA216265"],
-      "existing_entity": null
+      "note": "HiTIMED US+EP+PCT linked (Dartmouth assignee). Brown collaborator on grants \u2014 OTL sublicense diligence. Adjacent methylation classifier + glioma PCT in curated annex.",
+      "grant_anchors": [
+        "R01CA253976",
+        "R01CA216265",
+        "P20GM104416"
+      ],
+      "key_patents_harvested": [
+        "EP4505463A1",
+        "US20250372198A1",
+        "WO2023196051A1"
+      ],
+      "existing_entity": null,
+      "diligence_priority": 16,
+      "headline": "HiTIMED immune epigenetic deconvolution\u2014Dartmouth EP pending, Brown collaborator.",
+      "opportunity_hook": "R01 stack + EP4505463A1\u2014pharma license model, not classic biotech VC.",
+      "evidence_anchors": [
+        "PMID36348337"
+      ],
+      "patent_science_association": "primary \u2014 immune TME epigenetic deconvolution matches HiTIMED asset science",
+      "science_field": "Diagnostics \u2014 tumor immune microenvironment epigenetics",
+      "assignee_label": "Dartmouth College",
+      "inventors": [
+        "Brock C. Christensen",
+        "Lucas A. Salas",
+        "Ze Zhang",
+        "Karl T. Kelsey",
+        "John K. Wiencke",
+        "Devin C. Koestler"
+      ],
+      "thesis": "HiTIMED immune epigenetic deconvolution (Dartmouth EP/PCT; Brown collaborator on R01CA253976) packages tumor microenvironment signatures for pharma trial enrichment. Economics are signature licensing and sponsored research\u2014not a standalone therapeutic Series A."
+    },
+    {
+      "id": "gap_ni2o_kiwi_bci",
+      "title": "KIWI wireless micro-implant BCI (ni2o)",
+      "note": "19+ Howard/Genesis Intelligence KIWI filings (representative 3 in key list). No ni2o assignee \u2014 map company via Howard license. Brown BrainGate wireless patents are separate FTO (theme neurotech).",
+      "grant_anchors": [],
+      "existing_entity": "ni2o Inc",
+      "display_name": "ni2o",
+      "company_url": "https://ni2o.com/",
+      "diligence_priority": 13,
+      "headline": "KIWI wireless micro-implant BCI\u2014Providence HQ with BrainGate FTO diligence.",
+      "opportunity_hook": "Nurosene partnership + strategic path\u2014harvest Howard/ni2o USPTO vs Brown patents.",
+      "key_patents_harvested": [
+        "US20260137929A1",
+        "US20210196980A1",
+        "US20210263589A1"
+      ],
+      "patent_science_association": "primary \u2014 wireless cranial micro-implant BCI matches KIWI asset science; corporate assignee is Genesis Intelligence not ni2o Inc",
+      "science_field": "Neurotechnology \u2014 wireless brain-computer interface implants",
+      "assignee_label": "Genesis Intelligence, LLC (ni2o license path)",
+      "inventors": [
+        "Newton Howard"
+      ],
+      "thesis": "Genesis Intelligence\u2019s KIWI wireless micro-implant family (19+ filings; ni2o Providence HQ) targets low-burden BCI with Nurosene partnership momentum. BrainGate/Brown wireless FTO diligence is mandatory before strategic or growth capital."
+    },
+    {
+      "id": "gap_levine_pediatric_sepsis",
+      "title": "Wearable pediatric sepsis ML (Levine / Garbern)",
+      "note": "Grant-first (R33TW012211); no USPTO filing for Levine wearable sepsis product in ODP\u2014orthogonal to Monaghan RNA Dx and ProThera IAIP biologic.",
+      "grant_anchors": [
+        "R33TW012211",
+        "R01DK116163",
+        "D43TW012768"
+      ],
+      "existing_entity": null,
+      "display_name": "Levine sepsis CDSS",
+      "diligence_priority": 17,
+      "headline": "Wearable ML for earlier pediatric sepsis recognition\u2014validated in Bangladesh ICU cohort.",
+      "opportunity_hook": "FIC R33TW012211 \u2192 US SaMD path; pairs with RIH RNA Dx stack.",
+      "key_patents_harvested": [],
+      "patent_science_association": "none \u2014 publications + grants; not patent-defined today",
+      "science_field": "Digital health \u2014 pediatric sepsis early warning",
+      "assignee_label": "Brown University / Rhode Island Hospital",
+      "evidence_anchors": [
+        "PMID39475844",
+        "PMID41252746",
+        "R33TW012211",
+        "R01DK116163"
+      ],
+      "inventors": [
+        "Adam C. Levine",
+        "Stephanie C. Garbern"
+      ],
+      "thesis": "Wearable vitals plus ML flagged advanced pediatric sepsis hours ahead of routine documentation in prospective Bangladesh ICU work (PMID 39475844, 41252746)\u2014grant-backed via R33TW012211. US value is SaMD classification and health-system pilot, complementing Monaghan RNA Dx and ProThera biologic in a stacked sepsis portfolio.",
+      "trial_anchors": []
+    },
+    {
+      "id": "gap_uri_phlip_lnp",
+      "title": "PHLIP peptide\u2013LNP nucleic acid & STING delivery (URI)",
+      "note": "URI Board of Trustees assignee; distinct from Brown/RIH Nanopieces\u2014intracellular pH-triggered delivery.",
+      "grant_anchors": [
+        "R01GM073857"
+      ],
+      "existing_entity": null,
+      "display_name": "URI PHLIP platform",
+      "diligence_priority": 18,
+      "headline": "URI PHLIP delivers cargo into acidic tissues\u2014LNP and STING programs without classic endocytosis.",
+      "opportunity_hook": "URI tech transfer \u2192 RI spinout or license; Engelman/Reshetnyak PHLIP science (PMID 24659971).",
+      "key_patents_harvested": [
+        "WO2025171027A1",
+        "WO2025081077A1",
+        "WO2024040027A1"
+      ],
+      "patent_science_association": "primary \u2014 PHLIP delivery matches RNA/innate immuno asset science",
+      "science_field": "Non-viral delivery \u2014 LNP / STING immuno-oncology",
+      "assignee_label": "University of Rhode Island",
+      "evidence_anchors": [
+        "https://web.uri.edu/research/",
+        "PMID24659971",
+        "PMID32411684",
+        "PMID33443162",
+        "R01GM073857"
+      ],
+      "inventors": [
+        "Yana K. Reshetnyak",
+        "Oleg A. Andreev",
+        "Donald M. Engelman",
+        "Umberto Romeo",
+        "Eleonora Fratus",
+        "Mathieu Giraud"
+      ],
+      "thesis": "PHLIP peptides insert at acidic pH to deliver LNPs and STING payloads without classical endocytosis\u2014URI\u2019s WO family competes on tumor microenvironment selectivity versus liver-default genetic medicine. URI tech transfer \u2192 RI spinout or license after rodent tumor delivery PoC."
+    },
+    {
+      "id": "gap_rih_salivary_ev_ad",
+      "title": "Salivary EV biomarkers for Alzheimer's disease (RIH)",
+      "note": "RIH assignee; liquid biopsy from saliva\u2014distinct from blood RNA-seq Monaghan line.",
+      "grant_anchors": [
+        "R01AG074284"
+      ],
+      "existing_entity": null,
+      "diligence_priority": 19,
+      "headline": "Salivary extracellular vesicles as a non-invasive Alzheimer's liquid biopsy.",
+      "opportunity_hook": "RIH/Brown R01AG074284 supports analytical development; path to CLIA LDT then spinout.",
+      "key_patents_harvested": [
+        "US20260103757A1"
+      ],
+      "patent_science_association": "primary",
+      "science_field": "Neuro diagnostics \u2014 salivary liquid biopsy",
+      "assignee_label": "Rhode Island Hospital",
+      "evidence_anchors": [
+        "US20260103757A1",
+        "PMID41602168",
+        "R01AG074284"
+      ],
+      "inventors": [
+        "Jill Kreiling",
+        "Peter Quesenberry",
+        "Zhijin Wu"
+      ],
+      "thesis": "Salivary EV RNA offers a less invasive Alzheimer\u2019s liquid-biopsy lane as plasma p-tau tests gain FDA traction\u2014RIH/Brown R01AG074284 funds analytical work toward CLIA LDT, then Dx spinout. US20260103757A1 anchors assignee IP distinct from Monaghan deep blood RNA."
+    },
+    {
+      "id": "gap_rih_bx912_pulmonary_htn",
+      "title": "BX-912 for pulmonary hypertension (RIH)",
+      "note": "PCT WO2026112526; small-molecule PH therapeutic\u2014verify PI and hospital license chain.",
+      "grant_anchors": [
+        "R01HL174007"
+      ],
+      "existing_entity": null,
+      "diligence_priority": 20,
+      "headline": "BX-912 program for pulmonary hypertension\u2014RIH PCT with multi-center inventor team.",
+      "opportunity_hook": "Preclinical PH models \u2192 IND-enabling; benchmark against 2024 PAH biologic approval.",
+      "key_patents_harvested": [
+        "WO2026112526A1"
+      ],
+      "patent_science_association": "primary",
+      "science_field": "Cardiopulmonary therapeutics",
+      "assignee_label": "Rhode Island Hospital",
+      "inventors": [
+        "Olin D. Liang",
+        "James R. Klinger",
+        "Christopher James Rhodes",
+        "Eleni Vasilaki",
+        "Rachel Walters",
+        "Lan Zhao",
+        "Martin R. Wilkins"
+      ],
+      "thesis": "RIH\u2019s BX-912 PAH program (WO2026112526) enters a market reset by 2024\u2019s first-in-class biologic approval\u2014clear regulatory benchmarks, crowded chemistry. Value is IND-enabling PoC plus cardio newco or license after PI and hospital chain-of-title diligence.",
+      "evidence_anchors": [
+        "WO2026112526A1"
+      ]
+    },
+    {
+      "id": "gap_rih_pahtn_dx",
+      "title": "PAH / sudden cardiac death diagnostics (RIH)",
+      "note": "US20180094317 family; companion Dx to BX-912 PH program or standalone risk stratification.",
+      "grant_anchors": [
+        "R01HL174007",
+        "R01HL141268",
+        "R01HL104025"
+      ],
+      "existing_entity": null,
+      "diligence_priority": 21,
+      "headline": "RIH diagnostic panel for pulmonary arterial hypertension and sudden cardiac death risk.",
+      "opportunity_hook": "Mature US20180094317 family; retrospective \u2192 prospective validation.",
+      "key_patents_harvested": [
+        "US20180094317A1"
+      ],
+      "patent_science_association": "primary",
+      "science_field": "Cardiopulmonary diagnostics",
+      "assignee_label": "Rhode Island Hospital",
+      "inventors": [
+        "Samuel C. Dudley Jr.",
+        "Corey E. Ventetuolo"
+      ],
+      "thesis": "A mature RIH Dx family (US20180094317; Dudley/Ventetuolo) targets PAH and sudden cardiac death risk stratification\u2014companion to BX-912 or standalone. Retrospective cohort success must convert to prospective registry data before license or seed Dx pricing power.",
+      "evidence_anchors": [
+        "US20180094317A1"
+      ]
+    },
+    {
+      "id": "gap_rih_bbb_nucleic_delivery",
+      "title": "BBB-crossing nucleic acid delivery (RIH)",
+      "note": "WO2025171161; CNS delivery platform\u2014FTO vs AAV and other BBB approaches.",
+      "grant_anchors": [
+        "P30GM122732"
+      ],
+      "existing_entity": null,
+      "diligence_priority": 22,
+      "headline": "RIH platform for nucleic acid delivery across the blood\u2013brain barrier.",
+      "opportunity_hook": "Qian Chen (NanoDe peer) leads BBB nucleic delivery PCT; partner or license path.",
+      "key_patents_harvested": [
+        "WO2025171161A1"
+      ],
+      "patent_science_association": "primary",
+      "science_field": "CNS / gene delivery",
+      "assignee_label": "Rhode Island Hospital",
+      "inventors": [
+        "Qian Chen"
+      ],
+      "thesis": "Qian Chen\u2019s BBB nucleic-delivery PCT (WO2025171161) addresses the bottleneck for CNS genetic medicines\u2014rodent PoC unlocks gene-therapy option deals, not near-term product revenue. FTO versus Denali/Voyager-style shuttles is the partner conversation starter.",
+      "evidence_anchors": [
+        "WO2025171161A1",
+        "PMID37513879"
+      ]
+    },
+    {
+      "id": "gap_rih_motile_cell_msk",
+      "title": "Motile injectable cell for MSK repair (RIH)",
+      "note": "WO2025155768; regenerative cell therapy for connective tissue\u2014distinct from XM ECM morsels.",
+      "grant_anchors": [
+        "R01AR080726",
+        "R21AR077326"
+      ],
+      "existing_entity": null,
+      "diligence_priority": 23,
+      "headline": "Motile injectable cell therapy to accelerate meniscus and connective-tissue repair.",
+      "opportunity_hook": "NIAMS R01AR080726 + R21AR077326 (Jayasuriya); large-animal next gate.",
+      "key_patents_harvested": [
+        "WO2025155768A1"
+      ],
+      "patent_science_association": "primary",
+      "science_field": "Regenerative medicine / orthobiologics",
+      "assignee_label": "Rhode Island Hospital",
+      "inventors": [
+        "Chathuraka Teekshana Jayasuriya",
+        "Jay Trivedi"
+      ],
+      "thesis": "Motile injectable cell therapy for meniscus and connective tissue (WO2025155768) pairs NIAMS awards (R01AR080726, R21AR077326) with peer-reviewed meniscus/PTOA signals (PMID 36312551, 39763468). Distinct from XM ECM morsels; large-animal data is the Slater gate.",
+      "evidence_anchors": [
+        "WO2025155768A1",
+        "PMID36312551",
+        "PMID39763468",
+        "R01AR080726",
+        "R21AR077326"
+      ]
+    },
+    {
+      "id": "gap_rih_ecm_joint_repair",
+      "title": "Biomimetic ECM for joint tissue repair (RIH)",
+      "note": "US20240139376; ECM reconstitution for joint repair\u2014adjacent science to XM Therapeutics morsels.",
+      "grant_anchors": [
+        "R01AR080726",
+        "R21AR077326"
+      ],
+      "existing_entity": null,
+      "diligence_priority": 24,
+      "headline": "Biomimetic ECM reconstitution for musculoskeletal joint repair.",
+      "opportunity_hook": "Field-of-use diligence vs XM Therapeutics before Slater-scale spinout.",
+      "key_patents_harvested": [
+        "US20240139376A1"
+      ],
+      "patent_science_association": "primary",
+      "science_field": "MSK \u2014 extracellular matrix therapeutics",
+      "assignee_label": "Rhode Island Hospital",
+      "inventors": [
+        "Chathuraka Teekshana Jayasuriya",
+        "Daniel S. Yang"
+      ],
+      "thesis": "RIH ECM reconstitution filings (US20240139376) target joint repair adjacent to XM Therapeutics\u2019 injectable morsels\u2014field-of-use clearance versus Brown/XM OTL is the commercial unlock. No investor formation until FOU and orthopedic pilot design are documented.",
+      "evidence_anchors": [
+        "US20240139376A1",
+        "PMID29542287"
+      ]
+    },
+    {
+      "id": "gap_rih_enhancer_rna_glioma",
+      "title": "Enhancer RNA targeting for primary brain tumors (RIH)",
+      "note": "US20230323349; eRNA oncology\u2014distinct from HiTIMED epigenetic deconvolution.",
+      "grant_anchors": [
+        "R21CA235415"
+      ],
+      "existing_entity": null,
+      "diligence_priority": 25,
+      "headline": "Enhancer RNA\u2013targeted approach for primary brain tumors.",
+      "opportunity_hook": "Tapinos-led RIH/Brown program; glioma model efficacy before neuro-onc seed.",
+      "key_patents_harvested": [
+        "US20230323349A1"
+      ],
+      "patent_science_association": "primary",
+      "science_field": "Neuro-oncology therapeutics",
+      "assignee_label": "Rhode Island Hospital",
+      "inventors": [
+        "Nikolaos Tapinos",
+        "Blessing Akobundu"
+      ],
+      "thesis": "Enhancer-RNA targeting (US20230323349; Tapinos) opens a non-coding axis in glioma where standard of care still fails most patients. R21CA235415-backed translational planning precedes neuro-onc seed\u2014efficacy in relevant models is the milestone investors will underwrite.",
+      "evidence_anchors": [
+        "US20230323349A1",
+        "PMID40068999"
+      ]
+    },
+    {
+      "id": "gap_rih_lpa_therapeutic",
+      "title": "Lp(a)-lowering therapeutic approach (RIH)",
+      "note": "WO2025245119 PCT; cardiovascular Lp(a)\u2014crowded class (verify differentiation vs hepatocyte therapies).",
+      "grant_anchors": [
+        "R01HL159204"
+      ],
+      "existing_entity": null,
+      "diligence_priority": 26,
+      "headline": "RIH therapeutic approach to lower lipoprotein(a)\u2014cardiovascular metabolic niche.",
+      "opportunity_hook": "Differentiate vs Phase 3 siRNA/antisense leaders; Song lab R01HL159204 anchors cardio lipid biology.",
+      "key_patents_harvested": [
+        "WO2025245119A1"
+      ],
+      "patent_science_association": "primary",
+      "science_field": "Cardiovascular therapeutics \u2014 Lp(a)",
+      "assignee_label": "Rhode Island Hospital",
+      "inventors": [
+        "Wenliang Song",
+        "Siarhei Salamevich"
+      ],
+      "thesis": "RIH\u2019s Lp(a) PCT (WO2025245119) lands as Novartis and Amgen run Phase 3 outcomes trials\u2014no approved Lp(a)-specific drug yet, so pharma option economics dominate. Song lab R01HL159204 supplies cardio lipid credibility; differentiation versus siRNA/antisense leaders is the diligence centerpiece.",
+      "evidence_anchors": [
+        "WO2025245119A1",
+        "R01HL159204"
+      ]
     }
   ]
 }

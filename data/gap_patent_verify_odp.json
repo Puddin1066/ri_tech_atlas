@@ -1,0 +1,221 @@
+{
+  "smurf_assignee": {
+    "kwargs": {
+      "assignee_name": "SMURF-Therapeutics"
+    },
+    "total": 0,
+    "keys": [
+      "error",
+      "message",
+      "status_code"
+    ],
+    "hits": [],
+    "trunc": "{\"error\": true, \"message\": \"Not Found\", \"status_code\": 404}"
+  },
+  "smurf_assignee2": {
+    "kwargs": {
+      "assignee_name": "SMURF Therapeutics"
+    },
+    "total": 0,
+    "keys": [
+      "error",
+      "message",
+      "status_code"
+    ],
+    "hits": [],
+    "trunc": "{\"error\": true, \"message\": \"Not Found\", \"status_code\": 404}"
+  },
+  "eldeiry_inv": {
+    "kwargs": {
+      "inventor_name": "El-Deiry"
+    },
+    "total": 86,
+    "keys": [
+      "success",
+      "source",
+      "count",
+      "total",
+      "offset",
+      "limit",
+      "has_more",
+      "results",
+      "_lean_mode",
+      "_stripped_fields",
+      "_lean_message"
+    ],
+    "hits": [
+      {
+        "app": null,
+        "title": "",
+        "assignee": ""
+      },
+      {
+        "app": null,
+        "title": "",
+        "assignee": ""
+      },
+      {
+        "app": null,
+        "title": "",
+        "assignee": ""
+      },
+      {
+        "app": null,
+        "title": "",
+        "assignee": ""
+      },
+      {
+        "app": null,
+        "title": "",
+        "assignee": ""
+      },
+      {
+        "app": null,
+        "title": "",
+        "assignee": ""
+      },
+      {
+        "app": null,
+        "title": "",
+        "assignee": ""
+      },
+      {
+        "app": null,
+        "title": "",
+        "assignee": ""
+      },
+      {
+        "app": null,
+        "title": "",
+        "assignee": ""
+      },
+      {
+        "app": null,
+        "title": "",
+        "assignee": ""
+      }
+    ],
+    "trunc": "{\"success\": true, \"source\": \"odp\", \"count\": 15, \"total\": 86, \"offset\": 0, \"limit\": 15, \"has_more\": true, \"results\": [{\"eventDataBag\": {\"_stripped\": true}, \"applicationMetaData\": {\"firstInventorToFileIndicator\": \"Y\", \"applicationStatusCode\": 30, \"applicationTypeCode\": \"UTL\", \"entityStatusData\": {\"smallEntityStatusIndicator\": false, \"businessEntityStatusCategory\": \"Small\"}, \"filingDate\": \"2025-04-21\", \"uspcSymbolText\": \"514/266.4\", \"nationalStageIndicator\": false, \"firstInventorName\": \"Wafik S. EL-DEIRY\", \"cpcClassificationBag\": [\"A61K  31/517\"], \"effectiveFilingDate\": \"2025-04-21\", \"publicationDateBag\": [\"2025-10-23\"], \"publicationSequenceNumberBag\": [\"0325548\"], \"earliestPublicationDate\": \"2025-10-23\", \"applicationTypeLabelName\": \"Utility\", \"applicationStatusDate\": \"2025-07-29\", \"class\": \""
+  },
+  "garbern_inv": {
+    "kwargs": {
+      "inventor_name": "Garbern"
+    },
+    "total": 2,
+    "keys": [
+      "success",
+      "source",
+      "count",
+      "total",
+      "offset",
+      "limit",
+      "has_more",
+      "results"
+    ],
+    "hits": [
+      {
+        "app": null,
+        "title": "",
+        "assignee": ""
+      },
+      {
+        "app": null,
+        "title": "",
+        "assignee": ""
+      }
+    ],
+    "trunc": "{\"success\": true, \"source\": \"odp\", \"count\": 2, \"total\": 2, \"offset\": 0, \"limit\": 15, \"has_more\": false, \"results\": [{\"eventDataBag\": [{\"eventCode\": \"RCIB\", \"eventDescriptionText\": \"Record Copy For IB\", \"eventDate\": \"2022-04-16\"}, {\"eventCode\": \"P105\", \"eventDescriptionText\": \"Notification of Intntl. Appl. Number and Intntl. Filing Date\", \"eventDate\": \"2022-04-14\"}, {\"eventCode\": \"P102\", \"eventDescriptionText\": \"Notification Concerning Payment of Fees\", \"eventDate\": \"2022-04-14\"}, {\"eventCode\": \"ROST\", \"eventDescriptionText\": \"RO complete, placed in storage\", \"eventDate\": \"2022-04-14\"}, {\"eventCode\": \"MLIB\", \"eventDescriptionText\": \"Record Copy Mailed\", \"eventDate\": \"2022-04-14\"}, {\"eventCode\": \"RCDT\", \"eventDescriptionText\": \"Receipt Date\", \"eventDate\": \"2022-03-29\"}, {\"eventCode\": \"SMAL\","
+  },
+  "levine_inv": {
+    "kwargs": {
+      "inventor_name": "Levine",
+      "query": "pediatric"
+    },
+    "total": 0,
+    "keys": [
+      "error",
+      "message",
+      "status_code"
+    ],
+    "hits": [],
+    "trunc": "{\"error\": true, \"message\": \"Not Found\", \"status_code\": 404}"
+  },
+  "ni2o_assignee": {
+    "kwargs": {
+      "assignee_name": "ni2o"
+    },
+    "total": 0,
+    "keys": [
+      "error",
+      "message",
+      "status_code"
+    ],
+    "hits": [],
+    "trunc": "{\"error\": true, \"message\": \"Not Found\", \"status_code\": 404}"
+  },
+  "oncolux_assignee": {
+    "kwargs": {
+      "assignee_name": "OncoLux"
+    },
+    "total": 0,
+    "keys": [
+      "error",
+      "message",
+      "status_code"
+    ],
+    "hits": [],
+    "trunc": "{\"error\": true, \"message\": \"Not Found\", \"status_code\": 404}"
+  },
+  "dartmouth_assignee": {
+    "kwargs": {
+      "assignee_name": "Dartmouth College",
+      "query": "HiTIMED"
+    },
+    "total": 0,
+    "keys": [
+      "error",
+      "message",
+      "status_code"
+    ],
+    "hits": [],
+    "trunc": "{\"error\": true, \"message\": \"Not Found\", \"status_code\": 404}"
+  },
+  "brown_assignee": {
+    "kwargs": {
+      "assignee_name": "Brown University",
+      "query": "sepsis wearable"
+    },
+    "total": 3,
+    "keys": [
+      "success",
+      "source",
+      "count",
+      "total",
+      "offset",
+      "limit",
+      "has_more",
+      "results",
+      "_lean_mode",
+      "_stripped_fields",
+      "_lean_message"
+    ],
+    "hits": [
+      {
+        "app": null,
+        "title": "",
+        "assignee": ""
+      },
+      {
+        "app": null,
+        "title": "",
+        "assignee": ""
+      },
+      {
+        "app": null,
+        "title": "",
+        "assignee": ""
+      }
+    ],
+    "trunc": "{\"success\": true, \"source\": \"odp\", \"count\": 3, \"total\": 3, \"offset\": 0, \"limit\": 15, \"has_more\": false, \"results\": [{\"eventDataBag\": {\"_stripped\": true}, \"applicationMetaData\": {\"applicationStatusCode\": 159, \"applicationTypeCode\": \"UTL\", \"entityStatusData\": {\"smallEntityStatusIndicator\": false, \"businessEntityStatusCategory\": \"Small\"}, \"filingDate\": \"2024-05-03\", \"inventorBag\": [{\"firstName\": \"Joshua\", \"lastName\": \"Burrow\", \"inventorNameText\": \"Joshua Burrow\", \"correspondenceAddressBag\": [{\"cityName\": \"Providence\", \"geographicRegionName\": \"RHODE ISLAND\", \"geographicRegionCode\": \"RI\", \"countryCode\": \"US\", \"nameLineOneText\": \"Burrow,Joshua\", \"countryName\": \"UNITED STATES\", \"postalAddressCategory\": \"postal\"}, {\"cityName\": \"Providence\", \"geographicRegionName\": \"RHODE ISLAND\", \"geographicRegion"
+  }
+}

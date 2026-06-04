@@ -1,42 +1,116 @@
 {
-  "version": "2.0",
-  "updated_at": "2026-06-04T14:15:00+00:00",
+  "version": "2.2",
+  "updated_at": "2026-06-04T18:15:10+00:00",
   "sources": [
-    "NIH RePORTER API v2 → data/ri_grants_nih.json",
+    "NIH RePORTER API v2 \u2192 data/ri_grants_nih.json",
     "VA RePORTER (via NIH API agency=VA)",
     "Public press releases, SBIR.gov, Grantome, Brown/Carney news (non-NIH)",
     "data/ri_patents_curated.json"
   ],
-  "disclaimer": "Award amounts are fiscal-year obligations from RePORTER when present; VA awards often omit dollar fields. Non-federal rows are cited from public announcements—verify in data rooms.",
+  "disclaimer": "Award amounts are fiscal-year obligations from RePORTER when present; VA awards often omit dollar fields. Non-federal rows are cited from public announcements\u2014verify in data rooms.",
   "investment_themes": [
     {
       "id": "immunoinformatics",
       "title": "Immunoinformatics & epitope engineering (EpiVax)",
       "patent_theme": "immunoinformatics",
       "patent_count": 10,
-      "key_patents": ["US7884184B2", "US10213496B2", "US11844826B2", "US10751397B2"],
-      "lead_entities": ["EpiVax Inc", "Anne S. De Groot"],
+      "key_patents": [
+        "US7884184B2",
+        "US10213496B2",
+        "US11844826B2",
+        "US10751397B2"
+      ],
+      "lead_entities": [
+        "EpiVax Inc",
+        "Anne S. De Groot"
+      ],
       "grants": [
-        {"agency": "NIH/NIAID", "id": "R43AI174486", "title": "ISPRI-HCP immunogenicity platform validation", "recipient": "EpiVax Inc", "type": "SBIR Phase I", "fy": 2023, "amount_usd": 299917, "url": "https://www.sbir.gov/awards/202854"},
-        {"agency": "NIH/FDA", "id": "U01FD007760", "title": "ISPRI-HCP CHO impurity immunogenicity risk", "recipient": "EpiVax Inc", "type": "U01", "fy": 2022, "amount_usd": 1999984, "url": "https://reporter.nih.gov"},
-        {"agency": "NIH/NIAID", "id": "R01AI132205", "title": "Structure-guided CD4 T cell memory-enhanced H7N9 vaccine", "recipient": "EpiVax / collaborators", "type": "R01", "fy": 2021, "amount_usd": 1123469, "url": "https://reporter.nih.gov"},
-        {"agency": "NIH/NCATS", "id": "R43TR002441", "title": "PIMA Pompe disease immunogenicity (GAA-ITEM)", "recipient": "EpiVax Inc", "type": "SBIR", "fy": 2018, "amount_usd": 324980, "url": "https://www.prnewswire.com/news-releases/325k-nih-grant-to-epivax-to-enable-development-of-personalized-immunogenicity-assessment-tool-for-enzyme-replacement-therapy-in-pompe-disease-300650981.html"},
-        {"agency": "NIH/NIAID", "id": "R43AI118189", "title": "Non-adjuvanted VLP vaccine stealth H7N9 influenza", "recipient": "EpiVax Inc", "type": "SBIR", "fy": 2017, "amount_usd": 600000, "url": "https://www.prnewswire.com/news-releases/epivax-to-advance-development-of-vaccine-against-stealth-flu-virus-with-new-funding-300326292.html"},
-        {"agency": "NIH/NIAID", "id": "U19AI082642", "title": "Multi-intracellular pathogen epitope-based vaccine (historical)", "recipient": "Brown / EpiVax network", "type": "U19", "fy": 2013, "amount_usd": null, "url": "https://grantome.com/grant/NIH/U19-AI082642-05-8114"}
+        {
+          "agency": "NIH/NIAID",
+          "id": "R43AI174486",
+          "title": "ISPRI-HCP immunogenicity platform validation",
+          "recipient": "EpiVax Inc",
+          "type": "SBIR Phase I",
+          "fy": 2023,
+          "amount_usd": 299917,
+          "url": "https://www.sbir.gov/awards/202854"
+        },
+        {
+          "agency": "NIH/FDA",
+          "id": "U01FD007760",
+          "title": "ISPRI-HCP CHO impurity immunogenicity risk",
+          "recipient": "EpiVax Inc",
+          "type": "U01",
+          "fy": 2022,
+          "amount_usd": 1999984,
+          "url": "https://reporter.nih.gov"
+        },
+        {
+          "agency": "NIH/NIAID",
+          "id": "R01AI132205",
+          "title": "Structure-guided CD4 T cell memory-enhanced H7N9 vaccine",
+          "recipient": "EpiVax / collaborators",
+          "type": "R01",
+          "fy": 2021,
+          "amount_usd": 1123469,
+          "url": "https://reporter.nih.gov"
+        },
+        {
+          "agency": "NIH/NCATS",
+          "id": "R43TR002441",
+          "title": "PIMA Pompe disease immunogenicity (GAA-ITEM)",
+          "recipient": "EpiVax Inc",
+          "type": "SBIR",
+          "fy": 2018,
+          "amount_usd": 324980,
+          "url": "https://www.prnewswire.com/news-releases/325k-nih-grant-to-epivax-to-enable-development-of-personalized-immunogenicity-assessment-tool-for-enzyme-replacement-therapy-in-pompe-disease-300650981.html"
+        },
+        {
+          "agency": "NIH/NIAID",
+          "id": "R43AI118189",
+          "title": "Non-adjuvanted VLP vaccine stealth H7N9 influenza",
+          "recipient": "EpiVax Inc",
+          "type": "SBIR",
+          "fy": 2017,
+          "amount_usd": 600000,
+          "url": "https://www.prnewswire.com/news-releases/epivax-to-advance-development-of-vaccine-against-stealth-flu-virus-with-new-funding-300326292.html"
+        },
+        {
+          "agency": "NIH/NIAID",
+          "id": "U19AI082642",
+          "title": "Multi-intracellular pathogen epitope-based vaccine (historical)",
+          "recipient": "Brown / EpiVax network",
+          "type": "U19",
+          "fy": 2013,
+          "amount_usd": null,
+          "url": "https://grantome.com/grant/NIH/U19-AI082642-05-8114"
+        }
       ]
     },
     {
       "id": "chitinase_fibrosis",
-      "title": "Chitinase / CHI3L1 antifibrosis (Elias → Ocean / Elkurt)",
+      "title": "Chitinase / CHI3L1 antifibrosis (Elias \u2192 Ocean / Elkurt)",
       "patent_theme": "chitinase",
       "patent_count": 1,
-      "key_patents": ["US11717528B2"],
-      "lead_entities": ["Jack A. Elias (Brown)", "Ocean Biomedical", "Elkurt Therapeutics"],
+      "key_patents": [
+        "US11717528B2"
+      ],
+      "lead_entities": [
+        "Jack A. Elias (Brown)",
+        "Ocean Biomedical",
+        "Elkurt Therapeutics"
+      ],
       "grants": [
-        {"agency": "NIH/NHLBI", "id": "P01HL114501", "title": "Differential roles of Chi3l1 and receptors in COPD and IPF", "recipient": "Jack Elias lab (Brown)", "type": "P01", "fy": 2025, "amount_usd": 337031, "url": "https://reporter.nih.gov"},
-        {"agency": "NIH/NHLBI", "id": "UH3HL123876", "title": "Pre-clinical anti-YKL-40 biologic severe asthma (historical)", "recipient": "Elias/Yale collaboration", "type": "UH3", "fy": 2018, "amount_usd": 1628646, "url": "https://reporter.nih.gov"},
-        {"agency": "NIH (portfolio)", "id": null, "title": "Elias laboratory — continuous NHLBI/NIAID funding since 1982 (multiple R01/U01)", "recipient": "Brown University", "type": "Portfolio", "fy": null, "amount_usd": null, "url": "https://vivo.brown.edu/display/jaelias"},
-        {"agency": "Company-reported", "id": null, "title": "Ocean Biomedical cited ~$124M cumulative grant-backed discovery portfolio (2023 PR; includes malaria/oncology/fibrosis)", "recipient": "Ocean Biomedical", "type": "Mixed", "fy": 2023, "amount_usd": 123900000, "url": "https://www.globenewswire.com/news-release/2023/04/17/2647893/0/en/134-Million-in-Financial-Backing-for-Innovative-Research-and-IND-Fillings-Announced-by-Ocean-Biomedical-NASDAQ-OCEA-Provides-Latest-Updates-on-Advancement-of-Platform-Novel-Discove.html", "note": "Corporate aggregate—not a single award; OCF-203 sublicense status changed 2025—diligence required"}
+        {
+          "agency": "NIH/NHLBI",
+          "id": "P01HL114501",
+          "title": "Distinct and Overlapping Pathways of Fibrosis and Emphysema in Cigarette Smokers",
+          "recipient": "Choi Mary E",
+          "type": "P01",
+          "fy": 2025,
+          "amount_usd": 2543097,
+          "url": "https://reporter.nih.gov/project-details/11177656"
+        }
       ]
     },
     {
@@ -44,13 +118,57 @@
       "title": "Nanopieces non-viral RNA / gene delivery (NanoDe / Chen)",
       "patent_theme": "nanode",
       "patent_count": 4,
-      "key_patents": ["US11701094B2", "US11608340B2", "US12357635B2", "US20230183253A1"],
-      "lead_entities": ["NanoDe Therapeutics", "Qian Chen (RIH/Brown)"],
+      "key_patents": [
+        "US11701094B2",
+        "US11608340B2",
+        "US12357635B2",
+        "US20230183253A1"
+      ],
+      "lead_entities": [
+        "NanoDe Therapeutics",
+        "Qian Chen (RIH/Brown)"
+      ],
       "grants": [
-        {"agency": "NIH/NCATS", "id": "R41TR002298", "title": "Nanopieces platform RNAi delivery (STTR Phase I)", "recipient": "NanoDe Therapeutics Inc", "type": "STTR", "fy": null, "amount_usd": null, "url": "https://grantome.com/grant/NIH/R41-TR002298-01A1"},
-        {"agency": "NIH/NIGMS", "id": "P20GM104416", "title": "RI COBRE — Center for Biomedical Research Excellence (orthopedics context)", "recipient": "Rhode Island Hospital / Chen COBRE director", "type": "COBRE", "fy": 2022, "amount_usd": null, "url": "https://www.brownhealth.org/centers-services/orthopedics-institute/research-and-clinical-trials/research-breaks"},
-        {"agency": "RI Life Science Hub", "id": null, "title": "Growth Catalyst Award — nucleic acid therapeutics acceleration", "recipient": "NanoDe Therapeutics", "type": "State", "fy": null, "amount_usd": null, "url": "https://nanodetherapeutics.com/"},
-        {"agency": "RI Commerce", "id": null, "title": "SBIR matching / Commerce Corporation (cited on Brown Health)", "recipient": "NanoDe / Chen lab", "type": "State", "fy": null, "amount_usd": null, "url": "https://www.brownhealth.org/centers-services/orthopedics-institute/research-and-clinical-trials/research-breaks"}
+        {
+          "agency": "NIH/NCATS",
+          "id": "R41TR002298",
+          "title": "Nanopieces platform RNAi delivery (STTR Phase I)",
+          "recipient": "NanoDe Therapeutics Inc",
+          "type": "STTR",
+          "fy": null,
+          "amount_usd": null,
+          "url": "https://grantome.com/grant/NIH/R41-TR002298-01A1"
+        },
+        {
+          "agency": "NIH/NIGMS",
+          "id": "P20GM104416",
+          "title": "RI COBRE \u2014 Center for Biomedical Research Excellence (orthopedics context)",
+          "recipient": "Rhode Island Hospital / Chen COBRE director",
+          "type": "COBRE",
+          "fy": 2022,
+          "amount_usd": null,
+          "url": "https://www.brownhealth.org/centers-services/orthopedics-institute/research-and-clinical-trials/research-breaks"
+        },
+        {
+          "agency": "RI Life Science Hub",
+          "id": null,
+          "title": "Growth Catalyst Award \u2014 nucleic acid therapeutics acceleration",
+          "recipient": "NanoDe Therapeutics",
+          "type": "State",
+          "fy": null,
+          "amount_usd": null,
+          "url": "https://nanodetherapeutics.com/"
+        },
+        {
+          "agency": "RI Commerce",
+          "id": null,
+          "title": "SBIR matching / Commerce Corporation (cited on Brown Health)",
+          "recipient": "NanoDe / Chen lab",
+          "type": "State",
+          "fy": null,
+          "amount_usd": null,
+          "url": "https://www.brownhealth.org/centers-services/orthopedics-institute/research-and-clinical-trials/research-breaks"
+        }
       ]
     },
     {
@@ -58,13 +176,57 @@
       "title": "Speech & tablet intracortical BCI (BrainGate)",
       "patent_theme": "neurotech",
       "patent_count": 6,
-      "key_patents": ["US12042303", "US11972050", "US12561001", "US10448877B2"],
-      "lead_entities": ["BrainGate / Leigh Hochberg", "Brown University"],
+      "key_patents": [
+        "US12042303",
+        "US11972050",
+        "US12561001",
+        "US10448877B2"
+      ],
+      "lead_entities": [
+        "BrainGate / Leigh Hochberg",
+        "Brown University"
+      ],
       "grants": [
-        {"agency": "NIH/NIDCD", "id": "U01DC017844", "title": "Neural control of tablet computers for communication", "recipient": "Brown University", "type": "U01", "fy": 2025, "amount_usd": 797216, "url": "https://reporter.nih.gov/project-details/11159436"},
-        {"agency": "VA", "id": "I01RX004820", "title": "Rapid Neural Typing Interface for Veterans with ALS", "recipient": "Providence VA / Hochberg", "type": "VA RR&D", "fy": 2025, "amount_usd": null, "url": "https://reporter.nih.gov/project-details/11052613"},
-        {"agency": "VA", "id": "I01RX002295", "title": "BrainGate: Robust Neural Decoding for Veterans with ALS", "recipient": "Providence VA", "type": "VA RR&D", "fy": 2025, "amount_usd": null, "url": "https://reporter.nih.gov/project-details/11309544"},
-        {"agency": "NIH/NINDS", "id": null, "title": "BRAIN / NINDS / NIDCD support cited on Hochberg profile", "recipient": "BrainGate consortium", "type": "Multi-IC", "fy": null, "amount_usd": null, "url": "https://www.braingate.org/team/leigh-hochberg-m-d-ph-d/"}
+        {
+          "agency": "NIH/NIDCD",
+          "id": "U01DC017844",
+          "title": "Neural control of tablet computers for communication",
+          "recipient": "Brown University",
+          "type": "U01",
+          "fy": 2025,
+          "amount_usd": 797216,
+          "url": "https://reporter.nih.gov/project-details/11159436"
+        },
+        {
+          "agency": "VA",
+          "id": "I01RX004820",
+          "title": "Rapid Neural Typing Interface for Veterans with ALS",
+          "recipient": "Providence VA / Hochberg",
+          "type": "VA RR&D",
+          "fy": 2025,
+          "amount_usd": null,
+          "url": "https://reporter.nih.gov/project-details/11052613"
+        },
+        {
+          "agency": "VA",
+          "id": "I01RX002295",
+          "title": "BrainGate: Robust Neural Decoding for Veterans with ALS",
+          "recipient": "Providence VA",
+          "type": "VA RR&D",
+          "fy": 2025,
+          "amount_usd": null,
+          "url": "https://reporter.nih.gov/project-details/11309544"
+        },
+        {
+          "agency": "NIH/NINDS",
+          "id": null,
+          "title": "BRAIN / NINDS / NIDCD support cited on Hochberg profile",
+          "recipient": "BrainGate consortium",
+          "type": "Multi-IC",
+          "fy": null,
+          "amount_usd": null,
+          "url": "https://www.braingate.org/team/leigh-hochberg-m-d-ph-d/"
+        }
       ]
     },
     {
@@ -72,12 +234,49 @@
       "title": "Wireless neurograins & distributed implants (Nurmikko / Borton)",
       "patent_theme": "neurotech",
       "patent_count": 8,
-      "key_patents": ["US10433754B2", "US11464964B2", "WO2016187254A1", "WO2020018571A1", "US20200367749A1"],
-      "lead_entities": ["Brown Engineering", "Arto Nurmikko", "David Borton"],
+      "key_patents": [
+        "US10433754B2",
+        "US11464964B2",
+        "WO2016187254A1",
+        "WO2020018571A1",
+        "US20200367749A1"
+      ],
+      "lead_entities": [
+        "Brown Engineering",
+        "Arto Nurmikko",
+        "David Borton"
+      ],
       "grants": [
-        {"agency": "NIH/NINDS", "id": "UH2NS095548", "title": "High-bandwidth wireless interfaces for human intracortical recording", "recipient": "Brown / Nurmikko", "type": "UH2", "fy": 2019, "amount_usd": 2020491, "url": "https://reporter.nih.gov"},
-        {"agency": "DARPA", "id": null, "title": "Neurograins — up to $19M wireless cortical interface system", "recipient": "Brown (PI Nurmikko)", "type": "DARPA", "fy": 2017, "amount_usd": 19000000, "url": "https://www.brown.edu/news/2017-07-10/neurograins"},
-        {"agency": "NIH/NINDS", "id": "U24NS113637", "title": "Accelerating dissemination of implantable neurotechnology", "recipient": "Borton / Brown", "type": "U24", "fy": 2024, "amount_usd": 584821, "url": "https://reporter.nih.gov"}
+        {
+          "agency": "NIH/NINDS",
+          "id": "UH2NS095548",
+          "title": "High-bandwidth wireless interfaces for human intracortical recording",
+          "recipient": "Brown / Nurmikko",
+          "type": "UH2",
+          "fy": 2019,
+          "amount_usd": 2020491,
+          "url": "https://reporter.nih.gov"
+        },
+        {
+          "agency": "DARPA",
+          "id": null,
+          "title": "Neurograins \u2014 up to $19M wireless cortical interface system",
+          "recipient": "Brown (PI Nurmikko)",
+          "type": "DARPA",
+          "fy": 2017,
+          "amount_usd": 19000000,
+          "url": "https://www.brown.edu/news/2017-07-10/neurograins"
+        },
+        {
+          "agency": "NIH/NINDS",
+          "id": "U24NS113637",
+          "title": "Accelerating dissemination of implantable neurotechnology",
+          "recipient": "Borton / Brown",
+          "type": "U24",
+          "fy": 2024,
+          "amount_usd": 584821,
+          "url": "https://reporter.nih.gov"
+        }
       ]
     },
     {
@@ -85,26 +284,73 @@
       "title": "Intelligent spinal interface & closed-loop DBS (Borton)",
       "patent_theme": "neurotech",
       "patent_count": 2,
-      "key_patents": ["WO2019027517A1", "US20170042713A1"],
-      "lead_entities": ["David Borton", "Rhode Island Hospital", "Intel"],
+      "key_patents": [
+        "WO2019027517A1",
+        "US20170042713A1"
+      ],
+      "lead_entities": [
+        "David Borton",
+        "Rhode Island Hospital",
+        "Intel"
+      ],
       "grants": [
-        {"agency": "DARPA", "id": null, "title": "Intelligent Spinal Interface (ISI) — limb + bladder control", "recipient": "Brown / RIH / Intel", "type": "DARPA", "fy": 2019, "amount_usd": 6300000, "url": "https://engineering.brown.edu/news/2019-10-03/researchers-develop-intelligent-spinal-interface-63-million-darpa-funding"},
-        {"agency": "Clinical", "id": "NCT04302259", "title": "Intelligent Spine Interface Clinical (ISI-C)", "recipient": "Rhode Island Hospital", "type": "IDE trial", "fy": null, "amount_usd": null, "url": "https://clinicaltrials.gov/study/NCT04302259"},
-        {"agency": "VA", "id": "I01RX004250", "title": "Neurotechnology cross-development platform (bench to bedside)", "recipient": "Borton / VA CfNN", "type": "VA", "fy": 2026, "amount_usd": null, "url": "https://reporter.nih.gov"}
+        {
+          "agency": "DARPA",
+          "id": null,
+          "title": "Intelligent Spinal Interface (ISI) \u2014 limb + bladder control",
+          "recipient": "Brown / RIH / Intel",
+          "type": "DARPA",
+          "fy": 2019,
+          "amount_usd": 6300000,
+          "url": "https://engineering.brown.edu/news/2019-10-03/researchers-develop-intelligent-spinal-interface-63-million-darpa-funding"
+        },
+        {
+          "agency": "Clinical",
+          "id": "NCT04302259",
+          "title": "Intelligent Spine Interface Clinical (ISI-C)",
+          "recipient": "Rhode Island Hospital",
+          "type": "IDE trial",
+          "fy": null,
+          "amount_usd": null,
+          "url": "https://clinicaltrials.gov/study/NCT04302259"
+        },
+        {
+          "agency": "VA",
+          "id": "I01RX004250",
+          "title": "Neurotechnology cross-development platform (bench to bedside)",
+          "recipient": "Borton / VA CfNN",
+          "type": "VA",
+          "fy": 2026,
+          "amount_usd": null,
+          "url": "https://reporter.nih.gov"
+        }
       ]
     },
     {
       "id": "smurf2_oncology",
-      "title": "SMURF2–HIF1α oncology (El-Deiry / SMURF-Therapeutics)",
-      "patent_theme": null,
-      "patent_count": 0,
-      "key_patents": [],
-      "lead_entities": ["Wafik S. El-Deiry", "SMURF-Therapeutics Inc"],
+      "title": "SMURF2\u2013HIF1\u03b1 oncology (El-Deiry / SMURF-Therapeutics)",
+      "patent_theme": "smurf2_oncology_hif",
+      "patent_count": 3,
+      "key_patents": [
+        "WO2024192252A1",
+        "US20230183356A1",
+        "US20230219957A1"
+      ],
+      "lead_entities": [
+        "Wafik S. El-Deiry",
+        "SMURF-Therapeutics Inc"
+      ],
       "grants": [
-        {"agency": "NIH/NCI", "id": "R01CA173453", "title": "ONC201/TIC10 anti-tumor effect via TRAIL pathway", "recipient": "Wafik El-Deiry", "type": "R01", "fy": 2023, "amount_usd": 2425123, "note": "vivo.brown.edu lists $2.4M total award 2019–2024", "url": "https://vivo.brown.edu/display/weldeiry"},
-        {"agency": "NIH/NCI", "id": "R01CA176289", "title": "Targeting mutant p53 signaling in colorectal cancer", "recipient": "El-Deiry lab", "type": "R01", "fy": 2018, "amount_usd": null, "url": "https://reporter.nih.gov"},
-        {"agency": "Private", "id": null, "title": "Teymour Alireza Family Cancer Research Fund; Mencoff Professorship (Smurf2 paper)", "recipient": "Brown", "type": "Philanthropy", "fy": 2021, "amount_usd": null, "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8487721/"},
-        {"agency": "NIH (submitted)", "id": null, "title": "SMURF-Therapeutics NIH grant submission (Apr 2024)", "recipient": "SMURF-Therapeutics", "type": "Pending", "fy": 2024, "amount_usd": null, "url": "https://oncodaily.com/blog/45249", "note": "Award status not verified in RePORTER"}
+        {
+          "agency": "NIH/NCI",
+          "id": "R01CA173453",
+          "title": "ONC201/TIC10 Anti-tumor Effect Through Regulation of the TRAIL pathway",
+          "recipient": "El-Deiry Wafik S.",
+          "type": "R01",
+          "fy": 2023,
+          "amount_usd": 93169,
+          "url": "https://reporter.nih.gov/project-details/10738317"
+        }
       ]
     },
     {
@@ -113,40 +359,178 @@
       "patent_theme": null,
       "patent_count": 0,
       "key_patents": [],
-      "lead_entities": ["Frederike Petzschner", "SOMAScience", "Brown Carney"],
+      "lead_entities": [
+        "Frederike Petzschner",
+        "SOMAScience",
+        "Brown Carney"
+      ],
       "grants": [
-        {"agency": "NIH/NIGMS", "id": "P20GM103645", "title": "COBRE Center for Central Nervous System Function (pilot / core support)", "recipient": "Brown Carney", "type": "COBRE", "fy": 2022, "amount_usd": 12000000, "note": "Phase II ~$12M renewal 2018–2023; SOMA pilots funded via COBRE science projects $250k+$200k", "url": "https://www.brown.edu/news/2018-12-03/cobre"},
-        {"agency": "NIH/NIGMS", "id": "P20GM103645", "title": "COBRE pilot — avoidance learning in chronic pain (Petzschner)", "recipient": "Brown", "type": "COBRE pilot", "fy": 2022, "amount_usd": 393149, "url": "https://reporter.nih.gov"},
-        {"agency": "Carney Institute", "id": null, "title": "Innovation Award — interoceptive circuits / tFUS anxiety (2025–26)", "recipient": "Petzschner lab", "type": "Seed", "fy": 2026, "amount_usd": null, "url": "https://carney.brown.edu/news/2026-05-01/20252026-innovation-awards", "note": "Part of $764k Carney innovation pool"}
-      ]
+        {
+          "agency": "NIH/NIGMS",
+          "id": "P20GM103645",
+          "title": "Electrophysiological Signature of Successor Representation (SR)",
+          "recipient": "Sherif Mohamed",
+          "type": "P20",
+          "fy": 2022,
+          "amount_usd": 407292,
+          "url": "https://reporter.nih.gov/project-details/10663161"
+        }
+      ],
+      "patent_science_association": "none \u2014 grant/SaMD path; no US patents for SOMA inventors"
     },
     {
       "id": "iaip_sepsis",
       "title": "IAIP neonatal sepsis / NEC / HIE (ProThera)",
       "patent_theme": "inflammation",
       "patent_count": 4,
-      "key_patents": ["US7932365B2", "US9572872B2", "US20070297982A1", "USRE47972E1"],
-      "lead_entities": ["ProThera Biologics", "Yow-Pin Lim"],
+      "key_patents": [
+        "US7932365B2",
+        "US9572872B2",
+        "US20070297982A1",
+        "USRE47972E1"
+      ],
+      "lead_entities": [
+        "ProThera Biologics",
+        "Yow-Pin Lim"
+      ],
       "grants": [
-        {"agency": "NIH/NIAID", "id": "R44AI141283", "title": "Rapid test neonatal sepsis and NEC (LFIA)", "recipient": "ProThera Biologics", "type": "SBIR Phase II", "fy": 2026, "amount_usd": 954189, "url": "https://www.sbir.gov/awards/170614"},
-        {"agency": "NIH/NICHD", "id": "R43HD114348", "title": "IAIP in experimental NEC", "recipient": "ProThera", "type": "SBIR Phase I", "fy": 2025, "amount_usd": 50184, "url": "https://reporter.nih.gov"},
-        {"agency": "NIH/NINDS", "id": "R44NS084575", "title": "IAIP hypoxic-ischemic brain injury", "recipient": "ProThera", "type": "SBIR Fast Track", "fy": 2023, "amount_usd": 2776920, "url": "https://ri-bio.org/prothera-biologics-awarded-2-million-fast-track-nih-grant/"},
-        {"agency": "NIH/NICHD", "id": "R43HD069243", "title": "Rapid detection neonatal sepsis (Phase I historical)", "recipient": "ProThera", "type": "SBIR", "fy": 2013, "amount_usd": 250566, "url": "https://www.protherabiologics.com/prothera-biologics-awarded-1-95-million-nih-grant/"},
-        {"agency": "RI STAC", "id": null, "title": "Innovate RI Fund match (Phase I sepsis test)", "recipient": "ProThera", "type": "State", "fy": 2019, "amount_usd": 45000, "url": "https://ri-bio.org/prothera-biologics-awarded-2-million-fast-track-nih-grant/"}
+        {
+          "agency": "NIH/NIAID",
+          "id": "R44AI141283",
+          "title": "Rapid test neonatal sepsis and NEC (LFIA)",
+          "recipient": "ProThera Biologics",
+          "type": "SBIR Phase II",
+          "fy": 2026,
+          "amount_usd": 954189,
+          "url": "https://www.sbir.gov/awards/170614"
+        },
+        {
+          "agency": "NIH/NICHD",
+          "id": "R43HD114348",
+          "title": "IAIP in experimental NEC",
+          "recipient": "ProThera",
+          "type": "SBIR Phase I",
+          "fy": 2025,
+          "amount_usd": 50184,
+          "url": "https://reporter.nih.gov"
+        },
+        {
+          "agency": "NIH/NINDS",
+          "id": "R44NS084575",
+          "title": "IAIP hypoxic-ischemic brain injury",
+          "recipient": "ProThera",
+          "type": "SBIR Fast Track",
+          "fy": 2023,
+          "amount_usd": 2776920,
+          "url": "https://ri-bio.org/prothera-biologics-awarded-2-million-fast-track-nih-grant/"
+        },
+        {
+          "agency": "NIH/NICHD",
+          "id": "R43HD069243",
+          "title": "Rapid detection neonatal sepsis (Phase I historical)",
+          "recipient": "ProThera",
+          "type": "SBIR",
+          "fy": 2013,
+          "amount_usd": 250566,
+          "url": "https://www.protherabiologics.com/prothera-biologics-awarded-1-95-million-nih-grant/"
+        },
+        {
+          "agency": "RI STAC",
+          "id": null,
+          "title": "Innovate RI Fund match (Phase I sepsis test)",
+          "recipient": "ProThera",
+          "type": "State",
+          "fy": 2019,
+          "amount_usd": 45000,
+          "url": "https://ri-bio.org/prothera-biologics-awarded-2-million-fast-track-nih-grant/"
+        }
       ],
       "cumulative_note": "Company reports ~$12M aggregate NIH SBIR investment in IAIP preclinical programs (2017 ProThera PR)"
     },
     {
       "id": "tme_epigenetics",
-      "title": "TME / immune epigenetic deconvolution (Christensen)",
-      "patent_theme": null,
-      "patent_count": 0,
-      "key_patents": [],
-      "lead_entities": ["Brock C. Christensen", "Lucas A. Salas"],
+      "title": "TME / immune epigenetic deconvolution (Christensen / HiTIMED)",
+      "patent_theme": "hitimed_tme_epigenetic_dx",
+      "patent_count": 3,
+      "key_patents": [
+        "EP4505463A1",
+        "US20250372198A1",
+        "WO2023196051A1"
+      ],
+      "lead_entities": [
+        "Brock C. Christensen",
+        "Lucas A. Salas"
+      ],
       "grants": [
-        {"agency": "NIH/NCI", "id": "R01CA216265", "title": "Immune epigenetic biomarkers bladder cancer outcomes", "recipient": "Dartmouth/Brown network", "type": "R01", "fy": 2021, "amount_usd": 472491, "url": "https://maps.cancer.gov/overview/DCCPSGrants/abstract.jsp?term=CA216265"},
-        {"agency": "NIH/NCI", "id": "R01CA253976", "title": "DNA-based immune phenotyping HNSCC immunotherapy response", "recipient": "Christensen lab", "type": "R01", "fy": 2025, "amount_usd": 660888, "url": "https://reporter.nih.gov"},
-        {"agency": "NIH/NIGMS", "id": "P20GM104416", "title": "Brown COBRE epigenetics / biorepository cores (related ecosystem)", "recipient": "Brown", "type": "COBRE", "fy": 2022, "amount_usd": null, "url": "https://reporter.nih.gov"}
+        {
+          "agency": "NIH/NCI",
+          "id": "R01C",
+          "title": "DNA-based Immune Phenotyping in HNSCC for Biomarkers of Response to Immunotherapy",
+          "recipient": "Kelsey Karl Timothy",
+          "type": "R01",
+          "fy": 2025,
+          "amount_usd": 660888,
+          "url": "https://reporter.nih.gov/project-details/11003723"
+        },
+        {
+          "agency": "NIH/NCI",
+          "id": "R01CA253976",
+          "title": "DNA-based immune phenotyping HNSCC immunotherapy response",
+          "recipient": "Christensen lab",
+          "type": "R01",
+          "fy": 2025,
+          "amount_usd": 660888,
+          "url": "https://reporter.nih.gov"
+        },
+        {
+          "agency": "NIH/NIGMS",
+          "id": "P20GM104416",
+          "title": "Brown COBRE epigenetics / biorepository cores (related ecosystem)",
+          "recipient": "Brown",
+          "type": "COBRE",
+          "fy": 2022,
+          "amount_usd": null,
+          "url": "https://reporter.nih.gov"
+        },
+        {
+          "agency": "NIH/NCI",
+          "id": "R01CA216265",
+          "title": "Immune epigenetic biomarkers bladder cancer outcomes",
+          "recipient": "Dartmouth/Brown network",
+          "type": "R01",
+          "fy": 2021,
+          "amount_usd": 472491,
+          "url": "https://maps.cancer.gov/overview/DCCPSGrants/abstract.jsp?term=CA216265"
+        }
+      ]
+    },
+    {
+      "id": "monaghan_deep_rna_dx",
+      "title": "Deep RNA transcriptomic ICU diagnostics (Monaghan / RIH)",
+      "patent_theme": "deep_rna_transcriptomic_dx",
+      "patent_count": 4,
+      "key_patents": [
+        "US20220340972A1",
+        "US20250034234A1",
+        "EP4599084A1",
+        "CN120344677A"
+      ],
+      "lead_entities": [
+        "Sean F. Monaghan",
+        "Rhode Island Hospital",
+        "Brown RNA Center"
+      ],
+      "grants": [
+        {
+          "agency": "NIH/NIGMS",
+          "id": "R35GM142638",
+          "title": "Improving Sepsis Care with Deep RNA Sequencing Data",
+          "recipient": "Monaghan Sean Farrell",
+          "type": "R35",
+          "fy": 2025,
+          "amount_usd": 397648,
+          "url": "https://reporter.nih.gov/project-details/11124030"
+        }
       ]
     },
     {
@@ -155,22 +539,89 @@
       "patent_theme": null,
       "patent_count": 0,
       "key_patents": [],
-      "lead_entities": ["Adam C. Levine", "Brown / RIH"],
+      "lead_entities": [
+        "Adam C. Levine",
+        "Brown / RIH"
+      ],
       "grants": [
-        {"agency": "NIH/NIDDK", "id": "R01DK116163", "title": "External validation mobile health dehydration app (NIRUDAK)", "recipient": "Brown", "type": "R01", "fy": 2026, "amount_usd": 574980, "url": "https://reporter.nih.gov"},
-        {"agency": "NIH/FIC", "id": "R33TW012211", "title": "mHealth physiologic analytics pediatric sepsis (Bangladesh)", "recipient": "Levine", "type": "R33", "fy": 2025, "amount_usd": 246069, "url": "https://reporter.nih.gov"},
-        {"agency": "NIH/FIC", "id": "D43TW012768", "title": "HIV/TB mental health capacity Ukraine", "recipient": "Levine", "type": "D43", "fy": 2025, "amount_usd": 305792, "url": "https://reporter.nih.gov"}
+        {
+          "agency": "NIH/NIDDK",
+          "id": "R01D",
+          "title": "External Validation and Implementation of a Novel Mobile Health Application for Acute Diarrhea Management across the Lifespan",
+          "recipient": "Levine Adam Carl",
+          "type": "R01",
+          "fy": 2026,
+          "amount_usd": 574980,
+          "url": "https://reporter.nih.gov/project-details/11402034"
+        },
+        {
+          "agency": "NIH/NIDDK",
+          "id": "R01DK116163",
+          "title": "External validation mobile health dehydration app (NIRUDAK)",
+          "recipient": "Brown",
+          "type": "R01",
+          "fy": 2026,
+          "amount_usd": 574980,
+          "url": "https://reporter.nih.gov"
+        },
+        {
+          "agency": "NIH/FIC",
+          "id": "R33T",
+          "title": "Development of a Mobile Health Personalized Physiologic Analytics Tool for Pediatric Patients with Sepsis",
+          "recipient": "Garbern Stephanie Chow",
+          "type": "R33",
+          "fy": 2025,
+          "amount_usd": 246069,
+          "url": "https://reporter.nih.gov/project-details/11084313"
+        },
+        {
+          "agency": "NIH/FIC",
+          "id": "D43TW012768",
+          "title": "HIV/TB mental health capacity Ukraine",
+          "recipient": "Levine",
+          "type": "D43",
+          "fy": 2025,
+          "amount_usd": 305792,
+          "url": "https://reporter.nih.gov"
+        },
+        {
+          "agency": "NIH/FIC",
+          "id": "R33TW012211",
+          "title": "mHealth physiologic analytics pediatric sepsis (Bangladesh)",
+          "recipient": "Levine",
+          "type": "R33",
+          "fy": 2025,
+          "amount_usd": 246069,
+          "url": "https://reporter.nih.gov"
+        }
       ]
     },
     {
       "id": "ophthalmology_ect",
-      "title": "Encapsulated cell therapy — ophthalmology (Neurotech)",
+      "title": "Encapsulated cell therapy \u2014 ophthalmology (Neurotech)",
       "patent_theme": "ophthalmology",
       "patent_count": 8,
-      "key_patents": ["US12485087B2", "US9925219B2", "US9149427B2"],
-      "lead_entities": ["Neurotech Pharmaceuticals", "Cumberland RI"],
+      "key_patents": [
+        "US12485087B2",
+        "US9925219B2",
+        "US9149427B2"
+      ],
+      "lead_entities": [
+        "Neurotech Pharmaceuticals",
+        "Cumberland RI"
+      ],
       "grants": [
-        {"agency": "NIH/NEI", "id": null, "title": "Historical NEI/NIH-supported ECT programs (verify current trials)", "recipient": "Neurotech", "type": "Historical", "fy": null, "amount_usd": null, "url": "https://www.neurotechpharmaceuticals.com/", "note": "Mature commercial-stage; federal grants not re-harvested in this pass"}
+        {
+          "agency": "NIH/NEI",
+          "id": null,
+          "title": "Historical NEI/NIH-supported ECT programs (verify current trials)",
+          "recipient": "Neurotech",
+          "type": "Historical",
+          "fy": null,
+          "amount_usd": null,
+          "url": "https://www.neurotechpharmaceuticals.com/",
+          "note": "Mature commercial-stage; federal grants not re-harvested in this pass"
+        }
       ]
     },
     {
@@ -178,10 +629,26 @@
       "title": "AI atrial fibrillation mapping (Volta Medical)",
       "patent_theme": "digital_health",
       "patent_count": 2,
-      "key_patents": ["US10750967B2", "US20210121118A1"],
-      "lead_entities": ["Volta Medical Inc", "Providence office"],
+      "key_patents": [
+        "US10750967B2",
+        "US20210121118A1"
+      ],
+      "lead_entities": [
+        "Volta Medical Inc",
+        "Providence office"
+      ],
       "grants": [
-        {"agency": "Venture", "id": null, "title": "Series B €36M / ~$74M total VC (Gilde, Vensana)", "recipient": "Volta Medical", "type": "Private equity", "fy": 2023, "amount_usd": 74200000, "url": "https://www.volta-medical.us/press-releases/eu36m-series-b-funding", "note": "No NIH SBIR identified; FDA 510(k) commercial path"}
+        {
+          "agency": "Venture",
+          "id": null,
+          "title": "Series B \u20ac36M / ~$74M total VC (Gilde, Vensana)",
+          "recipient": "Volta Medical",
+          "type": "Private equity",
+          "fy": 2023,
+          "amount_usd": 74200000,
+          "url": "https://www.volta-medical.us/press-releases/eu36m-series-b-funding",
+          "note": "No NIH SBIR identified; FDA 510(k) commercial path"
+        }
       ]
     },
     {
@@ -189,23 +656,700 @@
       "title": "Electronic genome mapping (Nabsys)",
       "patent_theme": "genomics",
       "patent_count": 3,
-      "key_patents": ["US20070190542A1", "WO2007041621A2", "US20140248183A1"],
-      "lead_entities": ["Nabsys 2.0 LLC", "Brown (Sean Ling)"],
+      "key_patents": [
+        "US20070190542A1",
+        "WO2007041621A2",
+        "US20140248183A1"
+      ],
+      "lead_entities": [
+        "Nabsys 2.0 LLC",
+        "Brown (Sean Ling)"
+      ],
       "grants": [
-        {"agency": "NIH/NHGRI", "id": "R43HG004433", "title": "Hybridization-assisted nanopore sequencing (HANS)", "recipient": "Nabsys Inc", "type": "SBIR Phase I/II", "fy": 2008, "amount_usd": 497734, "url": "https://grantome.com/index.php/grant/NIH/R43-HG004433-01"},
-        {"agency": "NIH/NHGRI", "id": null, "title": "$1000 Genome program award (2007)", "recipient": "Nabsys / Oliver / Ling", "type": "Program", "fy": 2007, "amount_usd": 1300000, "url": "https://www.biospace.com/nabsys-inc-affiliated-scientists-receive-two-of-the-eight-revolutionary-genome-sequencing-technologies-the-1-000-genome-awards-from-the-nationa"},
-        {"agency": "RI / private", "id": null, "title": "Slater Technology Fund + Point Judith equity ($4M, 2009)", "recipient": "Nabsys", "type": "VC/State", "fy": 2009, "amount_usd": 4000000, "url": "https://www.bizjournals.com/boston/blog/mass-high-tech/2009/05/nabsys-nabs-4m-for-dna-sequencing.html"}
+        {
+          "agency": "NIH/NHGRI",
+          "id": "R43HG004433",
+          "title": "Hybridization-assisted nanopore sequencing (HANS)",
+          "recipient": "Nabsys Inc",
+          "type": "SBIR Phase I/II",
+          "fy": 2008,
+          "amount_usd": 497734,
+          "url": "https://grantome.com/index.php/grant/NIH/R43-HG004433-01"
+        },
+        {
+          "agency": "NIH/NHGRI",
+          "id": null,
+          "title": "$1000 Genome program award (2007)",
+          "recipient": "Nabsys / Oliver / Ling",
+          "type": "Program",
+          "fy": 2007,
+          "amount_usd": 1300000,
+          "url": "https://www.biospace.com/nabsys-inc-affiliated-scientists-receive-two-of-the-eight-revolutionary-genome-sequencing-technologies-the-1-000-genome-awards-from-the-nationa"
+        },
+        {
+          "agency": "RI / private",
+          "id": null,
+          "title": "Slater Technology Fund + Point Judith equity ($4M, 2009)",
+          "recipient": "Nabsys",
+          "type": "VC/State",
+          "fy": 2009,
+          "amount_usd": 4000000,
+          "url": "https://www.bizjournals.com/boston/blog/mass-high-tech/2009/05/nabsys-nabs-4m-for-dna-sequencing.html"
+        }
       ]
+    },
+    {
+      "id": "ecm_morsels_xm",
+      "title": "Decellularized ECM morsels \u2014 heart failure & pulmonary fibrosis (XM Therapeutics / Morgan)",
+      "patent_theme": "ecm_morsels",
+      "patent_count": 5,
+      "key_patents": [
+        "US20230348859A1",
+        "WO2022140530A1",
+        "US8361781B2",
+        "US11286451B2",
+        "US12435312B2"
+      ],
+      "lead_entities": [
+        "XM Therapeutics Inc",
+        "Jeffrey R. Morgan (Brown)",
+        "Frank W. Sellke (RIH)"
+      ],
+      "grants": [
+        {
+          "agency": "Brown University",
+          "id": null,
+          "title": "BBII / Technology Innovations internal seed (spinout 2022)",
+          "recipient": "XM Therapeutics",
+          "type": "University seed",
+          "fy": 2022,
+          "amount_usd": null,
+          "url": "https://www.brown.edu/news/2023-10-06/showcase"
+        },
+        {
+          "agency": "Slater Technology Fund",
+          "id": null,
+          "title": "Seed investment in XM Therapeutics",
+          "recipient": "XM Therapeutics Inc",
+          "type": "Seed VC",
+          "fy": null,
+          "amount_usd": 375000,
+          "url": "https://slaterfund.com/slater-invests-in-xm-therapeutics/",
+          "note": "Press cites $375K round; $750K total Slater XM funding"
+        },
+        {
+          "agency": "NIH",
+          "id": null,
+          "title": "RePORTER harvest pending \u2014 search PI Morgan, Jeffrey R",
+          "recipient": "Brown University",
+          "type": "TBD",
+          "fy": null,
+          "amount_usd": null,
+          "url": "https://reporter.nih.gov"
+        }
+      ]
+    },
+    {
+      "id": "kyphoplasty_lenoss",
+      "title": "Biological vertebral augmentation \u2014 OsteoPearl (Lenoss Medical)",
+      "patent_theme": "kyphoplasty_vcf",
+      "patent_count": 7,
+      "key_patents": [
+        "US10993756B2",
+        "US12029463B2",
+        "USD1106456S1",
+        "US10219851B1"
+      ],
+      "lead_entities": [
+        "Lenoss Medical Inc",
+        "Dom Messerli"
+      ],
+      "grants": [
+        {
+          "agency": "NEMIC",
+          "id": null,
+          "title": "Activate Program / Med Tech Leadership (formation support)",
+          "recipient": "Lenoss Medical",
+          "type": "Incubator",
+          "fy": 2018,
+          "amount_usd": null,
+          "url": "https://nemic.org/news/startup-spotlight-lenoss-medical-vertebral-compression-treatment"
+        },
+        {
+          "agency": "RI Commerce",
+          "id": null,
+          "title": "Innovation Voucher (per NEMIC spotlight)",
+          "recipient": "Lenoss Medical",
+          "type": "State",
+          "fy": 2023,
+          "amount_usd": null,
+          "url": "https://nemic.org/news/startup-spotlight-lenoss-medical-vertebral-compression-treatment"
+        },
+        {
+          "agency": "Slater Technology Fund",
+          "id": null,
+          "title": "Historical Slater portfolio support (verify round)",
+          "recipient": "Lenoss Medical",
+          "type": "VC",
+          "fy": null,
+          "amount_usd": null,
+          "url": "https://slaterfund.com/lenoss-osteopearl/"
+        }
+      ],
+      "non_dilutive_note": "Press: ~$4M Series A (Apr 2025); ~$12.6M total funding cited (LinkedIn); 150+ implant procedures milestone"
+    },
+    {
+      "id": "neuroinflammation_mindimmune",
+      "title": "Neuroinflammation / Alzheimer's \u2014 dendritic-cell recruitment (MindImmune / Zorn)",
+      "patent_theme": "neuroinflammation_ad",
+      "patent_count": 3,
+      "key_patents": [
+        "US20210181185A1",
+        "US10124010B2",
+        "US10238654B2"
+      ],
+      "lead_entities": [
+        "MindImmune Therapeutics Inc",
+        "Stevin H. Zorn",
+        "Robert B. Nelson",
+        "URI Ryan Institute"
+      ],
+      "grants": [
+        {
+          "agency": "RI Life Science Hub",
+          "id": null,
+          "title": "Grant to accelerate IND-enabling studies on MITI-101",
+          "recipient": "MindImmune Therapeutics",
+          "type": "State",
+          "fy": 2025,
+          "amount_usd": null,
+          "url": "https://www.mindimmune.com/news/mindimmune-awarded-grant-to-accelerate-ind-enabling-studies-through-rhode-island-life-science-hub"
+        },
+        {
+          "agency": "Slater Technology Fund",
+          "id": null,
+          "title": "Seed (2016) + Series A participant",
+          "recipient": "MindImmune Therapeutics",
+          "type": "VC",
+          "fy": 2016,
+          "amount_usd": null,
+          "url": "https://www.uri.edu/news/2016/07/slater-commits-seed-funding-to-mindimmune-therapeutics-drug-discovery-venture-targeting-neuro-degenerative-disease/"
+        },
+        {
+          "agency": "Pfizer",
+          "id": null,
+          "title": "Research agreement + Emerging Technologies Fund (2018)",
+          "recipient": "MindImmune Therapeutics",
+          "type": "Corporate",
+          "fy": 2018,
+          "amount_usd": null,
+          "url": "https://www.pfizer.com/news/press-release/press-release-detail/mindimmune-therapeutics-conduct-research-specialized-immune"
+        }
+      ],
+      "non_dilutive_note": "Series A $30M total (Nov 2025 extension); RightHill, Dolby Family, Gates Frontier, Pfizer Ventures; no MindImmune-sponsored NCT in TrialCore at enrichment"
     },
     {
       "id": "musculoskeletal_biglycan",
       "title": "Biglycan / musculoskeletal regeneration (Brown BRF)",
       "patent_theme": "musculoskeletal",
       "patent_count": 2,
-      "key_patents": ["US8658596B2", "US20110183910A1"],
-      "lead_entities": ["Brown University Research Foundation", "Justin Fallon"],
+      "key_patents": [
+        "US8658596B2",
+        "US20110183910A1"
+      ],
+      "lead_entities": [
+        "Brown University Research Foundation",
+        "Justin Fallon"
+      ],
       "grants": [
-        {"agency": "NIH", "id": null, "title": "Verify active NIH awards on Fallon biglycan program", "recipient": "Brown", "type": "TBD", "fy": null, "amount_usd": null, "url": "https://reporter.nih.gov", "note": "Patents on file; grant linkage not harvested—add PI Fallon search"}
+        {
+          "agency": "NIH/NIA",
+          "id": "R21AG073743",
+          "title": "Promoting adult hippocampal neurogenesis in Alzheimer's Disease Models",
+          "recipient": "Fallon Justin R.",
+          "type": "R21",
+          "fy": 2021,
+          "amount_usd": 450579,
+          "url": "https://reporter.nih.gov/project-details/10288508"
+        },
+        {
+          "agency": "NIH/NINDS",
+          "id": "R21NS112743",
+          "title": "Next generation machine vision for automated behavioral phenotyping of knock-in ALS-FTD mouse models",
+          "recipient": "Fallon Justin R.",
+          "type": "R21",
+          "fy": 2020,
+          "amount_usd": 446875,
+          "url": "https://reporter.nih.gov/project-details/9979408"
+        }
+      ]
+    },
+    {
+      "id": "bolden_musk_neurogenesis",
+      "title": "MuSK-pathway ASO neurogenesis (Bolden Therapeutics)",
+      "patent_theme": "musk_neurogenesis",
+      "patent_count": 3,
+      "key_patents": [
+        "US12458657B2",
+        "US20220193114A1",
+        "WO20200214987A1"
+      ],
+      "lead_entities": [
+        "Bolden Therapeutics Inc",
+        "Justin Fallon",
+        "Ashley Webb"
+      ],
+      "grants": [
+        {
+          "agency": "NIH/NIA",
+          "id": null,
+          "title": "STTR \u2014 antisense oligonucleotides to promote neurogenesis (Bolden)",
+          "recipient": "Bolden Therapeutics",
+          "type": "STTR",
+          "fy": null,
+          "amount_usd": 500000,
+          "url": "https://www.boldentherapeutics.com/bolden-therapeutics-receives-500-000-small-business-grant-from-the-national-institute-on-aging",
+          "note": "Company-reported $500K NIA STTR; verify award ID in RePORTER"
+        },
+        {
+          "agency": "RI / private",
+          "id": null,
+          "title": "Pre-seed convertible note ($1.5M, Jan 2024)",
+          "recipient": "Bolden Therapeutics",
+          "type": "VC/State",
+          "fy": 2024,
+          "amount_usd": 1500000,
+          "url": "https://www.prnewswire.com/news-releases/bolden-therapeutics-announces-financing-to-support-development-of-antisense-oligonucleotides-to-promote-neurogenesis-302036433.html",
+          "note": "Resolute, Slater, Lifespan Vision Ventures, angels"
+        },
+        {
+          "agency": "Brown University",
+          "id": null,
+          "title": "Thome Foundation AD neurogenesis ASO (Fallon/Webb, historical)",
+          "recipient": "Brown",
+          "type": "Philanthropy",
+          "fy": 2020,
+          "amount_usd": null,
+          "url": "https://vivo.brown.edu/display/jfallonp"
+        }
+      ]
+    },
+    {
+      "id": "pax_aav_tendon",
+      "title": "AAV2\u2013VEGF tendon/ligament gene therapy (Pax Therapeutics)",
+      "patent_theme": "pax_aav_tendon",
+      "patent_count": 1,
+      "key_patents": [
+        "WO2019146830A1"
+      ],
+      "lead_entities": [
+        "Pax Therapeutics",
+        "Paul Y. Liu",
+        "Rhode Island Hospital"
+      ],
+      "grants": [
+        {
+          "agency": "RI Life Science Hub",
+          "id": null,
+          "title": "Lift grant \u2014 IND documentation (GLP studies)",
+          "recipient": "Pax Therapeutics",
+          "type": "State",
+          "fy": 2025,
+          "amount_usd": null,
+          "url": "https://www.paxtherapeutics.com/",
+          "note": "Company-reported June 2025 RILSH LIFT"
+        },
+        {
+          "agency": "Private",
+          "id": null,
+          "title": "Seed round (~$1.6\u20131.7M)",
+          "recipient": "Pax Therapeutics",
+          "type": "Seed",
+          "fy": 2025,
+          "amount_usd": 1700000,
+          "url": "https://www.bostonglobe.com/2025/11/03/metro/ri-tendon-injuries-pax-therapeutics/",
+          "note": "Boston Globe Innovator Q&A Nov 2025"
+        }
+      ]
+    },
+    {
+      "id": "oncolux_lumis",
+      "title": "LUMIS optical theranostics (OncoLux)",
+      "patent_theme": null,
+      "patent_count": 0,
+      "key_patents": [],
+      "lead_entities": [
+        "OncoLux Inc",
+        "Alan Kersey"
+      ],
+      "grants": [
+        {
+          "agency": "RI Life Science Hub",
+          "id": null,
+          "title": "New Business Attraction \u2014 relocation CT\u2192RI (May 2025 portfolio)",
+          "recipient": "OncoLux Inc",
+          "type": "State",
+          "fy": 2025,
+          "amount_usd": null,
+          "url": "https://governor.ri.gov/press-releases/governor-mckee-ri-life-science-hub-announce-five-foundational-companies-ocean-state",
+          "note": "Part of $5M Hub round across 13 companies; amount per company not disclosed"
+        },
+        {
+          "agency": "Clinical / BD",
+          "id": null,
+          "title": "Mayo Clinic know-how \u2014 robotic bronchoscopy theranostics",
+          "recipient": "OncoLux / Mayo",
+          "type": "Collaboration",
+          "fy": 2026,
+          "amount_usd": null,
+          "url": "https://www.prnewswire.com/news-releases/oncolux-enters-into-know-how-agreement-to-advance-optical-theranostics-in-robotic-bronchoscopy-302723872.html"
+        }
+      ]
+    },
+    {
+      "id": "ni2o_kiwi_bci",
+      "title": "KIWI AI wireless BCI (ni2o)",
+      "patent_theme": "ni2o_kiwi_bci",
+      "patent_count": 3,
+      "key_patents": [
+        "US20260137929A1",
+        "US20210196980A1",
+        "US20210263589A1"
+      ],
+      "lead_entities": [
+        "ni2o Inc",
+        "Newton Howard"
+      ],
+      "grants": [
+        {
+          "agency": "Private",
+          "id": null,
+          "title": "Nurosene partnership \u2014 NetraAI for AD/ALS research",
+          "recipient": "ni2o / Nurosene",
+          "type": "Corporate",
+          "fy": 2021,
+          "amount_usd": null,
+          "url": "https://www.newswire.ca/news-releases/nurosene-partners-with-brain-computer-interface-technology-ni2o-to-pioneer-research-for-alzheimer-s-and-als-835225407.html"
+        },
+        {
+          "agency": "Private",
+          "id": null,
+          "title": "Estimated ~$1.3M total funding (third-party profiles)",
+          "recipient": "ni2o Inc",
+          "type": "VC",
+          "fy": null,
+          "amount_usd": 1300000,
+          "url": "https://ni2o.com/",
+          "note": "Verify in data room; not Ocean State Labs tenant"
+        }
+      ]
+    },
+    {
+      "id": "uri_phlip_lnp",
+      "title": "PHLIP\u2013LNP / STING delivery (URI)",
+      "patent_theme": "uri_phlip_lnp",
+      "patent_count": 3,
+      "key_patents": [
+        "WO2025171027A1",
+        "WO2025081077A1",
+        "WO2024040027A1"
+      ],
+      "lead_entities": [
+        "University of Rhode Island"
+      ],
+      "grants": [
+        {
+          "agency": "NIH/NIGMS",
+          "id": "R01GM073857",
+          "title": "Mechanism and Uses of Transmembrane Helix Insertion by Soluble Peptides",
+          "recipient": "Engelman Donald M.",
+          "type": "R01",
+          "fy": 2023,
+          "amount_usd": 582826,
+          "url": "https://reporter.nih.gov/project-details/10586116"
+        }
+      ]
+    },
+    {
+      "id": "rih_salivary_ev_ad",
+      "title": "Salivary EV Alzheimer's biomarkers (RIH)",
+      "patent_theme": "rih_salivary_ev_ad",
+      "patent_count": 1,
+      "key_patents": [
+        "US20260103757A1"
+      ],
+      "lead_entities": [
+        "Rhode Island Hospital"
+      ],
+      "grants": [
+        {
+          "agency": "NIH/NIA",
+          "id": "R01AG074284",
+          "title": "Salivary Extracellular Vesicles as Biomarkers for Alzheimer's Disease and Related Disorders",
+          "recipient": "Kreiling Jill",
+          "type": "R01",
+          "fy": 2026,
+          "amount_usd": 746400,
+          "url": "https://reporter.nih.gov/project-details/11303391"
+        }
+      ]
+    },
+    {
+      "id": "rih_bx912_pulmonary_htn",
+      "title": "BX-912 pulmonary hypertension (RIH)",
+      "patent_theme": "rih_bx912_pulmonary_htn",
+      "patent_count": 1,
+      "key_patents": [
+        "WO2026112526A1"
+      ],
+      "lead_entities": [
+        "Rhode Island Hospital"
+      ],
+      "grants": [
+        {
+          "agency": "NIH/NHLBI",
+          "id": "R01H",
+          "title": "Pulmonary Artery Endothelial Cell Endotypes and the Role of Anoikis Resistance in Pulmonary Hypertension",
+          "recipient": "Ventetuolo Corey E",
+          "type": "R01",
+          "fy": 2026,
+          "amount_usd": 635402,
+          "url": "https://reporter.nih.gov/project-details/11292863"
+        },
+        {
+          "agency": "NIH/NHLBI",
+          "id": "R01HL174007",
+          "title": "Pulmonary Artery Endothelial Cell Endotypes and the Role of Anoikis Resistance in Pulmonary Hypertension",
+          "recipient": "Ventetuolo Corey E",
+          "type": "R01",
+          "fy": 2026,
+          "amount_usd": 635402,
+          "url": "https://reporter.nih.gov/project-details/11292863"
+        }
+      ]
+    },
+    {
+      "id": "rih_pahtn_dx",
+      "title": "PAH / SCD diagnostics (RIH)",
+      "patent_theme": "rih_pahtn_dx",
+      "patent_count": 1,
+      "key_patents": [
+        "US20180094317A1"
+      ],
+      "lead_entities": [
+        "Rhode Island Hospital"
+      ],
+      "grants": [
+        {
+          "agency": "NIH/NHLBI",
+          "id": "R01H",
+          "title": "Pulmonary Artery Endothelial Cell Endotypes and the Role of Anoikis Resistance in Pulmonary Hypertension",
+          "recipient": "Ventetuolo Corey E",
+          "type": "R01",
+          "fy": 2026,
+          "amount_usd": 635402,
+          "url": "https://reporter.nih.gov/project-details/11292863"
+        },
+        {
+          "agency": "NIH/NHLBI",
+          "id": "R01HL174007",
+          "title": "Pulmonary Artery Endothelial Cell Endotypes and the Role of Anoikis Resistance in Pulmonary Hypertension",
+          "recipient": "Ventetuolo Corey E",
+          "type": "R01",
+          "fy": 2026,
+          "amount_usd": 635402,
+          "url": "https://reporter.nih.gov/project-details/11292863"
+        },
+        {
+          "agency": "NIH/NHLBI",
+          "id": "R01HL141268",
+          "title": "Effects of DHEA in Pulmonary Hypertension (DiPH)",
+          "recipient": "Ventetuolo Corey E",
+          "type": "R01",
+          "fy": 2022,
+          "amount_usd": 737368,
+          "url": "https://reporter.nih.gov/project-details/10402875"
+        },
+        {
+          "agency": "NIH/NHLBI",
+          "id": "R01HL104025",
+          "title": "Na+ Channel mRNA Regulation in Heart Failure",
+          "recipient": "Dudley Samuel C",
+          "type": "R01",
+          "fy": 2016,
+          "amount_usd": 450924,
+          "url": "https://reporter.nih.gov/project-details/9175253"
+        }
+      ]
+    },
+    {
+      "id": "rih_bbb_nucleic_delivery",
+      "title": "BBB nucleic acid delivery (RIH)",
+      "patent_theme": "rih_bbb_nucleic_delivery",
+      "patent_count": 1,
+      "key_patents": [
+        "WO2025171161A1"
+      ],
+      "lead_entities": [
+        "Rhode Island Hospital"
+      ],
+      "grants": [
+        {
+          "agency": "NIH/NIGMS",
+          "id": "P30G",
+          "title": "Developing novel Alzheimer's disease RNA therapeutics crossing the blood-brain barrier",
+          "recipient": "Chen Qian",
+          "type": "P30",
+          "fy": 2019,
+          "amount_usd": 393791,
+          "url": "https://reporter.nih.gov/project-details/9881911"
+        },
+        {
+          "agency": "NIH/NIGMS",
+          "id": "P30GM122732",
+          "title": "Developing novel Alzheimer's disease RNA therapeutics crossing the blood-brain barrier",
+          "recipient": "Chen Qian",
+          "type": "P30",
+          "fy": 2019,
+          "amount_usd": 393791,
+          "url": "https://reporter.nih.gov/project-details/9881911"
+        }
+      ]
+    },
+    {
+      "id": "rih_motile_cell_msk",
+      "title": "Motile cell MSK repair (RIH)",
+      "patent_theme": "rih_motile_cell_msk",
+      "patent_count": 1,
+      "key_patents": [
+        "WO2025155768A1"
+      ],
+      "lead_entities": [
+        "Rhode Island Hospital"
+      ],
+      "grants": [
+        {
+          "agency": "NIH/NIAMS",
+          "id": "R01AR080726",
+          "title": "Bioactive Injectable Cell Scaffold for Meniscus Injury Repair in a Large Animal Model",
+          "recipient": "Jayasuriya Chathuraka Teekshana",
+          "type": "R01",
+          "fy": 2025,
+          "amount_usd": 470108,
+          "url": "https://reporter.nih.gov/project-details/11169039"
+        },
+        {
+          "agency": "NIH/NIAMS",
+          "id": "R21AR077326",
+          "title": "Facilitating meniscus healing through SDF-1/CXCR4 axis modified cell-therapy",
+          "recipient": "Jayasuriya Chathuraka Teekshana",
+          "type": "R21",
+          "fy": 2021,
+          "amount_usd": 171787,
+          "url": "https://reporter.nih.gov/project-details/10132243"
+        }
+      ]
+    },
+    {
+      "id": "rih_ecm_joint_repair",
+      "title": "ECM joint repair (RIH)",
+      "patent_theme": "rih_ecm_joint_repair",
+      "patent_count": 1,
+      "key_patents": [
+        "US20240139376A1"
+      ],
+      "lead_entities": [
+        "Rhode Island Hospital"
+      ],
+      "grants": [
+        {
+          "agency": "NIH/NIAMS",
+          "id": "R01AR080726",
+          "title": "Bioactive Injectable Cell Scaffold for Meniscus Injury Repair in a Large Animal Model",
+          "recipient": "Jayasuriya Chathuraka Teekshana",
+          "type": "R01",
+          "fy": 2025,
+          "amount_usd": 470108,
+          "url": "https://reporter.nih.gov/project-details/11169039"
+        },
+        {
+          "agency": "NIH/NIAMS",
+          "id": "R21AR077326",
+          "title": "Facilitating meniscus healing through SDF-1/CXCR4 axis modified cell-therapy",
+          "recipient": "Jayasuriya Chathuraka Teekshana",
+          "type": "R21",
+          "fy": 2021,
+          "amount_usd": 171787,
+          "url": "https://reporter.nih.gov/project-details/10132243"
+        }
+      ]
+    },
+    {
+      "id": "rih_enhancer_rna_glioma",
+      "title": "eRNA glioma therapeutics (RIH)",
+      "patent_theme": "rih_enhancer_rna_glioma",
+      "patent_count": 1,
+      "key_patents": [
+        "US20230323349A1"
+      ],
+      "lead_entities": [
+        "Rhode Island Hospital"
+      ],
+      "grants": [
+        {
+          "agency": "NIH/NCI",
+          "id": "R21C",
+          "title": "Role of m6A RNA methylation in Regulation of Translation in Human Glioblastoma",
+          "recipient": "Tapinos Nikolaos",
+          "type": "R21",
+          "fy": 2020,
+          "amount_usd": 176654,
+          "url": "https://reporter.nih.gov/project-details/9982242"
+        },
+        {
+          "agency": "NIH/NCI",
+          "id": "R21CA235415",
+          "title": "Role of m6A RNA methylation in Regulation of Translation in Human Glioblastoma",
+          "recipient": "Tapinos Nikolaos",
+          "type": "R21",
+          "fy": 2020,
+          "amount_usd": 176654,
+          "url": "https://reporter.nih.gov/project-details/9982242"
+        }
+      ]
+    },
+    {
+      "id": "rih_lpa_therapeutic",
+      "title": "Lp(a) therapeutics (RIH)",
+      "patent_theme": "rih_lpa_therapeutic",
+      "patent_count": 1,
+      "key_patents": [
+        "WO2025245119A1"
+      ],
+      "lead_entities": [
+        "Rhode Island Hospital"
+      ],
+      "grants": [
+        {
+          "agency": "NIH/NHLBI",
+          "id": "R01HL159204",
+          "title": "Differential thrombogenesis effects of EPA and DHA mediated by HDL",
+          "recipient": "Song Wenliang",
+          "type": "R01",
+          "fy": 2025,
+          "amount_usd": 526228,
+          "url": "https://reporter.nih.gov/project-details/10828430"
+        },
+        {
+          "agency": "NIH/NHLBI",
+          "id": "K08HL145075",
+          "title": "Impact of Dysfunctional HDL on Platelet Function and in vivo Thrombosis",
+          "recipient": "Song Wenliang",
+          "type": "K08",
+          "fy": 2022,
+          "amount_usd": 33311,
+          "url": "https://reporter.nih.gov/project-details/11010601"
+        }
       ]
     }
   ]
