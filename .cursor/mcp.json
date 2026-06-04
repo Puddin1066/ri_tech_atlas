@@ -1,0 +1,12 @@
+{
+  "mcpServers": {
+    "amass": {
+      "url": "https://mcp.amass.tech/mcp"
+    },
+    "uspto-patents": {
+      "command": "/opt/homebrew/bin/uvx",
+      "args": ["--python", "3.12", "patent-mcp-server"],
+      "envFile": "${workspaceFolder}/.env"
+    }
+  }
+}

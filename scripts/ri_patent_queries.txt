@@ -1,0 +1,25 @@
+# RI Tech Atlas — PPUBS query batch (one per line)
+# See README.md for field codes: https://www.uspto.gov/patents/search/patent-public-search/searchable-indexes
+
+"Brown University".ASNM.
+"Rhode Island Hospital".ASNM.
+"Warren Alpert".ASNM.
+"EpiVax".ASNM.
+"University of Rhode Island".ASNM.
+"Care New England".ASNM.
+"Lifespan".ASNM.
+RI.ASST.
+(chitinase OR chitin OR CHI3L1).ti. AND RI.ASST.
+(SMURF2 OR SMURF).ti. AND RI.ASST.
+(brain-computer OR "intracortical" OR neuroprosthes*).ti. AND RI.ASST.
+(vaccine OR immunoinformatics OR epitope).ti. AND RI.ASST.
+(nanoparticle OR "gene delivery" OR RNA).ti. AND RI.ASST.
+IN/"El-Deiry". AND RI.INST.
+IN/"Elias". AND RI.INST.
+IN/"Borton". AND RI.INST.
+IN/"Hochberg". AND RI.INST.
+IN/"De Groot". AND RI.INST.
+IN/"Petzschner". AND RI.INST.
+IN/"Chen". AND RI.INST.
+IN/"Nurmikko". AND RI.INST.
+IN/"Donoghue". AND RI.INST.

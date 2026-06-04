@@ -1,0 +1,12 @@
+{
+  "mcpServers": {
+    "amass": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "mcp-remote@latest",
+        "https://mcp.amass.tech/mcp"
+      ]
+    }
+  }
+}

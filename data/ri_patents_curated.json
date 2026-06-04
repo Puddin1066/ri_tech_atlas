@@ -1,0 +1,580 @@
+{
+  "harvested_at": "2026-06-04T13:52:03.857851+00:00",
+  "count": 57,
+  "source_note": "Curated filings tied to RI institutions/companies. PPUBS live harvest deferred due to HTTP 429.",
+  "errors": [
+    "Run scripts/ri_patent_harvest.py after 1hr+ cooldown with --delay 15"
+  ],
+  "patents": [
+    {
+      "patent_number": "US10004804B2",
+      "title": "Anti-angiogenic scaffold cell lines",
+      "publication_date": null,
+      "assignee": "Neurotech USA Inc",
+      "inventors": "Neurotech",
+      "source_query": "curated",
+      "theme": "ophthalmology",
+      "source": "patents_review"
+    },
+    {
+      "patent_number": "US10195140B2",
+      "title": "ECT ophthalmic disorders",
+      "publication_date": null,
+      "assignee": "Neurotech USA Inc",
+      "inventors": "Goldberg",
+      "source_query": "curated",
+      "theme": "ophthalmology",
+      "source": "patents_review"
+    },
+    {
+      "patent_number": "US10213496B2",
+      "title": "Tregitope therapeutic compositions",
+      "publication_date": null,
+      "assignee": "EpiVax Inc",
+      "inventors": "De Groot; Martin",
+      "source_query": "curated",
+      "theme": "immunoinformatics",
+      "source": "google_patents"
+    },
+    {
+      "patent_number": "US10433754B2",
+      "title": "Implantable wireless neural device",
+      "publication_date": null,
+      "assignee": "Brown University",
+      "inventors": "Borton; Nurmikko; Patterson",
+      "source_query": "curated",
+      "theme": "neurotech",
+      "source": "brown_neurotech_ip"
+    },
+    {
+      "patent_number": "US10448877B2",
+      "title": "Prediction/early detection neurological events",
+      "publication_date": null,
+      "assignee": "Brown University",
+      "inventors": "Hochberg; Donoghue; Cash",
+      "source_query": "curated",
+      "theme": "neurotech",
+      "source": "brown_neurotech_ip"
+    },
+    {
+      "patent_number": "US10456356B2",
+      "title": "ECT ophthalmic disorders",
+      "publication_date": null,
+      "assignee": "Neurotech USA Inc",
+      "inventors": "Goldberg",
+      "source_query": "curated",
+      "theme": "ophthalmology",
+      "source": "patents_review"
+    },
+    {
+      "patent_number": "US10750967B2",
+      "title": "AF mapping AI VX1",
+      "publication_date": null,
+      "assignee": "Volta Medical Inc",
+      "inventors": "Volta",
+      "source_query": "curated",
+      "theme": "digital_health",
+      "source": "volta_notice"
+    },
+    {
+      "patent_number": "US10751397B2",
+      "title": "Tregitope epitope panel",
+      "publication_date": null,
+      "assignee": "EpiVax Inc",
+      "inventors": "De Groot",
+      "source_query": "curated",
+      "theme": "immunoinformatics",
+      "source": "google_patents"
+    },
+    {
+      "patent_number": "US10925939B2",
+      "title": "Tregitope immune modulation",
+      "publication_date": null,
+      "assignee": "EpiVax Inc",
+      "inventors": "De Groot",
+      "source_query": "curated",
+      "theme": "immunoinformatics",
+      "source": "google_patents"
+    },
+    {
+      "patent_number": "US11045529B2",
+      "title": "Tregitope variant compositions",
+      "publication_date": null,
+      "assignee": "EpiVax Inc",
+      "inventors": "De Groot",
+      "source_query": "curated",
+      "theme": "immunoinformatics",
+      "source": "google_patents"
+    },
+    {
+      "patent_number": "US11045530B2",
+      "title": "Tregitope formulations",
+      "publication_date": null,
+      "assignee": "EpiVax Inc",
+      "inventors": "De Groot",
+      "source_query": "curated",
+      "theme": "immunoinformatics",
+      "source": "google_patents"
+    },
+    {
+      "patent_number": "US11207266B2",
+      "title": "ECT ophthalmic disorders",
+      "publication_date": null,
+      "assignee": "Neurotech USA Inc",
+      "inventors": "Goldberg",
+      "source_query": "curated",
+      "theme": "ophthalmology",
+      "source": "patents_review"
+    },
+    {
+      "patent_number": "US11464964B2",
+      "title": "Wireless neural probe distributed nodes",
+      "publication_date": null,
+      "assignee": "Brown University",
+      "inventors": "Borton; Powell",
+      "source_query": "curated",
+      "theme": "neurotech",
+      "source": "brown_neurotech_ip"
+    },
+    {
+      "patent_number": "US11608340B2",
+      "title": "Nanomaterial compositions",
+      "publication_date": null,
+      "assignee": "Rhode Island Hospital",
+      "inventors": "Chen",
+      "source_query": "curated",
+      "theme": "nanode",
+      "source": "trea"
+    },
+    {
+      "patent_number": "US11701094B2",
+      "title": "Nanopieces RNA delivery",
+      "publication_date": null,
+      "assignee": "Rhode Island Hospital",
+      "inventors": "Chen",
+      "source_query": "curated",
+      "theme": "nanode",
+      "source": "trea"
+    },
+    {
+      "patent_number": "US11717528B2",
+      "title": "Fibrosis treatment via Chitinase 1 inhibition (OCF-203)",
+      "publication_date": null,
+      "assignee": "Ocean Biomedical (licensee)",
+      "inventors": "Elias (Brown)",
+      "source_query": "curated",
+      "theme": "chitinase",
+      "source": "press_release"
+    },
+    {
+      "patent_number": "US11844826B2",
+      "title": "Tregitope family (recent grant)",
+      "publication_date": null,
+      "assignee": "EpiVax Inc",
+      "inventors": "De Groot; Martin",
+      "source_query": "curated",
+      "theme": "immunoinformatics",
+      "source": "google_patents"
+    },
+    {
+      "patent_number": "US11972050",
+      "title": "BCI system on multiple devices",
+      "publication_date": null,
+      "assignee": "Brown University",
+      "inventors": "Hochberg; Simeral; Hosman",
+      "source_query": "curated",
+      "theme": "neurotech",
+      "source": "brown_neurotech_ip"
+    },
+    {
+      "patent_number": "US12042303",
+      "title": "Speech-based communication for unable to speak",
+      "publication_date": null,
+      "assignee": "Brown University",
+      "inventors": "Hochberg; Goldberg",
+      "source_query": "curated",
+      "theme": "neurotech",
+      "source": "brown_neurotech_ip"
+    },
+    {
+      "patent_number": "US12357566B2",
+      "title": "ECT ophthalmic disorders",
+      "publication_date": null,
+      "assignee": "Neurotech USA Inc",
+      "inventors": "Goldberg",
+      "source_query": "curated",
+      "theme": "ophthalmology",
+      "source": "patents_review"
+    },
+    {
+      "patent_number": "US12357635B2",
+      "title": "Nanocarrier processing",
+      "publication_date": null,
+      "assignee": "Rhode Island Hospital",
+      "inventors": "Chen",
+      "source_query": "curated",
+      "theme": "nanode",
+      "source": "trea"
+    },
+    {
+      "patent_number": "US12485087B2",
+      "title": "ECT ophthalmic disorders",
+      "publication_date": null,
+      "assignee": "Neurotech USA Inc",
+      "inventors": "Goldberg; McGovern; Tao",
+      "source_query": "curated",
+      "theme": "ophthalmology",
+      "source": "uspto_gazette"
+    },
+    {
+      "patent_number": "US12561001",
+      "title": "High accuracy BMI element selection",
+      "publication_date": null,
+      "assignee": "Brown University",
+      "inventors": "Hochberg; Vargas-Irwin; Simeral",
+      "source_query": "curated",
+      "theme": "neurotech",
+      "source": "brown_neurotech_ip"
+    },
+    {
+      "patent_number": "US18075811",
+      "title": "Mental control of gesture technologies",
+      "publication_date": null,
+      "assignee": "Brown University",
+      "inventors": "Hochberg; Simeral; Hosman",
+      "source_query": "curated",
+      "theme": "neurotech",
+      "source": "brown_neurotech_ip"
+    },
+    {
+      "patent_number": "US18946156",
+      "title": "BMI sustained actions using discrete commands",
+      "publication_date": null,
+      "assignee": "Brown University",
+      "inventors": "Hochberg; Hosman; Gusman",
+      "source_query": "curated",
+      "theme": "neurotech",
+      "source": "brown_neurotech_ip"
+    },
+    {
+      "patent_number": "US20070190542A1",
+      "title": "Hybridization assisted nanopore sequencing",
+      "publication_date": null,
+      "assignee": "Nabsys 2.0 LLC",
+      "inventors": "Bready; Ling",
+      "source_query": "curated",
+      "theme": "genomics",
+      "source": "google_patents"
+    },
+    {
+      "patent_number": "US20070297982A1",
+      "title": "IAIP composition application",
+      "publication_date": null,
+      "assignee": "ProThera Biologics LLC",
+      "inventors": "Lim",
+      "source_query": "curated",
+      "theme": "inflammation",
+      "source": "google_patents"
+    },
+    {
+      "patent_number": "US20090018067A1",
+      "title": "Regulatory T cell epitopes (application)",
+      "publication_date": null,
+      "assignee": "EpiVax Inc",
+      "inventors": "De Groot; Martin",
+      "source_query": "curated",
+      "theme": "immunoinformatics",
+      "source": "google_patents"
+    },
+    {
+      "patent_number": "US20110182921A1",
+      "title": "Tregitope compositions (continuation)",
+      "publication_date": null,
+      "assignee": "EpiVax Inc",
+      "inventors": "De Groot; Martin",
+      "source_query": "curated",
+      "theme": "immunoinformatics",
+      "source": "google_patents"
+    },
+    {
+      "patent_number": "US20110183910A1",
+      "title": "Biglycan therapeutics application",
+      "publication_date": null,
+      "assignee": "Brown University Research Foundation",
+      "inventors": "Fallon",
+      "source_query": "curated",
+      "theme": "musculoskeletal",
+      "source": "google_patents"
+    },
+    {
+      "patent_number": "US20140248183A1",
+      "title": "Nanoscale electrodes voltage sensing",
+      "publication_date": null,
+      "assignee": "Nabsys 2.0 LLC",
+      "inventors": "Oliver",
+      "source_query": "curated",
+      "theme": "genomics",
+      "source": "google_patents"
+    },
+    {
+      "patent_number": "US20170042713A1",
+      "title": "Mobile medical monitoring",
+      "publication_date": null,
+      "assignee": "Brown University",
+      "inventors": "Nurmikko; Borton; Simeral",
+      "source_query": "curated",
+      "theme": "neurotech",
+      "source": "brown_neurotech_ip"
+    },
+    {
+      "patent_number": "US20180039328A1",
+      "title": "Biomedical system information-content configuration",
+      "publication_date": null,
+      "assignee": "Brown University",
+      "inventors": "Hochberg; Brown",
+      "source_query": "curated",
+      "theme": "neurotech",
+      "source": "brown_neurotech_ip"
+    },
+    {
+      "patent_number": "US20200038651A1",
+      "title": "Neural interrogation platform",
+      "publication_date": null,
+      "assignee": "Brown University",
+      "inventors": "Borton; Powell",
+      "source_query": "curated",
+      "theme": "neurotech",
+      "source": "brown_neurotech_ip"
+    },
+    {
+      "patent_number": "US20200104689A1",
+      "title": "BCI decoding with surrogate sensory data",
+      "publication_date": null,
+      "assignee": "Brown University",
+      "inventors": "Donoghue; Vargas-Irwin",
+      "source_query": "curated",
+      "theme": "neurotech",
+      "source": "brown_neurotech_ip"
+    },
+    {
+      "patent_number": "US20200229704A1",
+      "title": "Optoelectronic write-in/read-out brain circuits",
+      "publication_date": null,
+      "assignee": "Brown University",
+      "inventors": "Nurmikko; Lee",
+      "source_query": "curated",
+      "theme": "neurotech",
+      "source": "brown_neurotech_ip"
+    },
+    {
+      "patent_number": "US20200253479A1",
+      "title": "High spatiotemporal resolution brain imaging",
+      "publication_date": null,
+      "assignee": "Brown University",
+      "inventors": "Nurmikko",
+      "source_query": "curated",
+      "theme": "neurotech",
+      "source": "brown_neurotech_ip"
+    },
+    {
+      "patent_number": "US20200367749A1",
+      "title": "Implantable wireless network of microscale sensors",
+      "publication_date": null,
+      "assignee": "Brown University",
+      "inventors": "Nurmikko; Laiwalla; Mercier",
+      "source_query": "curated",
+      "theme": "neurotech",
+      "source": "brown_neurotech_ip"
+    },
+    {
+      "patent_number": "US20210121118A1",
+      "title": "AF mapping AI application",
+      "publication_date": null,
+      "assignee": "Volta Medical Inc",
+      "inventors": "Volta",
+      "source_query": "curated",
+      "theme": "digital_health",
+      "source": "volta_notice"
+    },
+    {
+      "patent_number": "US20220211827A1",
+      "title": "Tregitope application publication",
+      "publication_date": null,
+      "assignee": "EpiVax Inc",
+      "inventors": "De Groot",
+      "source_query": "curated",
+      "theme": "immunoinformatics",
+      "source": "google_patents"
+    },
+    {
+      "patent_number": "US20230183253A1",
+      "title": "Nanomaterial compositions (app)",
+      "publication_date": null,
+      "assignee": "Rhode Island Hospital",
+      "inventors": "Chen",
+      "source_query": "curated",
+      "theme": "nanode",
+      "source": "trea"
+    },
+    {
+      "patent_number": "US63598515",
+      "title": "Latch decoder for sustained iBCI grasps",
+      "publication_date": null,
+      "assignee": "Brown University",
+      "inventors": "Hochberg; Hosman",
+      "source_query": "curated",
+      "theme": "neurotech",
+      "source": "brown_neurotech_ip"
+    },
+    {
+      "patent_number": "US7212851",
+      "title": "Microstructured arrays for cortex interaction",
+      "publication_date": null,
+      "assignee": "Brown University",
+      "inventors": "Donoghue; Hatsopoulos",
+      "source_query": "curated",
+      "theme": "neurotech",
+      "source": "brown_neurotech_ip"
+    },
+    {
+      "patent_number": "US7280870",
+      "title": "Optically-connected implants",
+      "publication_date": null,
+      "assignee": "Brown University",
+      "inventors": "Nurmikko; Donoghue",
+      "source_query": "curated",
+      "theme": "neurotech",
+      "source": "brown_neurotech_ip"
+    },
+    {
+      "patent_number": "US7392079",
+      "title": "Neurological signal decoding",
+      "publication_date": null,
+      "assignee": "Brown University",
+      "inventors": "Donoghue; Hatsopoulos; Serruya",
+      "source_query": "curated",
+      "theme": "neurotech",
+      "source": "brown_neurotech_ip"
+    },
+    {
+      "patent_number": "US7884184B2",
+      "title": "Regulatory T cell epitopes (Tregitope)",
+      "publication_date": null,
+      "assignee": "EpiVax Inc",
+      "inventors": "De Groot; Martin; Rivera",
+      "source_query": "curated",
+      "theme": "immunoinformatics",
+      "source": "google_patents"
+    },
+    {
+      "patent_number": "US7932365B2",
+      "title": "IAIP preparation from human plasma",
+      "publication_date": null,
+      "assignee": "ProThera Biologics LLC",
+      "inventors": "Lim; Hixson (RIH)",
+      "source_query": "curated",
+      "theme": "inflammation",
+      "source": "google_patents"
+    },
+    {
+      "patent_number": "US8658596B2",
+      "title": "Biglycan therapeutics",
+      "publication_date": null,
+      "assignee": "Brown University Research Foundation",
+      "inventors": "Fallon",
+      "source_query": "curated",
+      "theme": "musculoskeletal",
+      "source": "google_patents"
+    },
+    {
+      "patent_number": "US9149427B2",
+      "title": "Anti-angiogenic scaffolds",
+      "publication_date": null,
+      "assignee": "Neurotech USA Inc",
+      "inventors": "Neurotech",
+      "source_query": "curated",
+      "theme": "ophthalmology",
+      "source": "patents_review"
+    },
+    {
+      "patent_number": "US9572872B2",
+      "title": "Treatment using IAIP",
+      "publication_date": null,
+      "assignee": "ProThera Biologics Inc",
+      "inventors": "Lim; Hixson",
+      "source_query": "curated",
+      "theme": "inflammation",
+      "source": "google_patents"
+    },
+    {
+      "patent_number": "US9851795",
+      "title": "Context-dependent offset correction for BCI",
+      "publication_date": null,
+      "assignee": "Brown University",
+      "inventors": "Jarosiewicz; Bacher",
+      "source_query": "curated",
+      "theme": "neurotech",
+      "source": "brown_neurotech_ip"
+    },
+    {
+      "patent_number": "US9925219B2",
+      "title": "ECT cartridge",
+      "publication_date": null,
+      "assignee": "Neurotech USA Inc",
+      "inventors": "Neurotech",
+      "source_query": "curated",
+      "theme": "ophthalmology",
+      "source": "patents_review"
+    },
+    {
+      "patent_number": "USRE47972E1",
+      "title": "Reissue IAIP composition",
+      "publication_date": null,
+      "assignee": "ProThera Biologics LLC",
+      "inventors": "Lim",
+      "source_query": "curated",
+      "theme": "inflammation",
+      "source": "google_patents"
+    },
+    {
+      "patent_number": "WO2007041621A2",
+      "title": "Nanopore sequencing PCT",
+      "publication_date": null,
+      "assignee": "Nabsys Inc",
+      "inventors": "Bready",
+      "source_query": "curated",
+      "theme": "genomics",
+      "source": "google_patents"
+    },
+    {
+      "patent_number": "WO2016187254A1",
+      "title": "Chiplet wireless intranet recording/stimulation",
+      "publication_date": null,
+      "assignee": "Brown University",
+      "inventors": "Nurmikko; Rosenstein; Larson",
+      "source_query": "curated",
+      "theme": "neurotech",
+      "source": "brown_neurotech_ip"
+    },
+    {
+      "patent_number": "WO2019027517A1",
+      "title": "Effortful mental task DBS facilitation",
+      "publication_date": null,
+      "assignee": "Brown University",
+      "inventors": "Borton; Widge; Eskandar",
+      "source_query": "curated",
+      "theme": "neurotech",
+      "source": "brown_neurotech_ip"
+    },
+    {
+      "patent_number": "WO2020018571A1",
+      "title": "Wireless microchiplet cortical sensing",
+      "publication_date": null,
+      "assignee": "Brown University",
+      "inventors": "Nurmikko; Asbeck; Mercier",
+      "source_query": "curated",
+      "theme": "neurotech",
+      "source": "brown_neurotech_ip"
+    }
+  ]
+}
