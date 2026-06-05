@@ -160,7 +160,7 @@ export function OpportunityDossier({ view }: { view: OpportunityView }) {
                           rel="noopener noreferrer"
                           className="shrink-0 text-sm font-medium text-primary hover:underline"
                         >
-                          Visit site →
+                          Source →
                         </a>
                       )}
                     </CardContent>

@@ -618,7 +618,7 @@ Each section follows: **thesis → evidence → IP → companies → clinical/co
 | Comparable | Financing | Development path | Relevance to SMURF-Tx |
 |------------|-----------|------------------|----------------------|
 | **Merck Welireg** | Big-pharma | **Phase 1/2 → approval (2021 VHL) → label expansion + combinations** (LITESPARK program, 2026 PDUFA dates) | Defines **regulatory and commercial ceiling** for HIF-pathway drugs; SMURF-Tx must show **differentiated safety/MOA** |
-| [**Inotrem**](https://www.inotrem.com) (nangibotide) | **~€58M Series B** (2020, expanded); EU/US investors | Phase 2b **ASTONISH** → **Phase 3 ACCURATE** (sepsis); **EMA PRIME / FDA Fast Track**; **Roche Dx** companion | **Providence-adjacent financing scale** for RI clinical biotech: grant + **€40–60M** before Phase 3 |
+| [**Inotrem**](https://www.globenewswire.com/news-release/2025/07/23/3120247/0/en/Inotrem-Unveils-Game-Changing-Precision-Medicine-Strategy-for-Nangibotide-Clinical-Development-in-Septic-Shock.html) (nangibotide; corporate site offline) | **~€58M Series B** (2020, expanded); EU/US investors | Phase 2b **ASTONISH** → **Phase 3 ACCURATE** (sepsis); **EMA PRIME / FDA Fast Track**; **Roche Dx** companion | **Providence-adjacent financing scale** for RI clinical biotech: grant + **€40–60M** before Phase 3 |
 | **Kynexis / ferroptosis startups** | Venture rounds (sector) | Targeted oncology **niche MOA** → Series A → Big Pharma option | Ferroptosis link in El-Deiry review (GSTP1)—combo biomarker strategies |
 
 **RI development path (benchmark):** **SMURF-Therapeutics (founded 2021)** appears **grant-led** (NIH submission Apr 2024 per public posts)—not yet at **Inotrem-scale** private financing. Benchmark: **R01CA173453 + philanthropy → SBIR/seed $5–15M → Series A $30–50M** with WIN/Lifespan trial biomarkers, analogous to **Inotrem Phase 2 → 3** rather than Welireg’s Big Pharma path.
@@ -825,7 +825,7 @@ Company states **~$12M** cumulative NIH investment in IAIP ([ProThera PR](https:
 
 | Comparable | Financing | Development path | Relevance to ProThera |
 |------------|-----------|------------------|------------------------|
-| [**Inotrem**](https://www.inotrem.com) (nangibotide) | **€39–58M Series B**; Phase 3 **ACCURATE** agreed | TREM-1 inhibitor + **sTREM-1 companion** (Roche Dx) → registration trials | Closest **financing + regulatory arc** for RI **sepsis biologic** (adult ICU vs neonatal) |
+| [**Inotrem**](https://www.globenewswire.com/news-release/2025/07/23/3120247/0/en/Inotrem-Unveils-Game-Changing-Precision-Medicine-Strategy-for-Nangibotide-Clinical-Development-in-Septic-Shock.html) (nangibotide; corporate site offline) | **€39–58M Series B**; Phase 3 **ACCURATE** agreed | TREM-1 inhibitor + **sTREM-1 companion** (Roche Dx) → registration trials | Closest **financing + regulatory arc** for RI **sepsis biologic** (adult ICU vs neonatal) |
 | [**MeMed**](https://www.me-med.com) | **>$200M** total; **$93M Series E** (2022) | Host-response **510(k) BV test** on MeMed Key → US commercial scale-up | Parallel **LFIA / rapid test** commercial path for ProThera diagnostic arm |
 | **INO-3001-class** (immunomodulators) | Corporate / VC (sector) | Adjunctive immunotherapy in sepsis | Mechanism benchmarking for **IAIP biologic** claims |
 
